@@ -20,8 +20,8 @@ wire [PIXEL_WIDTH-1:0] current_pixel;
 
 assign done = step == NUM_INPUTS+1;
 assign OUT = out_buf;
-assign current_weight = (step < NUM_INPUTS+1) ? IN_WEIGHTS[(step-1)*WEIGHT_WIDTH +: WEIGHT_WIDTH] : 0;
-assign current_pixel = (step < NUM_INPUTS+1) ? IN_PIXELS[(step-1)*PIXEL_WIDTH +: PIXEL_WIDTH] : 0;
+assign current_weight = (step < NUM_INPUTS) ? IN_WEIGHTS[(step)*WEIGHT_WIDTH +: WEIGHT_WIDTH] : 0;
+assign current_pixel = (step < NUM_INPUTS) ? IN_PIXELS[(step)*PIXEL_WIDTH +: PIXEL_WIDTH] : 0;
 
 
 FixedPointMultiplier mult_0(
@@ -38,7 +38,7 @@ always@(posedge clk) begin
     out_buf <= 0;
   end else begin
     out_buf <= mult_output + out_buf;
-    if (step < NUM_INPUTS+1) begin
+    if (step < NUM_INPUTS) begin
       step <= step + 1;
     end else begin
       step <= step;

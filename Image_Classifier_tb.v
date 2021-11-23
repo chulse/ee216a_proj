@@ -8681,7 +8681,6 @@ parameter fullclock=2*halfclock;
 always #halfclock clk = ~clk;
 
 initial begin
-	$monitor("SHITS WORKING? %b", Image_Number);
 	clk = 1'b1;
 	Input_Valid = 1'b0;fal = 0; tot = 10;
 
@@ -8705,7 +8704,7 @@ initial begin
 	i =i+1;
 	end
 	$display("      %d clks of pocessing done",i);
-	$display("Estimated Output Number is : %b",Image_Number);
+	$display("Estimated Output Number is : %d",$signed(Image_Number));
 	if (ActualNumber == Image_Number) $display("Correct Output!! The Classifier has sucessfully classified this image -- PASSED");
 	else begin $display("Uh Oh! Your Classfier is showing the wrong output for this Image -- FAILED"); fal = fal + 1; end 
 	$display("-------------------------------------------------------------");
@@ -8729,7 +8728,7 @@ initial begin
 	i =i+1;
 	end
 	$display("      %d clks of pocessing done",i);
-	$display("Estimated Output Number is : %b",Image_Number);
+	$display("Estimated Output Number is : %d",$signed(Image_Number));
 	if (ActualNumber == Image_Number) $display("Correct Output!! The Classifier has sucessfully classified this image -- PASSED");
 	else begin $display("Uh Oh! Your Classfier is showing the wrong output for this Image -- FAILED"); fal = fal + 1; end 
 	$display("-------------------------------------------------------------");
@@ -8753,7 +8752,7 @@ initial begin
 	i =i+1;
 	end
 	$display("      %d clks of pocessing done",i);
-	$display("Estimated Output Number is : %b",Image_Number);
+	$display("Estimated Output Number is : %d",$signed(Image_Number));
 	if (ActualNumber == Image_Number) $display("Correct Output!! The Classifier has sucessfully classified this image -- PASSED");
 	else begin $display("Uh Oh! Your Classfier is showing the wrong output for this Image -- FAILED"); fal = fal + 1; end 
 	$display("-------------------------------------------------------------");
@@ -8777,7 +8776,7 @@ initial begin
 	i =i+1;
 	end
 	$display("      %d clks of pocessing done",i);
-	$display("Estimated Output Number is : %b",Image_Number);
+	$display("Estimated Output Number is : %d",$signed(Image_Number));
 	if (ActualNumber == Image_Number) $display("Correct Output!! The Classifier has sucessfully classified this image -- PASSED");
 	else begin $display("Uh Oh! Your Classfier is showing the wrong output for this Image -- FAILED"); fal = fal + 1; end 
 	$display("-------------------------------------------------------------");
@@ -8801,7 +8800,7 @@ initial begin
 	i =i+1;
 	end
 	$display("      %d clks of pocessing done",i);
-	$display("Estimated Output Number is : %b",Image_Number);
+	$display("Estimated Output Number is : %d",$signed(Image_Number));
 	if (ActualNumber == Image_Number) $display("Correct Output!! The Classifier has sucessfully classified this image -- PASSED");
 	else begin $display("Uh Oh! Your Classfier is showing the wrong output for this Image -- FAILED"); fal = fal + 1; end 
 	$display("-------------------------------------------------------------");
@@ -8825,7 +8824,7 @@ initial begin
 	i =i+1;
 	end
 	$display("      %d clks of pocessing done",i);
-	$display("Estimated Output Number is : %b",Image_Number);
+	$display("Estimated Output Number is : %d",$signed(Image_Number));
 	if (ActualNumber == Image_Number) $display("Correct Output!! The Classifier has sucessfully classified this image -- PASSED");
 	else begin $display("Uh Oh! Your Classfier is showing the wrong output for this Image -- FAILED"); fal = fal + 1; end 
 	$display("-------------------------------------------------------------");
@@ -8849,7 +8848,7 @@ initial begin
 	i =i+1;
 	end
 	$display("      %d clks of pocessing done",i);
-	$display("Estimated Output Number is : %b",Image_Number);
+	$display("Estimated Output Number is : %d",$signed(Image_Number));
 	if (ActualNumber == Image_Number) $display("Correct Output!! The Classifier has sucessfully classified this image -- PASSED");
 	else begin $display("Uh Oh! Your Classfier is showing the wrong output for this Image -- FAILED"); fal = fal + 1; end 
 	$display("-------------------------------------------------------------");
@@ -8873,7 +8872,7 @@ initial begin
 	i =i+1;
 	end
 	$display("      %d clks of pocessing done",i);
-	$display("Estimated Output Number is : %b",Image_Number);
+	$display("Estimated Output Number is : %d",$signed(Image_Number));
 	if (ActualNumber == Image_Number) $display("Correct Output!! The Classifier has sucessfully classified this image -- PASSED");
 	else begin $display("Uh Oh! Your Classfier is showing the wrong output for this Image -- FAILED"); fal = fal + 1; end 
 	$display("-------------------------------------------------------------");
@@ -8897,7 +8896,7 @@ initial begin
 	i =i+1;
 	end
 	$display("      %d clks of pocessing done",i);
-	$display("Estimated Output Number is : %b",Image_Number);
+	$display("Estimated Output Number is : %d",$signed(Image_Number));
 	if (ActualNumber == Image_Number) $display("Correct Output!! The Classifier has sucessfully classified this image -- PASSED");
 	else begin $display("Uh Oh! Your Classfier is showing the wrong output for this Image -- FAILED"); fal = fal + 1; end 
 	$display("-------------------------------------------------------------");
@@ -8921,7 +8920,7 @@ initial begin
 	i =i+1;
 	end
 	$display("      %d clks of pocessing done",i);
-	$display("Estimated Output Number is : %b",Image_Number);
+	$display("Estimated Output Number is : %d",$signed(Image_Number));
 	if (ActualNumber == Image_Number) $display("Correct Output!! The Classifier has sucessfully classified this image -- PASSED");
 	else begin $display("Uh Oh! Your Classfier is showing the wrong output for this Image -- FAILED"); fal = fal + 1; end 
 	$display("-------------------------------------------------------------");
