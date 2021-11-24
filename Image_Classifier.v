@@ -8752,6 +8752,6 @@ Max_selector MAX(
  .image_number_9(Image_Number_Arr[9]),
  .clk(clk),
  .rst(GlobalReset),
- .max(Image_Number_Arr));
+ .max(Image_Number));
 
 endmodule
