@@ -17,7 +17,7 @@ reg clk;
 reg rst;
 
 // Output 
-wire [4:0] max;
+wire [3:0] max;
 
 Max_selector test(  image_number_0,
 					image_number_1,
