@@ -11,7 +11,7 @@ module Max_selector(
 	input [25:0] image_number_9,
 	input clk,
 	input rst,
-    output reg [4:0] max
+	output reg [3:0] max
     );
 
 always @(posedge clk) begin
