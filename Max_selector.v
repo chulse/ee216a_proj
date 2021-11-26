@@ -73,7 +73,7 @@ always @(posedge clk) begin
 				$signed(image_number_4) >= $signed(image_number_5) && 
 				$signed(image_number_4) >= $signed(image_number_6) && 
 				$signed(image_number_4) >= $signed(image_number_7) && 
-				$signed(image_number_0) >= $signed(image_number_8) && 
+				$signed(image_number_4) >= $signed(image_number_8) && 
 				$signed(image_number_4) >= $signed(image_number_9) )
 			
 				max = 4;

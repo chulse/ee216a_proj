@@ -8675,6 +8675,7 @@ assign WEIGHTS_9 = {Wgt_9_0, Wgt_9_1, Wgt_9_2, Wgt_9_3, Wgt_9_4, Wgt_9_5, Wgt_9_
 Neuron N_0(
  .IN_PIXELS(PIXELS),
  .IN_WEIGHTS(WEIGHTS_0),
+ .BIAS(Wgt_0_784),
  .OUT(Image_Number_Arr[0]),
  .done(Output_Valid),
  .clk(clk),
@@ -8683,6 +8684,7 @@ Neuron N_0(
  Neuron N_1(
  .IN_PIXELS(PIXELS),
  .IN_WEIGHTS(WEIGHTS_1),
+ .BIAS(Wgt_1_784),
  .OUT(Image_Number_Arr[1]),
  .done(Output_Valid),
  .clk(clk),
@@ -8691,6 +8693,7 @@ Neuron N_0(
 Neuron N_2(
  .IN_PIXELS(PIXELS),
  .IN_WEIGHTS(WEIGHTS_2),
+ .BIAS(Wgt_2_784),
  .OUT(Image_Number_Arr[2]),
  .done(Output_Valid),
  .clk(clk),
@@ -8699,6 +8702,7 @@ Neuron N_2(
 Neuron N_3(
  .IN_PIXELS(PIXELS),
  .IN_WEIGHTS(WEIGHTS_3),
+ .BIAS(Wgt_3_784),
  .OUT(Image_Number_Arr[3]),
  .done(Output_Valid),
  .clk(clk),
@@ -8707,6 +8711,7 @@ Neuron N_3(
 Neuron N_4(
  .IN_PIXELS(PIXELS),
  .IN_WEIGHTS(WEIGHTS_4),
+ .BIAS(Wgt_4_784),
  .OUT(Image_Number_Arr[4]),
  .done(Output_Valid),
  .clk(clk),
@@ -8715,6 +8720,7 @@ Neuron N_4(
 Neuron N_5(
  .IN_PIXELS(PIXELS),
  .IN_WEIGHTS(WEIGHTS_5),
+ .BIAS(Wgt_5_784),
  .OUT(Image_Number_Arr[5]),
  .done(Output_Valid),
  .clk(clk),
@@ -8723,6 +8729,7 @@ Neuron N_5(
 Neuron N_6(
  .IN_PIXELS(PIXELS),
  .IN_WEIGHTS(WEIGHTS_6),
+ .BIAS(Wgt_6_784),
  .OUT(Image_Number_Arr[6]),
  .done(Output_Valid),
  .clk(clk),
@@ -8731,6 +8738,7 @@ Neuron N_6(
 Neuron N_7(
  .IN_PIXELS(PIXELS),
  .IN_WEIGHTS(WEIGHTS_7),
+ .BIAS(Wgt_7_784),
  .OUT(Image_Number_Arr[7]),
  .done(Output_Valid),
  .clk(clk),
@@ -8739,6 +8747,7 @@ Neuron N_7(
  Neuron N_8(
  .IN_PIXELS(PIXELS),
  .IN_WEIGHTS(WEIGHTS_8),
+ .BIAS(Wgt_8_784),
  .OUT(Image_Number_Arr[8]),
  .done(Output_Valid),
  .clk(clk),
@@ -8747,6 +8756,7 @@ Neuron N_7(
  Neuron N_9(
  .IN_PIXELS(PIXELS),
  .IN_WEIGHTS(WEIGHTS_9),
+ .BIAS(Wgt_9_784),
  .OUT(Image_Number_Arr[9]),
  .done(Output_Valid),
  .clk(clk),

@@ -1,6 +1,6 @@
 `timescale 1ns/100ps
 
-module Neuron(IN_PIXELS, IN_WEIGHTS, OUT, done, clk, rst);
+module Neuron(IN_PIXELS, IN_WEIGHTS, BIAS, OUT, done, clk, rst);
 parameter NUM_INPUTS = 784;
 parameter PIXEL_WIDTH = 10; //10-0 (int-deci)
 parameter WEIGHT_WIDTH = 19; //1-18
@@ -44,7 +44,7 @@ always @(temp_outputs) begin
   for (k=0; k<NUM_OF_ACCUMULATORS; k=k+1)
     out_buf = out_buf + temp_outputs[k*OUTPUT_WIDTH +: OUTPUT_WIDTH];
 end
-assign OUT = out_buf;
+assign OUT = out_buf + BIAS;
 assign done = 0;//done_signals!=0;
 
 endmodule
