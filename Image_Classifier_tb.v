@@ -8651,8 +8651,8 @@ reg [9:0] Pix_781;
 reg [9:0] Pix_782;
 reg [9:0] Pix_783;
 reg [9:0] Pix_784;
-// wire [3:0] Image_Number; 
-wire [25:0] Image_Number; 
+wire [3:0] Image_Number; 
+//wire [25:0] Image_Number; 
 wire Output_Valid; 
 
 
