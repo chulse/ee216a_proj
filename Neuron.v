@@ -7,6 +7,7 @@ parameter WEIGHT_WIDTH = 19; //1-18
 parameter OUTPUT_WIDTH = 26; //8-18
 input [NUM_INPUTS*PIXEL_WIDTH-1:0] IN_PIXELS;
 input [NUM_INPUTS*WEIGHT_WIDTH-1:0] IN_WEIGHTS;
+input [WEIGHT_WIDTH-1:0] BIAS;
 input clk;
 input rst;
 output [OUTPUT_WIDTH-1:0] OUT;
