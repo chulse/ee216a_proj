@@ -45,7 +45,7 @@ always @(temp_outputs) begin
   for (k=0; k<NUM_OF_ACCUMULATORS; k=k+1)
     out_buf = out_buf + temp_outputs[k*OUTPUT_WIDTH +: OUTPUT_WIDTH];
 end
-assign OUT = out_buf + BIAS;
+assign OUT = out_buf + {{7{BIAS[WEIGHT_WIDTH-1]}}, BIAS};
 assign done = 0;//done_signals!=0;
 
 endmodule
