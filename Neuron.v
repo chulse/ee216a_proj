@@ -25,7 +25,7 @@ reg [OUTPUT_WIDTH-1:0] out_buf; //total sum
 genvar i;
 generate
     for (i = 0; i < NUM_OF_ACCUMULATORS; i=i+1) begin
-        PipelinedMultAccumulate mult_0(
+        PipelinedMultAccumulate #(.NUM_INPUTS(BATCH_SIZE)) mult_0(
             .IN_PIXELS(IN_PIXELS[i*PIXEL_WIDTH*BATCH_SIZE +: PIXEL_WIDTH*BATCH_SIZE]),
             .IN_WEIGHTS(IN_WEIGHTS[i*WEIGHT_WIDTH*BATCH_SIZE +: WEIGHT_WIDTH*BATCH_SIZE]),
             .OUT(temp_outputs[i*OUTPUT_WIDTH +: OUTPUT_WIDTH]),
@@ -33,7 +33,6 @@ generate
             .rst(rst),
             .done(done_signals[i])
             );
-        defparam mult_0.NUM_INPUTS=BATCH_SIZE;
     end
 endgenerate
 

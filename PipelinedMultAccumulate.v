@@ -1,7 +1,6 @@
 `timescale 1ns/100ps
 
-module PipelinedMultAccumulate(IN_PIXELS, IN_WEIGHTS, OUT, done, clk, rst);
-parameter NUM_INPUTS = 4;
+module PipelinedMultAccumulate#(parameter NUM_INPUTS=4)(IN_PIXELS, IN_WEIGHTS, OUT, done, clk, rst);
 parameter PIXEL_WIDTH = 10; //10-0 (int-deci)
 parameter WEIGHT_WIDTH = 19; //1-18
 parameter OUTPUT_WIDTH = 26; //8-18
