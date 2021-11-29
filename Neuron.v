@@ -24,7 +24,7 @@ reg [OUTPUT_WIDTH-1:0] out_buf; //total sum
 
 genvar i;
 generate
-    for (i = 0; i < NUM_OF_ACCUMULATORS; i=i+1) begin
+    for (i = 0; i < NUM_OF_ACCUMULATORS; i=i+1) begin : gen_block_1
         PipelinedMultAccumulate #(.NUM_INPUTS(BATCH_SIZE)) mult_0(
             .IN_PIXELS(IN_PIXELS[i*PIXEL_WIDTH*BATCH_SIZE +: PIXEL_WIDTH*BATCH_SIZE]),
             .IN_WEIGHTS(IN_WEIGHTS[i*WEIGHT_WIDTH*BATCH_SIZE +: WEIGHT_WIDTH*BATCH_SIZE]),
