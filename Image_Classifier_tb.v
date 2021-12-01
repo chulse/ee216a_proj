@@ -8705,7 +8705,7 @@ initial begin
 	end
 	$display("      %d clks of pocessing done",i);
 	$display("Estimated Output Number is : %d",$signed(Image_Number));
-	if (ActualNumber == Image_Number) $display("Correct Output!! The Classifier has sucessfully classified this image -- PASSED");
+	if (ActualNumber == Image_Number) $display("Correct Output!! The Classifier has sucessfully classified this image -- PASSED -- %d",i);
 	else begin $display("Uh Oh! Your Classfier is showing the wrong output for this Image -- FAILED"); fal = fal + 1; end 
 	$display("-------------------------------------------------------------");
 	# (10*fullclock);
@@ -8729,7 +8729,7 @@ initial begin
 	end
 	$display("      %d clks of pocessing done",i);
 	$display("Estimated Output Number is : %d",$signed(Image_Number));
-	if (ActualNumber == Image_Number) $display("Correct Output!! The Classifier has sucessfully classified this image -- PASSED");
+	if (ActualNumber == Image_Number) $display("Correct Output!! The Classifier has sucessfully classified this image -- PASSED -- %d",i);
 	else begin $display("Uh Oh! Your Classfier is showing the wrong output for this Image -- FAILED"); fal = fal + 1; end 
 	$display("-------------------------------------------------------------");
 	# (10*fullclock);
@@ -8753,7 +8753,7 @@ initial begin
 	end
 	$display("      %d clks of pocessing done",i);
 	$display("Estimated Output Number is : %d",$signed(Image_Number));
-	if (ActualNumber == Image_Number) $display("Correct Output!! The Classifier has sucessfully classified this image -- PASSED");
+	if (ActualNumber == Image_Number) $display("Correct Output!! The Classifier has sucessfully classified this image -- PASSED -- %d",i);
 	else begin $display("Uh Oh! Your Classfier is showing the wrong output for this Image -- FAILED"); fal = fal + 1; end 
 	$display("-------------------------------------------------------------");
 	# (10*fullclock);
@@ -8777,7 +8777,7 @@ initial begin
 	end
 	$display("      %d clks of pocessing done",i);
 	$display("Estimated Output Number is : %d",$signed(Image_Number));
-	if (ActualNumber == Image_Number) $display("Correct Output!! The Classifier has sucessfully classified this image -- PASSED");
+	if (ActualNumber == Image_Number) $display("Correct Output!! The Classifier has sucessfully classified this image -- PASSED -- %d",i);
 	else begin $display("Uh Oh! Your Classfier is showing the wrong output for this Image -- FAILED"); fal = fal + 1; end 
 	$display("-------------------------------------------------------------");
 	# (10*fullclock);
@@ -8801,7 +8801,7 @@ initial begin
 	end
 	$display("      %d clks of pocessing done",i);
 	$display("Estimated Output Number is : %d",$signed(Image_Number));
-	if (ActualNumber == Image_Number) $display("Correct Output!! The Classifier has sucessfully classified this image -- PASSED");
+	if (ActualNumber == Image_Number) $display("Correct Output!! The Classifier has sucessfully classified this image -- PASSED -- %d",i);
 	else begin $display("Uh Oh! Your Classfier is showing the wrong output for this Image -- FAILED"); fal = fal + 1; end 
 	$display("-------------------------------------------------------------");
 	# (10*fullclock);
@@ -8825,7 +8825,7 @@ initial begin
 	end
 	$display("      %d clks of pocessing done",i);
 	$display("Estimated Output Number is : %d",$signed(Image_Number));
-	if (ActualNumber == Image_Number) $display("Correct Output!! The Classifier has sucessfully classified this image -- PASSED");
+	if (ActualNumber == Image_Number) $display("Correct Output!! The Classifier has sucessfully classified this image -- PASSED -- %d",i);
 	else begin $display("Uh Oh! Your Classfier is showing the wrong output for this Image -- FAILED"); fal = fal + 1; end 
 	$display("-------------------------------------------------------------");
 	# (10*fullclock);
@@ -8849,7 +8849,7 @@ initial begin
 	end
 	$display("      %d clks of pocessing done",i);
 	$display("Estimated Output Number is : %d",$signed(Image_Number));
-	if (ActualNumber == Image_Number) $display("Correct Output!! The Classifier has sucessfully classified this image -- PASSED");
+	if (ActualNumber == Image_Number) $display("Correct Output!! The Classifier has sucessfully classified this image -- PASSED -- %d",i);
 	else begin $display("Uh Oh! Your Classfier is showing the wrong output for this Image -- FAILED"); fal = fal + 1; end 
 	$display("-------------------------------------------------------------");
 	# (10*fullclock);
@@ -8873,7 +8873,7 @@ initial begin
 	end
 	$display("      %d clks of pocessing done",i);
 	$display("Estimated Output Number is : %d",$signed(Image_Number));
-	if (ActualNumber == Image_Number) $display("Correct Output!! The Classifier has sucessfully classified this image -- PASSED");
+	if (ActualNumber == Image_Number) $display("Correct Output!! The Classifier has sucessfully classified this image -- PASSED -- %d",i);
 	else begin $display("Uh Oh! Your Classfier is showing the wrong output for this Image -- FAILED"); fal = fal + 1; end 
 	$display("-------------------------------------------------------------");
 	# (10*fullclock);
@@ -8897,7 +8897,7 @@ initial begin
 	end
 	$display("      %d clks of pocessing done",i);
 	$display("Estimated Output Number is : %d",$signed(Image_Number));
-	if (ActualNumber == Image_Number) $display("Correct Output!! The Classifier has sucessfully classified this image -- PASSED");
+	if (ActualNumber == Image_Number) $display("Correct Output!! The Classifier has sucessfully classified this image -- PASSED -- %d",i);
 	else begin $display("Uh Oh! Your Classfier is showing the wrong output for this Image -- FAILED"); fal = fal + 1; end 
 	$display("-------------------------------------------------------------");
 	# (10*fullclock);
@@ -8921,7 +8921,7 @@ initial begin
 	end
 	$display("      %d clks of pocessing done",i);
 	$display("Estimated Output Number is : %d",$signed(Image_Number));
-	if (ActualNumber == Image_Number) $display("Correct Output!! The Classifier has sucessfully classified this image -- PASSED");
+	if (ActualNumber == Image_Number) $display("Correct Output!! The Classifier has sucessfully classified this image -- PASSED -- %d",i);
 	else begin $display("Uh Oh! Your Classfier is showing the wrong output for this Image -- FAILED"); fal = fal + 1; end 
 	$display("-------------------------------------------------------------");
 	# (10*fullclock);

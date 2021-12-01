@@ -45,6 +45,6 @@ always @(temp_outputs) begin
     out_buf = out_buf + temp_outputs[k*OUTPUT_WIDTH +: OUTPUT_WIDTH];
 end
 assign OUT = out_buf + {{7{BIAS[WEIGHT_WIDTH-1]}}, BIAS};
-assign done = 0;//done_signals!=0;
+assign done = done_signals==~16'b0; //Put this in a parameter?
 
 endmodule
