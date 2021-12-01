@@ -40,7 +40,7 @@ always@(posedge clk) begin
     if (step < NUM_INPUTS) begin
       step <= step + 1;
     end else begin
-      step <= step;
+      step <= 0;
     end
   end
 end

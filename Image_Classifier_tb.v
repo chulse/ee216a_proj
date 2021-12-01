@@ -8699,7 +8699,7 @@ initial begin
 	// waiting for process to complete
 	i=10;
 	#(10*fullclock);Input_Valid = 1'b0;	
-	while (i<1000 && ~Output_Valid) begin
+	while (i<10000 && ~Output_Valid) begin
 	#fullclock;
 	i =i+1;
 	end
@@ -8747,7 +8747,7 @@ initial begin
 	// waiting for process to complete
 	i=10;
 	#(10*fullclock);Input_Valid = 1'b0;	
-	while (i<1000 && ~Output_Valid) begin
+	while (i<10000 && ~Output_Valid) begin
 	#fullclock;
 	i =i+1;
 	end
@@ -8771,7 +8771,7 @@ initial begin
 	// waiting for process to complete
 	i=10;
 	#(10*fullclock);Input_Valid = 1'b0;	
-	while (i<1000 && ~Output_Valid) begin
+	while (i<10000 && ~Output_Valid) begin
 	#fullclock;
 	i =i+1;
 	end
@@ -8795,7 +8795,7 @@ initial begin
 	// waiting for process to complete
 	i=10;
 	#(10*fullclock);Input_Valid = 1'b0;	
-	while (i<1000 && ~Output_Valid) begin
+	while (i<10000 && ~Output_Valid) begin
 	#fullclock;
 	i =i+1;
 	end
@@ -8819,7 +8819,7 @@ initial begin
 	// waiting for process to complete
 	i=10;
 	#(10*fullclock);Input_Valid = 1'b0;	
-	while (i<1000 && ~Output_Valid) begin
+	while (i<10000 && ~Output_Valid) begin
 	#fullclock;
 	i =i+1;
 	end
@@ -8843,7 +8843,7 @@ initial begin
 	// waiting for process to complete
 	i=10;
 	#(10*fullclock);Input_Valid = 1'b0;	
-	while (i<1000 && ~Output_Valid) begin
+	while (i<10000 && ~Output_Valid) begin
 	#fullclock;
 	i =i+1;
 	end
@@ -8867,7 +8867,7 @@ initial begin
 	// waiting for process to complete
 	i=10;
 	#(10*fullclock);Input_Valid = 1'b0;	
-	while (i<1000 && ~Output_Valid) begin
+	while (i<10000 && ~Output_Valid) begin
 	#fullclock;
 	i =i+1;
 	end
@@ -8891,7 +8891,7 @@ initial begin
 	// waiting for process to complete
 	i=10;
 	#(10*fullclock);Input_Valid = 1'b0;	
-	while (i<1000 && ~Output_Valid) begin
+	while (i<10000 && ~Output_Valid) begin
 	#fullclock;
 	i =i+1;
 	end
@@ -8915,7 +8915,7 @@ initial begin
 	// waiting for process to complete
 	i=10;
 	#(10*fullclock);Input_Valid = 1'b0;	
-	while (i<1000 && ~Output_Valid) begin
+	while (i<10000 && ~Output_Valid) begin
 	#fullclock;
 	i =i+1;
 	end
