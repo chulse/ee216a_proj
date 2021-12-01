@@ -8641,7 +8641,7 @@ module Image_Classifier (
  output Output_Valid 
  );
 
-wire [25:0] Image_Number_Arr [9:0];
+reg [25:0] Image_Number_Arr [9:0];
 wire [10*784-1:0] PIXELS;
 wire [19*784-1:0] WEIGHTS_0;
 wire [19*784-1:0] WEIGHTS_1;
@@ -8670,109 +8670,176 @@ assign WEIGHTS_8 = {Wgt_8_0, Wgt_8_1, Wgt_8_2, Wgt_8_3, Wgt_8_4, Wgt_8_5, Wgt_8_
 assign WEIGHTS_9 = {Wgt_9_0, Wgt_9_1, Wgt_9_2, Wgt_9_3, Wgt_9_4, Wgt_9_5, Wgt_9_6, Wgt_9_7, Wgt_9_8, Wgt_9_9, Wgt_9_10, Wgt_9_11, Wgt_9_12, Wgt_9_13, Wgt_9_14, Wgt_9_15, Wgt_9_16, Wgt_9_17, Wgt_9_18, Wgt_9_19, Wgt_9_20, Wgt_9_21, Wgt_9_22, Wgt_9_23, Wgt_9_24, Wgt_9_25, Wgt_9_26, Wgt_9_27, Wgt_9_28, Wgt_9_29, Wgt_9_30, Wgt_9_31, Wgt_9_32, Wgt_9_33, Wgt_9_34, Wgt_9_35, Wgt_9_36, Wgt_9_37, Wgt_9_38, Wgt_9_39, Wgt_9_40, Wgt_9_41, Wgt_9_42, Wgt_9_43, Wgt_9_44, Wgt_9_45, Wgt_9_46, Wgt_9_47, Wgt_9_48, Wgt_9_49, Wgt_9_50, Wgt_9_51, Wgt_9_52, Wgt_9_53, Wgt_9_54, Wgt_9_55, Wgt_9_56, Wgt_9_57, Wgt_9_58, Wgt_9_59, Wgt_9_60, Wgt_9_61, Wgt_9_62, Wgt_9_63, Wgt_9_64, Wgt_9_65, Wgt_9_66, Wgt_9_67, Wgt_9_68, Wgt_9_69, Wgt_9_70, Wgt_9_71, Wgt_9_72, Wgt_9_73, Wgt_9_74, Wgt_9_75, Wgt_9_76, Wgt_9_77, Wgt_9_78, Wgt_9_79, Wgt_9_80, Wgt_9_81, Wgt_9_82, Wgt_9_83, Wgt_9_84, Wgt_9_85, Wgt_9_86, Wgt_9_87, Wgt_9_88, Wgt_9_89, Wgt_9_90, Wgt_9_91, Wgt_9_92, Wgt_9_93, Wgt_9_94, Wgt_9_95, Wgt_9_96, Wgt_9_97, Wgt_9_98, Wgt_9_99, Wgt_9_100, Wgt_9_101, Wgt_9_102, Wgt_9_103, Wgt_9_104, Wgt_9_105, Wgt_9_106, Wgt_9_107, Wgt_9_108, Wgt_9_109, Wgt_9_110, Wgt_9_111, Wgt_9_112, Wgt_9_113, Wgt_9_114, Wgt_9_115, Wgt_9_116, Wgt_9_117, Wgt_9_118, Wgt_9_119, Wgt_9_120, Wgt_9_121, Wgt_9_122, Wgt_9_123, Wgt_9_124, Wgt_9_125, Wgt_9_126, Wgt_9_127, Wgt_9_128, Wgt_9_129, Wgt_9_130, Wgt_9_131, Wgt_9_132, Wgt_9_133, Wgt_9_134, Wgt_9_135, Wgt_9_136, Wgt_9_137, Wgt_9_138, Wgt_9_139, Wgt_9_140, Wgt_9_141, Wgt_9_142, Wgt_9_143, Wgt_9_144, Wgt_9_145, Wgt_9_146, Wgt_9_147, Wgt_9_148, Wgt_9_149, Wgt_9_150, Wgt_9_151, Wgt_9_152, Wgt_9_153, Wgt_9_154, Wgt_9_155, Wgt_9_156, Wgt_9_157, Wgt_9_158, Wgt_9_159, Wgt_9_160, Wgt_9_161, Wgt_9_162, Wgt_9_163, Wgt_9_164, Wgt_9_165, Wgt_9_166, Wgt_9_167, Wgt_9_168, Wgt_9_169, Wgt_9_170, Wgt_9_171, Wgt_9_172, Wgt_9_173, Wgt_9_174, Wgt_9_175, Wgt_9_176, Wgt_9_177, Wgt_9_178, Wgt_9_179, Wgt_9_180, Wgt_9_181, Wgt_9_182, Wgt_9_183, Wgt_9_184, Wgt_9_185, Wgt_9_186, Wgt_9_187, Wgt_9_188, Wgt_9_189, Wgt_9_190, Wgt_9_191, Wgt_9_192, Wgt_9_193, Wgt_9_194, Wgt_9_195, Wgt_9_196, Wgt_9_197, Wgt_9_198, Wgt_9_199, Wgt_9_200, Wgt_9_201, Wgt_9_202, Wgt_9_203, Wgt_9_204, Wgt_9_205, Wgt_9_206, Wgt_9_207, Wgt_9_208, Wgt_9_209, Wgt_9_210, Wgt_9_211, Wgt_9_212, Wgt_9_213, Wgt_9_214, Wgt_9_215, Wgt_9_216, Wgt_9_217, Wgt_9_218, Wgt_9_219, Wgt_9_220, Wgt_9_221, Wgt_9_222, Wgt_9_223, Wgt_9_224, Wgt_9_225, Wgt_9_226, Wgt_9_227, Wgt_9_228, Wgt_9_229, Wgt_9_230, Wgt_9_231, Wgt_9_232, Wgt_9_233, Wgt_9_234, Wgt_9_235, Wgt_9_236, Wgt_9_237, Wgt_9_238, Wgt_9_239, Wgt_9_240, Wgt_9_241, Wgt_9_242, Wgt_9_243, Wgt_9_244, Wgt_9_245, Wgt_9_246, Wgt_9_247, Wgt_9_248, Wgt_9_249, Wgt_9_250, Wgt_9_251, Wgt_9_252, Wgt_9_253, Wgt_9_254, Wgt_9_255, Wgt_9_256, Wgt_9_257, Wgt_9_258, Wgt_9_259, Wgt_9_260, Wgt_9_261, Wgt_9_262, Wgt_9_263, Wgt_9_264, Wgt_9_265, Wgt_9_266, Wgt_9_267, Wgt_9_268, Wgt_9_269, Wgt_9_270, Wgt_9_271, Wgt_9_272, Wgt_9_273, Wgt_9_274, Wgt_9_275, Wgt_9_276, Wgt_9_277, Wgt_9_278, Wgt_9_279, Wgt_9_280, Wgt_9_281, Wgt_9_282, Wgt_9_283, Wgt_9_284, Wgt_9_285, Wgt_9_286, Wgt_9_287, Wgt_9_288, Wgt_9_289, Wgt_9_290, Wgt_9_291, Wgt_9_292, Wgt_9_293, Wgt_9_294, Wgt_9_295, Wgt_9_296, Wgt_9_297, Wgt_9_298, Wgt_9_299, Wgt_9_300, Wgt_9_301, Wgt_9_302, Wgt_9_303, Wgt_9_304, Wgt_9_305, Wgt_9_306, Wgt_9_307, Wgt_9_308, Wgt_9_309, Wgt_9_310, Wgt_9_311, Wgt_9_312, Wgt_9_313, Wgt_9_314, Wgt_9_315, Wgt_9_316, Wgt_9_317, Wgt_9_318, Wgt_9_319, Wgt_9_320, Wgt_9_321, Wgt_9_322, Wgt_9_323, Wgt_9_324, Wgt_9_325, Wgt_9_326, Wgt_9_327, Wgt_9_328, Wgt_9_329, Wgt_9_330, Wgt_9_331, Wgt_9_332, Wgt_9_333, Wgt_9_334, Wgt_9_335, Wgt_9_336, Wgt_9_337, Wgt_9_338, Wgt_9_339, Wgt_9_340, Wgt_9_341, Wgt_9_342, Wgt_9_343, Wgt_9_344, Wgt_9_345, Wgt_9_346, Wgt_9_347, Wgt_9_348, Wgt_9_349, Wgt_9_350, Wgt_9_351, Wgt_9_352, Wgt_9_353, Wgt_9_354, Wgt_9_355, Wgt_9_356, Wgt_9_357, Wgt_9_358, Wgt_9_359, Wgt_9_360, Wgt_9_361, Wgt_9_362, Wgt_9_363, Wgt_9_364, Wgt_9_365, Wgt_9_366, Wgt_9_367, Wgt_9_368, Wgt_9_369, Wgt_9_370, Wgt_9_371, Wgt_9_372, Wgt_9_373, Wgt_9_374, Wgt_9_375, Wgt_9_376, Wgt_9_377, Wgt_9_378, Wgt_9_379, Wgt_9_380, Wgt_9_381, Wgt_9_382, Wgt_9_383, Wgt_9_384, Wgt_9_385, Wgt_9_386, Wgt_9_387, Wgt_9_388, Wgt_9_389, Wgt_9_390, Wgt_9_391, Wgt_9_392, Wgt_9_393, Wgt_9_394, Wgt_9_395, Wgt_9_396, Wgt_9_397, Wgt_9_398, Wgt_9_399, Wgt_9_400, Wgt_9_401, Wgt_9_402, Wgt_9_403, Wgt_9_404, Wgt_9_405, Wgt_9_406, Wgt_9_407, Wgt_9_408, Wgt_9_409, Wgt_9_410, Wgt_9_411, Wgt_9_412, Wgt_9_413, Wgt_9_414, Wgt_9_415, Wgt_9_416, Wgt_9_417, Wgt_9_418, Wgt_9_419, Wgt_9_420, Wgt_9_421, Wgt_9_422, Wgt_9_423, Wgt_9_424, Wgt_9_425, Wgt_9_426, Wgt_9_427, Wgt_9_428, Wgt_9_429, Wgt_9_430, Wgt_9_431, Wgt_9_432, Wgt_9_433, Wgt_9_434, Wgt_9_435, Wgt_9_436, Wgt_9_437, Wgt_9_438, Wgt_9_439, Wgt_9_440, Wgt_9_441, Wgt_9_442, Wgt_9_443, Wgt_9_444, Wgt_9_445, Wgt_9_446, Wgt_9_447, Wgt_9_448, Wgt_9_449, Wgt_9_450, Wgt_9_451, Wgt_9_452, Wgt_9_453, Wgt_9_454, Wgt_9_455, Wgt_9_456, Wgt_9_457, Wgt_9_458, Wgt_9_459, Wgt_9_460, Wgt_9_461, Wgt_9_462, Wgt_9_463, Wgt_9_464, Wgt_9_465, Wgt_9_466, Wgt_9_467, Wgt_9_468, Wgt_9_469, Wgt_9_470, Wgt_9_471, Wgt_9_472, Wgt_9_473, Wgt_9_474, Wgt_9_475, Wgt_9_476, Wgt_9_477, Wgt_9_478, Wgt_9_479, Wgt_9_480, Wgt_9_481, Wgt_9_482, Wgt_9_483, Wgt_9_484, Wgt_9_485, Wgt_9_486, Wgt_9_487, Wgt_9_488, Wgt_9_489, Wgt_9_490, Wgt_9_491, Wgt_9_492, Wgt_9_493, Wgt_9_494, Wgt_9_495, Wgt_9_496, Wgt_9_497, Wgt_9_498, Wgt_9_499, Wgt_9_500, Wgt_9_501, Wgt_9_502, Wgt_9_503, Wgt_9_504, Wgt_9_505, Wgt_9_506, Wgt_9_507, Wgt_9_508, Wgt_9_509, Wgt_9_510, Wgt_9_511, Wgt_9_512, Wgt_9_513, Wgt_9_514, Wgt_9_515, Wgt_9_516, Wgt_9_517, Wgt_9_518, Wgt_9_519, Wgt_9_520, Wgt_9_521, Wgt_9_522, Wgt_9_523, Wgt_9_524, Wgt_9_525, Wgt_9_526, Wgt_9_527, Wgt_9_528, Wgt_9_529, Wgt_9_530, Wgt_9_531, Wgt_9_532, Wgt_9_533, Wgt_9_534, Wgt_9_535, Wgt_9_536, Wgt_9_537, Wgt_9_538, Wgt_9_539, Wgt_9_540, Wgt_9_541, Wgt_9_542, Wgt_9_543, Wgt_9_544, Wgt_9_545, Wgt_9_546, Wgt_9_547, Wgt_9_548, Wgt_9_549, Wgt_9_550, Wgt_9_551, Wgt_9_552, Wgt_9_553, Wgt_9_554, Wgt_9_555, Wgt_9_556, Wgt_9_557, Wgt_9_558, Wgt_9_559, Wgt_9_560, Wgt_9_561, Wgt_9_562, Wgt_9_563, Wgt_9_564, Wgt_9_565, Wgt_9_566, Wgt_9_567, Wgt_9_568, Wgt_9_569, Wgt_9_570, Wgt_9_571, Wgt_9_572, Wgt_9_573, Wgt_9_574, Wgt_9_575, Wgt_9_576, Wgt_9_577, Wgt_9_578, Wgt_9_579, Wgt_9_580, Wgt_9_581, Wgt_9_582, Wgt_9_583, Wgt_9_584, Wgt_9_585, Wgt_9_586, Wgt_9_587, Wgt_9_588, Wgt_9_589, Wgt_9_590, Wgt_9_591, Wgt_9_592, Wgt_9_593, Wgt_9_594, Wgt_9_595, Wgt_9_596, Wgt_9_597, Wgt_9_598, Wgt_9_599, Wgt_9_600, Wgt_9_601, Wgt_9_602, Wgt_9_603, Wgt_9_604, Wgt_9_605, Wgt_9_606, Wgt_9_607, Wgt_9_608, Wgt_9_609, Wgt_9_610, Wgt_9_611, Wgt_9_612, Wgt_9_613, Wgt_9_614, Wgt_9_615, Wgt_9_616, Wgt_9_617, Wgt_9_618, Wgt_9_619, Wgt_9_620, Wgt_9_621, Wgt_9_622, Wgt_9_623, Wgt_9_624, Wgt_9_625, Wgt_9_626, Wgt_9_627, Wgt_9_628, Wgt_9_629, Wgt_9_630, Wgt_9_631, Wgt_9_632, Wgt_9_633, Wgt_9_634, Wgt_9_635, Wgt_9_636, Wgt_9_637, Wgt_9_638, Wgt_9_639, Wgt_9_640, Wgt_9_641, Wgt_9_642, Wgt_9_643, Wgt_9_644, Wgt_9_645, Wgt_9_646, Wgt_9_647, Wgt_9_648, Wgt_9_649, Wgt_9_650, Wgt_9_651, Wgt_9_652, Wgt_9_653, Wgt_9_654, Wgt_9_655, Wgt_9_656, Wgt_9_657, Wgt_9_658, Wgt_9_659, Wgt_9_660, Wgt_9_661, Wgt_9_662, Wgt_9_663, Wgt_9_664, Wgt_9_665, Wgt_9_666, Wgt_9_667, Wgt_9_668, Wgt_9_669, Wgt_9_670, Wgt_9_671, Wgt_9_672, Wgt_9_673, Wgt_9_674, Wgt_9_675, Wgt_9_676, Wgt_9_677, Wgt_9_678, Wgt_9_679, Wgt_9_680, Wgt_9_681, Wgt_9_682, Wgt_9_683, Wgt_9_684, Wgt_9_685, Wgt_9_686, Wgt_9_687, Wgt_9_688, Wgt_9_689, Wgt_9_690, Wgt_9_691, Wgt_9_692, Wgt_9_693, Wgt_9_694, Wgt_9_695, Wgt_9_696, Wgt_9_697, Wgt_9_698, Wgt_9_699, Wgt_9_700, Wgt_9_701, Wgt_9_702, Wgt_9_703, Wgt_9_704, Wgt_9_705, Wgt_9_706, Wgt_9_707, Wgt_9_708, Wgt_9_709, Wgt_9_710, Wgt_9_711, Wgt_9_712, Wgt_9_713, Wgt_9_714, Wgt_9_715, Wgt_9_716, Wgt_9_717, Wgt_9_718, Wgt_9_719, Wgt_9_720, Wgt_9_721, Wgt_9_722, Wgt_9_723, Wgt_9_724, Wgt_9_725, Wgt_9_726, Wgt_9_727, Wgt_9_728, Wgt_9_729, Wgt_9_730, Wgt_9_731, Wgt_9_732, Wgt_9_733, Wgt_9_734, Wgt_9_735, Wgt_9_736, Wgt_9_737, Wgt_9_738, Wgt_9_739, Wgt_9_740, Wgt_9_741, Wgt_9_742, Wgt_9_743, Wgt_9_744, Wgt_9_745, Wgt_9_746, Wgt_9_747, Wgt_9_748, Wgt_9_749, Wgt_9_750, Wgt_9_751, Wgt_9_752, Wgt_9_753, Wgt_9_754, Wgt_9_755, Wgt_9_756, Wgt_9_757, Wgt_9_758, Wgt_9_759, Wgt_9_760, Wgt_9_761, Wgt_9_762, Wgt_9_763, Wgt_9_764, Wgt_9_765, Wgt_9_766, Wgt_9_767, Wgt_9_768, Wgt_9_769, Wgt_9_770, Wgt_9_771, Wgt_9_772, Wgt_9_773, Wgt_9_774, Wgt_9_775, Wgt_9_776, Wgt_9_777, Wgt_9_778, Wgt_9_779, Wgt_9_780, Wgt_9_781, Wgt_9_782, Wgt_9_783};
 
 
+
 //may want to use a FSM instead to reuse the same neuron
 
-Neuron N_0(
+parameter S_0 = 0;
+parameter S_1 = 1;
+parameter S_2 = 2;
+parameter S_3 = 3;
+parameter S_4 = 4;
+parameter S_5 = 5;
+parameter S_6 = 6;
+parameter S_7 = 7;
+parameter S_8 = 8;
+parameter S_9 = 9;
+parameter S_end = 10;
+
+reg [19*784-1:0] WEIGHTS;
+reg [19-1:0] BIAS;
+wire [25:0] OUTPUT;
+
+reg [3:0] current_state;
+reg [3:0] next_state;
+
+wire N_DONE;
+
+reg [3:0] counter;
+
+assign OUTPUT = 0;
+
+always @(posedge clk) begin
+	if(GlobalReset) begin
+		current_state <= S_0;
+	end
+	else begin
+		current_state <= next_state;
+	end
+end
+
+
+always @(GlobalReset, N_DONE, current_state) begin
+	if(GlobalReset) begin
+		counter = 0;
+	end
+	else begin
+		if(N_DONE == 1)
+			counter = counter + 1;
+		else
+			counter = counter;
+	end
+end
+
+always @(GlobalReset, clk, Input_Valid, current_state) begin
+	if(GlobalReset) begin
+		next_state = S_0;
+		WEIGHTS = WEIGHTS_0;
+		BIAS = Wgt_0_784;
+		Image_Number_Arr[0] = OUTPUT;
+		Image_Number_Arr[1] = 0;
+		Image_Number_Arr[2] = 0;
+		Image_Number_Arr[3] = 0;
+		Image_Number_Arr[4] = 0;
+		Image_Number_Arr[5] = 0;
+		Image_Number_Arr[6] = 0;
+		Image_Number_Arr[7] = 0;
+		Image_Number_Arr[8] = 0;
+		Image_Number_Arr[9] = 0;
+	end
+	else begin
+		case(current_state)
+			S_0: begin
+				next_state = S_1;
+				WEIGHTS = WEIGHTS_0;
+				BIAS = Wgt_0_784;
+			end
+			S_1: begin
+				next_state = S_2;
+				WEIGHTS = WEIGHTS_1;
+				BIAS = Wgt_1_784;
+			end
+			S_2: begin
+				next_state = S_3;
+				WEIGHTS = WEIGHTS_2;
+				BIAS = Wgt_2_784;
+			end
+			S_3: begin
+				next_state = S_4;
+				WEIGHTS = WEIGHTS_3;
+				BIAS = Wgt_3_784;
+			end
+			S_4: begin
+				next_state = S_5;
+				WEIGHTS = WEIGHTS_4;
+				BIAS = Wgt_4_784;
+			end
+			S_5: begin
+				next_state = S_6;
+				WEIGHTS = WEIGHTS_5;
+				BIAS = Wgt_5_784;
+			end
+			S_6: begin
+				next_state = S_7;
+				WEIGHTS = WEIGHTS_6;
+				BIAS = Wgt_6_784;
+			end
+			S_7: begin
+				next_state = S_8;
+				WEIGHTS = WEIGHTS_7;
+				BIAS = Wgt_7_784;
+			end
+			S_8: begin
+				next_state = S_9;
+				WEIGHTS = WEIGHTS_8;
+				BIAS = Wgt_8_784;
+			end
+			S_9: begin
+				next_state = S_end;
+				WEIGHTS = WEIGHTS_9;
+				BIAS = Wgt_9_784;
+			end
+			default: begin
+				next_state = next_state;
+			end
+		endcase
+	end
+end
+
+wire [25:0] Image_Number_Arr0;
+wire [25:0] Image_Number_Arr1;
+wire [25:0] Image_Number_Arr2;
+wire [25:0] Image_Number_Arr3;
+wire [25:0] Image_Number_Arr4;
+wire [25:0] Image_Number_Arr5;
+wire [25:0] Image_Number_Arr6;
+wire [25:0] Image_Number_Arr7;
+wire [25:0] Image_Number_Arr8;
+wire [25:0] Image_Number_Arr9;
+
+
+
+assign Image_Number_Arr0 = ( counter == 4'd0 ) ? OUTPUT : Image_Number_Arr0;
+assign Image_Number_Arr1 = ( counter == 4'd1 ) ? OUTPUT : Image_Number_Arr1;
+assign Image_Number_Arr2 = ( counter == 4'd2 ) ? OUTPUT : Image_Number_Arr2;
+assign Image_Number_Arr3 = ( counter == 4'd3 ) ? OUTPUT : Image_Number_Arr3;
+assign Image_Number_Arr4 = ( counter == 4'd4 ) ? OUTPUT : Image_Number_Arr4;
+assign Image_Number_Arr5 = ( counter == 4'd5 ) ? OUTPUT : Image_Number_Arr5;
+assign Image_Number_Arr6 = ( counter == 4'd6 ) ? OUTPUT : Image_Number_Arr6;
+assign Image_Number_Arr7 = ( counter == 4'd7 ) ? OUTPUT : Image_Number_Arr7;
+assign Image_Number_Arr8 = ( counter == 4'd8 ) ? OUTPUT : Image_Number_Arr8;
+assign Image_Number_Arr9 = ( counter == 4'd9 ) ? OUTPUT : Image_Number_Arr9;
+
+Neuron N_inst(
  .IN_PIXELS(PIXELS),
- .IN_WEIGHTS(WEIGHTS_0),
- .BIAS(Wgt_0_784),
- .OUT(Image_Number_Arr[0]),
- .done(Output_Valid),
+ .IN_WEIGHTS(WEIGHTS),
+ .BIAS(BIAS),
+ .OUT(OUTPUT),
+ .done(N_DONE),
  .clk(clk),
  .rst(GlobalReset));
  
- Neuron N_1(
- .IN_PIXELS(PIXELS),
- .IN_WEIGHTS(WEIGHTS_1),
- .BIAS(Wgt_1_784),
- .OUT(Image_Number_Arr[1]),
- .done(Output_Valid),
- .clk(clk),
- .rst(GlobalReset));
- 
-Neuron N_2(
- .IN_PIXELS(PIXELS),
- .IN_WEIGHTS(WEIGHTS_2),
- .BIAS(Wgt_2_784),
- .OUT(Image_Number_Arr[2]),
- .done(Output_Valid),
- .clk(clk),
- .rst(GlobalReset));
- 
-Neuron N_3(
- .IN_PIXELS(PIXELS),
- .IN_WEIGHTS(WEIGHTS_3),
- .BIAS(Wgt_3_784),
- .OUT(Image_Number_Arr[3]),
- .done(Output_Valid),
- .clk(clk),
- .rst(GlobalReset));
- 
-Neuron N_4(
- .IN_PIXELS(PIXELS),
- .IN_WEIGHTS(WEIGHTS_4),
- .BIAS(Wgt_4_784),
- .OUT(Image_Number_Arr[4]),
- .done(Output_Valid),
- .clk(clk),
- .rst(GlobalReset));
- 
-Neuron N_5(
- .IN_PIXELS(PIXELS),
- .IN_WEIGHTS(WEIGHTS_5),
- .BIAS(Wgt_5_784),
- .OUT(Image_Number_Arr[5]),
- .done(Output_Valid),
- .clk(clk),
- .rst(GlobalReset));
- 
-Neuron N_6(
- .IN_PIXELS(PIXELS),
- .IN_WEIGHTS(WEIGHTS_6),
- .BIAS(Wgt_6_784),
- .OUT(Image_Number_Arr[6]),
- .done(Output_Valid),
- .clk(clk),
- .rst(GlobalReset));
- 
-Neuron N_7(
- .IN_PIXELS(PIXELS),
- .IN_WEIGHTS(WEIGHTS_7),
- .BIAS(Wgt_7_784),
- .OUT(Image_Number_Arr[7]),
- .done(Output_Valid),
- .clk(clk),
- .rst(GlobalReset));
- 
- Neuron N_8(
- .IN_PIXELS(PIXELS),
- .IN_WEIGHTS(WEIGHTS_8),
- .BIAS(Wgt_8_784),
- .OUT(Image_Number_Arr[8]),
- .done(Output_Valid),
- .clk(clk),
- .rst(GlobalReset));
- 
- Neuron N_9(
- .IN_PIXELS(PIXELS),
- .IN_WEIGHTS(WEIGHTS_9),
- .BIAS(Wgt_9_784),
- .OUT(Image_Number_Arr[9]),
- .done(Output_Valid),
- .clk(clk),
- .rst(GlobalReset));
  
 Max_selector MAX(
- .image_number_0(Image_Number_Arr[0]),
- .image_number_1(Image_Number_Arr[1]),
- .image_number_2(Image_Number_Arr[2]),
- .image_number_3(Image_Number_Arr[3]),
- .image_number_4(Image_Number_Arr[4]),
- .image_number_5(Image_Number_Arr[5]),
- .image_number_6(Image_Number_Arr[6]),
- .image_number_7(Image_Number_Arr[7]),
- .image_number_8(Image_Number_Arr[8]),
- .image_number_9(Image_Number_Arr[9]),
+ .image_number_0(Image_Number_Arr0),
+ .image_number_1(Image_Number_Arr1),
+ .image_number_2(Image_Number_Arr2),
+ .image_number_3(Image_Number_Arr3),
+ .image_number_4(Image_Number_Arr4),
+ .image_number_5(Image_Number_Arr5),
+ .image_number_6(Image_Number_Arr6),
+ .image_number_7(Image_Number_Arr7),
+ .image_number_8(Image_Number_Arr8),
+ .image_number_9(Image_Number_Arr9),
  .clk(clk),
  .rst(GlobalReset),
  .max(Image_Number));

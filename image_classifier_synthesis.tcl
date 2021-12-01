@@ -11,29 +11,40 @@ set synthetic_library "dw_foundation.sldb"
 set alib_library_analysis_path "./alib-52/"
 
 analyze -format verilog {Image_Classifier.v}
-analyze -format verilog {Neuron.v}
-analyze -format verilog {Max_selector.v}
-analyze -format verilog {PipelinedMultAccumulate.v}
-analyze -format verilog {FixedPointMultiplier.v}
+//analyze -format verilog {Neuron.v}
+//analyze -format verilog {Max_selector.v}
+//analyze -format verilog {PipelinedMultAccumulate.v}
+//analyze -format verilog {FixedPointMultiplier.v}
 
 set DESIGN_NAME Image_Classifier
 
 elaborate $DESIGN_NAME
-elaborate Neuron
-elaborate Max_selector
-elaborate PipelinedMultAccumulate
-elaborate FixedPointMultiplier
+//elaborate Neuron
+//elaborate Max_selector
+//elaborate PipelinedMultAccumulate
+//elaborate FixedPointMultiplier
 
 current_design $DESIGN_NAME
+link
 
 set_operating_conditions -min ff1p16vn40c -max ss0p95v125c
 set TCLK 2.0
 set TCU 0.1
+set IN_DEL 0.6
+set IN_DEL_MIN 0.3
+set OUT_DEL 0.6
+set OUT_DEL_MIN 0.3
+set ALL_IN_BUT_CLK [remove_from_collection [all_inputs] "clk"]
 
 create_clock -name "clk" -period $TCLK [get_ports "clk"]
 set_fix_hold clk
 set_dont_touch_network [get_clocks "clk"]
 set_clock_uncertainty $TCU [get_clocks "clk"]
+
+set_input_delay $IN_DEL -clock "clk" $ALL_IN_BUT_CLK
+set_input_delay -min $IN_DEL_MIN -clock "clk" $ALL_IN_BUT_CLK
+set_output_delay $OUT_DEL -clock "clk" [all_outputs]
+set_output_delay -min $OUT_DEL_MIN -clock "clk" [all_outputs]
 
 set_max_area 0.0
 set_max_total_power 0.0

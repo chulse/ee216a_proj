@@ -17,7 +17,7 @@ wire [OUTPUT_WIDTH-1:0] mult_output;
 wire [WEIGHT_WIDTH-1:0] current_weight;
 wire [PIXEL_WIDTH-1:0] current_pixel;
 
-assign done = step == NUM_INPUTS+1;
+assign done = step == NUM_INPUTS;
 assign OUT = out_buf;
 assign current_weight = (step < NUM_INPUTS) ? IN_WEIGHTS[(step)*WEIGHT_WIDTH +: WEIGHT_WIDTH] : 0;
 assign current_pixel = (step < NUM_INPUTS) ? IN_PIXELS[(step)*PIXEL_WIDTH +: PIXEL_WIDTH] : 0;
@@ -40,7 +40,7 @@ always@(posedge clk) begin
     if (step < NUM_INPUTS) begin
       step <= step + 1;
     end else begin
-      step <= step;
+      step <= 0;
     end
   end
 end
