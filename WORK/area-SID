@@ -1,0 +1,287 @@
+Warning: Design 'Image_Classifier' has '16' unresolved references. For more detailed information, use the "link" command. (UID-341)
+ 
+****************************************
+Report : area
+Design : Image_Classifier
+Version: G-2012.06-SP1
+Date   : Wed Dec  1 22:07:52 2021
+****************************************
+
+Library(s) Used:
+
+    saed32rvt_ff1p16vn40c (File: /w/apps2/public.2/tech/synopsys/32-28nm/SAED32_EDK/lib/stdcell_rvt/db_nldm/saed32rvt_ff1p16vn40c.db)
+
+Number of ports:                       157008
+Number of nets:                        246133
+Number of cells:                        89108
+Number of combinational cells:          89106
+Number of sequential cells:                 0
+Number of macros:                           0
+Number of buf/inv:                      14479
+Number of references:                      15
+
+Combinational area:       340922.489009
+Buf/Inv area:             32259.769968
+Noncombinational area:    4670.658535
+Net Interconnect area:    205134.363417
+
+Total cell area:          345593.147544
+Total area:               550727.510961
+
+Information: This design contains black box (unknown) components. (RPT-8)
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area             Local cell area
+                                  --------------------  ------------------------------ 
+Hierarchical cell                 Absolute     Percent  Combi-       Noncombi-  Black
+                                  Total        Total    national     national   boxes   Design
+--------------------------------  -----------  -------  -----------  ---------  ------  -----------------------------------------------------
+Image_Classifier                  345593.1475    100.0  247088.7119     0.0000  0.0000  Image_Classifier
+N_inst                             98308.7448     28.4       0.0000     0.0000  0.0000  Neuron
+N_inst/add_0_root_add_0_root_add_47
+                                     127.0720      0.0     127.0720     0.0000  0.0000  Neuron_DW01_add_0
+N_inst/add_10_root_add_0_root_add_47
+                                     127.0720      0.0     127.0720     0.0000  0.0000  Neuron_DW01_add_13
+N_inst/add_11_root_add_0_root_add_47
+                                     127.0720      0.0     127.0720     0.0000  0.0000  Neuron_DW01_add_14
+N_inst/add_12_root_add_0_root_add_47
+                                     127.0720      0.0     127.0720     0.0000  0.0000  Neuron_DW01_add_4
+N_inst/add_13_root_add_0_root_add_47
+                                     127.0720      0.0     127.0720     0.0000  0.0000  Neuron_DW01_add_15
+N_inst/add_14_root_add_0_root_add_47
+                                     127.0720      0.0     127.0720     0.0000  0.0000  Neuron_DW01_add_9
+N_inst/add_15_root_add_0_root_add_47
+                                     127.0720      0.0     127.0720     0.0000  0.0000  Neuron_DW01_add_8
+N_inst/add_1_root_add_0_root_add_47
+                                     127.0720      0.0     127.0720     0.0000  0.0000  Neuron_DW01_add_1
+N_inst/add_2_root_add_0_root_add_47
+                                     127.0720      0.0     127.0720     0.0000  0.0000  Neuron_DW01_add_2
+N_inst/add_3_root_add_0_root_add_47
+                                     127.0720      0.0     127.0720     0.0000  0.0000  Neuron_DW01_add_5
+N_inst/add_4_root_add_0_root_add_47
+                                     127.0720      0.0     127.0720     0.0000  0.0000  Neuron_DW01_add_6
+N_inst/add_5_root_add_0_root_add_47
+                                     127.0720      0.0     127.0720     0.0000  0.0000  Neuron_DW01_add_3
+N_inst/add_6_root_add_0_root_add_47
+                                     127.0720      0.0     127.0720     0.0000  0.0000  Neuron_DW01_add_7
+N_inst/add_7_root_add_0_root_add_47
+                                     127.0720      0.0     127.0720     0.0000  0.0000  Neuron_DW01_add_10
+N_inst/add_8_root_add_0_root_add_47
+                                     127.0720      0.0     127.0720     0.0000  0.0000  Neuron_DW01_add_11
+N_inst/add_9_root_add_0_root_add_47
+                                     127.0720      0.0     127.0720     0.0000  0.0000  Neuron_DW01_add_12
+N_inst/gen_block_1[0].mult_0        6038.2073      1.7    3680.7676   294.2988  0.0000  PipelinedMultAccumulate_NUM_INPUTS49_15
+N_inst/gen_block_1[0].mult_0/add_39
+                                     127.0720      0.0     127.0720     0.0000  0.0000  PipelinedMultAccumulate_NUM_INPUTS49_15_DW01_add_0
+N_inst/gen_block_1[0].mult_0/add_41
+                                      51.8454      0.0      51.8454     0.0000  0.0000  PipelinedMultAccumulate_NUM_INPUTS49_15_DW01_inc_0
+N_inst/gen_block_1[0].mult_0/mult_0
+                                    1703.2731      0.5       0.0000     0.0000  0.0000  FixedPointMultiplier_15
+N_inst/gen_block_1[0].mult_0/mult_0/mult_50
+                                    1703.2731      0.5    1703.2731     0.0000  0.0000  FixedPointMultiplier_15_DW_mult_tc_0
+N_inst/gen_block_1[0].mult_0/mult_22
+                                     150.7074      0.0     150.7074     0.0000  0.0000  PipelinedMultAccumulate_NUM_INPUTS49_15_DW_mult_uns_0
+N_inst/gen_block_1[0].mult_0/mult_23
+                                      30.2431      0.0      30.2431     0.0000  0.0000  PipelinedMultAccumulate_NUM_INPUTS49_15_DW_mult_uns_1
+N_inst/gen_block_1[10].mult_0       6013.8095      1.7    3658.9112   291.7573  0.0000  PipelinedMultAccumulate_NUM_INPUTS49_5
+N_inst/gen_block_1[10].mult_0/add_39
+                                     127.0720      0.0     127.0720     0.0000  0.0000  PipelinedMultAccumulate_NUM_INPUTS49_5_DW01_add_0
+N_inst/gen_block_1[10].mult_0/add_41
+                                      51.8454      0.0      51.8454     0.0000  0.0000  PipelinedMultAccumulate_NUM_INPUTS49_5_DW01_inc_0
+N_inst/gen_block_1[10].mult_0/mult_0
+                                    1703.2731      0.5       0.0000     0.0000  0.0000  FixedPointMultiplier_5
+N_inst/gen_block_1[10].mult_0/mult_0/mult_50
+                                    1703.2731      0.5    1703.2731     0.0000  0.0000  FixedPointMultiplier_5_DW_mult_tc_0
+N_inst/gen_block_1[10].mult_0/mult_22
+                                     150.7074      0.0     150.7074     0.0000  0.0000  PipelinedMultAccumulate_NUM_INPUTS49_5_DW_mult_uns_0
+N_inst/gen_block_1[10].mult_0/mult_23
+                                      30.2431      0.0      30.2431     0.0000  0.0000  PipelinedMultAccumulate_NUM_INPUTS49_5_DW_mult_uns_1
+N_inst/gen_block_1[11].mult_0       6015.8426      1.7    3660.9443   291.7573  0.0000  PipelinedMultAccumulate_NUM_INPUTS49_4
+N_inst/gen_block_1[11].mult_0/add_39
+                                     127.0720      0.0     127.0720     0.0000  0.0000  PipelinedMultAccumulate_NUM_INPUTS49_4_DW01_add_0
+N_inst/gen_block_1[11].mult_0/add_41
+                                      51.8454      0.0      51.8454     0.0000  0.0000  PipelinedMultAccumulate_NUM_INPUTS49_4_DW01_inc_0
+N_inst/gen_block_1[11].mult_0/mult_0
+                                    1703.2731      0.5       0.0000     0.0000  0.0000  FixedPointMultiplier_4
+N_inst/gen_block_1[11].mult_0/mult_0/mult_50
+                                    1703.2731      0.5    1703.2731     0.0000  0.0000  FixedPointMultiplier_4_DW_mult_tc_0
+N_inst/gen_block_1[11].mult_0/mult_22
+                                     150.7074      0.0     150.7074     0.0000  0.0000  PipelinedMultAccumulate_NUM_INPUTS49_4_DW_mult_uns_0
+N_inst/gen_block_1[11].mult_0/mult_23
+                                      30.2431      0.0      30.2431     0.0000  0.0000  PipelinedMultAccumulate_NUM_INPUTS49_4_DW_mult_uns_1
+N_inst/gen_block_1[12].mult_0       6015.8426      1.7    3660.9443   291.7573  0.0000  PipelinedMultAccumulate_NUM_INPUTS49_3
+N_inst/gen_block_1[12].mult_0/add_39
+                                     127.0720      0.0     127.0720     0.0000  0.0000  PipelinedMultAccumulate_NUM_INPUTS49_3_DW01_add_0
+N_inst/gen_block_1[12].mult_0/add_41
+                                      51.8454      0.0      51.8454     0.0000  0.0000  PipelinedMultAccumulate_NUM_INPUTS49_3_DW01_inc_0
+N_inst/gen_block_1[12].mult_0/mult_0
+                                    1703.2731      0.5       0.0000     0.0000  0.0000  FixedPointMultiplier_3
+N_inst/gen_block_1[12].mult_0/mult_0/mult_50
+                                    1703.2731      0.5    1703.2731     0.0000  0.0000  FixedPointMultiplier_3_DW_mult_tc_0
+N_inst/gen_block_1[12].mult_0/mult_22
+                                     150.7074      0.0     150.7074     0.0000  0.0000  PipelinedMultAccumulate_NUM_INPUTS49_3_DW_mult_uns_0
+N_inst/gen_block_1[12].mult_0/mult_23
+                                      30.2431      0.0      30.2431     0.0000  0.0000  PipelinedMultAccumulate_NUM_INPUTS49_3_DW_mult_uns_1
+N_inst/gen_block_1[13].mult_0       6017.8758      1.7    3662.9775   291.7573  0.0000  PipelinedMultAccumulate_NUM_INPUTS49_2
+N_inst/gen_block_1[13].mult_0/add_39
+                                     127.0720      0.0     127.0720     0.0000  0.0000  PipelinedMultAccumulate_NUM_INPUTS49_2_DW01_add_0
+N_inst/gen_block_1[13].mult_0/add_41
+                                      51.8454      0.0      51.8454     0.0000  0.0000  PipelinedMultAccumulate_NUM_INPUTS49_2_DW01_inc_0
+N_inst/gen_block_1[13].mult_0/mult_0
+                                    1703.2731      0.5       0.0000     0.0000  0.0000  FixedPointMultiplier_2
+N_inst/gen_block_1[13].mult_0/mult_0/mult_50
+                                    1703.2731      0.5    1703.2731     0.0000  0.0000  FixedPointMultiplier_2_DW_mult_tc_0
+N_inst/gen_block_1[13].mult_0/mult_22
+                                     150.7074      0.0     150.7074     0.0000  0.0000  PipelinedMultAccumulate_NUM_INPUTS49_2_DW_mult_uns_0
+N_inst/gen_block_1[13].mult_0/mult_23
+                                      30.2431      0.0      30.2431     0.0000  0.0000  PipelinedMultAccumulate_NUM_INPUTS49_2_DW_mult_uns_1
+N_inst/gen_block_1[14].mult_0       6019.6548      1.7    3664.7565   291.7573  0.0000  PipelinedMultAccumulate_NUM_INPUTS49_1
+N_inst/gen_block_1[14].mult_0/add_39
+                                     127.0720      0.0     127.0720     0.0000  0.0000  PipelinedMultAccumulate_NUM_INPUTS49_1_DW01_add_0
+N_inst/gen_block_1[14].mult_0/add_41
+                                      51.8454      0.0      51.8454     0.0000  0.0000  PipelinedMultAccumulate_NUM_INPUTS49_1_DW01_inc_0
+N_inst/gen_block_1[14].mult_0/mult_0
+                                    1703.2731      0.5       0.0000     0.0000  0.0000  FixedPointMultiplier_1
+N_inst/gen_block_1[14].mult_0/mult_0/mult_50
+                                    1703.2731      0.5    1703.2731     0.0000  0.0000  FixedPointMultiplier_1_DW_mult_tc_0
+N_inst/gen_block_1[14].mult_0/mult_22
+                                     150.7074      0.0     150.7074     0.0000  0.0000  PipelinedMultAccumulate_NUM_INPUTS49_1_DW_mult_uns_0
+N_inst/gen_block_1[14].mult_0/mult_23
+                                      30.2431      0.0      30.2431     0.0000  0.0000  PipelinedMultAccumulate_NUM_INPUTS49_1_DW_mult_uns_1
+N_inst/gen_block_1[15].mult_0       6011.7763      1.7    3656.8780   291.7573  0.0000  PipelinedMultAccumulate_NUM_INPUTS49_0
+N_inst/gen_block_1[15].mult_0/add_39
+                                     127.0720      0.0     127.0720     0.0000  0.0000  PipelinedMultAccumulate_NUM_INPUTS49_0_DW01_add_0
+N_inst/gen_block_1[15].mult_0/add_41
+                                      51.8454      0.0      51.8454     0.0000  0.0000  PipelinedMultAccumulate_NUM_INPUTS49_0_DW01_inc_0
+N_inst/gen_block_1[15].mult_0/mult_0
+                                    1703.2731      0.5       0.0000     0.0000  0.0000  FixedPointMultiplier_0
+N_inst/gen_block_1[15].mult_0/mult_0/mult_50
+                                    1703.2731      0.5    1703.2731     0.0000  0.0000  FixedPointMultiplier_0_DW_mult_tc_0
+N_inst/gen_block_1[15].mult_0/mult_22
+                                     150.7074      0.0     150.7074     0.0000  0.0000  PipelinedMultAccumulate_NUM_INPUTS49_0_DW_mult_uns_0
+N_inst/gen_block_1[15].mult_0/mult_23
+                                      30.2431      0.0      30.2431     0.0000  0.0000  PipelinedMultAccumulate_NUM_INPUTS49_0_DW_mult_uns_1
+N_inst/gen_block_1[1].mult_0        6013.8095      1.7    3658.9112   291.7573  0.0000  PipelinedMultAccumulate_NUM_INPUTS49_14
+N_inst/gen_block_1[1].mult_0/add_39
+                                     127.0720      0.0     127.0720     0.0000  0.0000  PipelinedMultAccumulate_NUM_INPUTS49_14_DW01_add_0
+N_inst/gen_block_1[1].mult_0/add_41
+                                      51.8454      0.0      51.8454     0.0000  0.0000  PipelinedMultAccumulate_NUM_INPUTS49_14_DW01_inc_0
+N_inst/gen_block_1[1].mult_0/mult_0
+                                    1703.2731      0.5       0.0000     0.0000  0.0000  FixedPointMultiplier_14
+N_inst/gen_block_1[1].mult_0/mult_0/mult_50
+                                    1703.2731      0.5    1703.2731     0.0000  0.0000  FixedPointMultiplier_14_DW_mult_tc_0
+N_inst/gen_block_1[1].mult_0/mult_22
+                                     150.7074      0.0     150.7074     0.0000  0.0000  PipelinedMultAccumulate_NUM_INPUTS49_14_DW_mult_uns_0
+N_inst/gen_block_1[1].mult_0/mult_23
+                                      30.2431      0.0      30.2431     0.0000  0.0000  PipelinedMultAccumulate_NUM_INPUTS49_14_DW_mult_uns_1
+N_inst/gen_block_1[2].mult_0        6013.8095      1.7    3658.9112   291.7573  0.0000  PipelinedMultAccumulate_NUM_INPUTS49_13
+N_inst/gen_block_1[2].mult_0/add_39
+                                     127.0720      0.0     127.0720     0.0000  0.0000  PipelinedMultAccumulate_NUM_INPUTS49_13_DW01_add_0
+N_inst/gen_block_1[2].mult_0/add_41
+                                      51.8454      0.0      51.8454     0.0000  0.0000  PipelinedMultAccumulate_NUM_INPUTS49_13_DW01_inc_0
+N_inst/gen_block_1[2].mult_0/mult_0
+                                    1703.2731      0.5       0.0000     0.0000  0.0000  FixedPointMultiplier_13
+N_inst/gen_block_1[2].mult_0/mult_0/mult_50
+                                    1703.2731      0.5    1703.2731     0.0000  0.0000  FixedPointMultiplier_13_DW_mult_tc_0
+N_inst/gen_block_1[2].mult_0/mult_22
+                                     150.7074      0.0     150.7074     0.0000  0.0000  PipelinedMultAccumulate_NUM_INPUTS49_13_DW_mult_uns_0
+N_inst/gen_block_1[2].mult_0/mult_23
+                                      30.2431      0.0      30.2431     0.0000  0.0000  PipelinedMultAccumulate_NUM_INPUTS49_13_DW_mult_uns_1
+N_inst/gen_block_1[3].mult_0        6017.8758      1.7    3662.9775   291.7573  0.0000  PipelinedMultAccumulate_NUM_INPUTS49_12
+N_inst/gen_block_1[3].mult_0/add_39
+                                     127.0720      0.0     127.0720     0.0000  0.0000  PipelinedMultAccumulate_NUM_INPUTS49_12_DW01_add_0
+N_inst/gen_block_1[3].mult_0/add_41
+                                      51.8454      0.0      51.8454     0.0000  0.0000  PipelinedMultAccumulate_NUM_INPUTS49_12_DW01_inc_0
+N_inst/gen_block_1[3].mult_0/mult_0
+                                    1703.2731      0.5       0.0000     0.0000  0.0000  FixedPointMultiplier_12
+N_inst/gen_block_1[3].mult_0/mult_0/mult_50
+                                    1703.2731      0.5    1703.2731     0.0000  0.0000  FixedPointMultiplier_12_DW_mult_tc_0
+N_inst/gen_block_1[3].mult_0/mult_22
+                                     150.7074      0.0     150.7074     0.0000  0.0000  PipelinedMultAccumulate_NUM_INPUTS49_12_DW_mult_uns_0
+N_inst/gen_block_1[3].mult_0/mult_23
+                                      30.2431      0.0      30.2431     0.0000  0.0000  PipelinedMultAccumulate_NUM_INPUTS49_12_DW_mult_uns_1
+N_inst/gen_block_1[4].mult_0        6011.7763      1.7    3656.8780   291.7573  0.0000  PipelinedMultAccumulate_NUM_INPUTS49_11
+N_inst/gen_block_1[4].mult_0/add_39
+                                     127.0720      0.0     127.0720     0.0000  0.0000  PipelinedMultAccumulate_NUM_INPUTS49_11_DW01_add_0
+N_inst/gen_block_1[4].mult_0/add_41
+                                      51.8454      0.0      51.8454     0.0000  0.0000  PipelinedMultAccumulate_NUM_INPUTS49_11_DW01_inc_0
+N_inst/gen_block_1[4].mult_0/mult_0
+                                    1703.2731      0.5       0.0000     0.0000  0.0000  FixedPointMultiplier_11
+N_inst/gen_block_1[4].mult_0/mult_0/mult_50
+                                    1703.2731      0.5    1703.2731     0.0000  0.0000  FixedPointMultiplier_11_DW_mult_tc_0
+N_inst/gen_block_1[4].mult_0/mult_22
+                                     150.7074      0.0     150.7074     0.0000  0.0000  PipelinedMultAccumulate_NUM_INPUTS49_11_DW_mult_uns_0
+N_inst/gen_block_1[4].mult_0/mult_23
+                                      30.2431      0.0      30.2431     0.0000  0.0000  PipelinedMultAccumulate_NUM_INPUTS49_11_DW_mult_uns_1
+N_inst/gen_block_1[5].mult_0        6019.9089      1.7    3665.0106   291.7573  0.0000  PipelinedMultAccumulate_NUM_INPUTS49_10
+N_inst/gen_block_1[5].mult_0/add_39
+                                     127.0720      0.0     127.0720     0.0000  0.0000  PipelinedMultAccumulate_NUM_INPUTS49_10_DW01_add_0
+N_inst/gen_block_1[5].mult_0/add_41
+                                      51.8454      0.0      51.8454     0.0000  0.0000  PipelinedMultAccumulate_NUM_INPUTS49_10_DW01_inc_0
+N_inst/gen_block_1[5].mult_0/mult_0
+                                    1703.2731      0.5       0.0000     0.0000  0.0000  FixedPointMultiplier_10
+N_inst/gen_block_1[5].mult_0/mult_0/mult_50
+                                    1703.2731      0.5    1703.2731     0.0000  0.0000  FixedPointMultiplier_10_DW_mult_tc_0
+N_inst/gen_block_1[5].mult_0/mult_22
+                                     150.7074      0.0     150.7074     0.0000  0.0000  PipelinedMultAccumulate_NUM_INPUTS49_10_DW_mult_uns_0
+N_inst/gen_block_1[5].mult_0/mult_23
+                                      30.2431      0.0      30.2431     0.0000  0.0000  PipelinedMultAccumulate_NUM_INPUTS49_10_DW_mult_uns_1
+N_inst/gen_block_1[6].mult_0        6015.8426      1.7    3660.9443   291.7573  0.0000  PipelinedMultAccumulate_NUM_INPUTS49_9
+N_inst/gen_block_1[6].mult_0/add_39
+                                     127.0720      0.0     127.0720     0.0000  0.0000  PipelinedMultAccumulate_NUM_INPUTS49_9_DW01_add_0
+N_inst/gen_block_1[6].mult_0/add_41
+                                      51.8454      0.0      51.8454     0.0000  0.0000  PipelinedMultAccumulate_NUM_INPUTS49_9_DW01_inc_0
+N_inst/gen_block_1[6].mult_0/mult_0
+                                    1703.2731      0.5       0.0000     0.0000  0.0000  FixedPointMultiplier_9
+N_inst/gen_block_1[6].mult_0/mult_0/mult_50
+                                    1703.2731      0.5    1703.2731     0.0000  0.0000  FixedPointMultiplier_9_DW_mult_tc_0
+N_inst/gen_block_1[6].mult_0/mult_22
+                                     150.7074      0.0     150.7074     0.0000  0.0000  PipelinedMultAccumulate_NUM_INPUTS49_9_DW_mult_uns_0
+N_inst/gen_block_1[6].mult_0/mult_23
+                                      30.2431      0.0      30.2431     0.0000  0.0000  PipelinedMultAccumulate_NUM_INPUTS49_9_DW_mult_uns_1
+N_inst/gen_block_1[7].mult_0        6015.8426      1.7    3660.9443   291.7573  0.0000  PipelinedMultAccumulate_NUM_INPUTS49_8
+N_inst/gen_block_1[7].mult_0/add_39
+                                     127.0720      0.0     127.0720     0.0000  0.0000  PipelinedMultAccumulate_NUM_INPUTS49_8_DW01_add_0
+N_inst/gen_block_1[7].mult_0/add_41
+                                      51.8454      0.0      51.8454     0.0000  0.0000  PipelinedMultAccumulate_NUM_INPUTS49_8_DW01_inc_0
+N_inst/gen_block_1[7].mult_0/mult_0
+                                    1703.2731      0.5       0.0000     0.0000  0.0000  FixedPointMultiplier_8
+N_inst/gen_block_1[7].mult_0/mult_0/mult_50
+                                    1703.2731      0.5    1703.2731     0.0000  0.0000  FixedPointMultiplier_8_DW_mult_tc_0
+N_inst/gen_block_1[7].mult_0/mult_22
+                                     150.7074      0.0     150.7074     0.0000  0.0000  PipelinedMultAccumulate_NUM_INPUTS49_8_DW_mult_uns_0
+N_inst/gen_block_1[7].mult_0/mult_23
+                                      30.2431      0.0      30.2431     0.0000  0.0000  PipelinedMultAccumulate_NUM_INPUTS49_8_DW_mult_uns_1
+N_inst/gen_block_1[8].mult_0        6015.8426      1.7    3660.9443   291.7573  0.0000  PipelinedMultAccumulate_NUM_INPUTS49_7
+N_inst/gen_block_1[8].mult_0/add_39
+                                     127.0720      0.0     127.0720     0.0000  0.0000  PipelinedMultAccumulate_NUM_INPUTS49_7_DW01_add_0
+N_inst/gen_block_1[8].mult_0/add_41
+                                      51.8454      0.0      51.8454     0.0000  0.0000  PipelinedMultAccumulate_NUM_INPUTS49_7_DW01_inc_0
+N_inst/gen_block_1[8].mult_0/mult_0
+                                    1703.2731      0.5       0.0000     0.0000  0.0000  FixedPointMultiplier_7
+N_inst/gen_block_1[8].mult_0/mult_0/mult_50
+                                    1703.2731      0.5    1703.2731     0.0000  0.0000  FixedPointMultiplier_7_DW_mult_tc_0
+N_inst/gen_block_1[8].mult_0/mult_22
+                                     150.7074      0.0     150.7074     0.0000  0.0000  PipelinedMultAccumulate_NUM_INPUTS49_7_DW_mult_uns_0
+N_inst/gen_block_1[8].mult_0/mult_23
+                                      30.2431      0.0      30.2431     0.0000  0.0000  PipelinedMultAccumulate_NUM_INPUTS49_7_DW_mult_uns_1
+N_inst/gen_block_1[9].mult_0        6017.8758      1.7    3662.9775   291.7573  0.0000  PipelinedMultAccumulate_NUM_INPUTS49_6
+N_inst/gen_block_1[9].mult_0/add_39
+                                     127.0720      0.0     127.0720     0.0000  0.0000  PipelinedMultAccumulate_NUM_INPUTS49_6_DW01_add_0
+N_inst/gen_block_1[9].mult_0/add_41
+                                      51.8454      0.0      51.8454     0.0000  0.0000  PipelinedMultAccumulate_NUM_INPUTS49_6_DW01_inc_0
+N_inst/gen_block_1[9].mult_0/mult_0
+                                    1703.2731      0.5       0.0000     0.0000  0.0000  FixedPointMultiplier_6
+N_inst/gen_block_1[9].mult_0/mult_0/mult_50
+                                    1703.2731      0.5    1703.2731     0.0000  0.0000  FixedPointMultiplier_6_DW_mult_tc_0
+N_inst/gen_block_1[9].mult_0/mult_22
+                                     150.7074      0.0     150.7074     0.0000  0.0000  PipelinedMultAccumulate_NUM_INPUTS49_6_DW_mult_uns_0
+N_inst/gen_block_1[9].mult_0/mult_23
+                                      30.2431      0.0      30.2431     0.0000  0.0000  PipelinedMultAccumulate_NUM_INPUTS49_6_DW_mult_uns_1
+gt_8700                              195.6909      0.1     195.6909     0.0000  0.0000  Image_Classifier_DW_cmp_0
+--------------------------------  -----------  -------  -----------  ---------  ------  -----------------------------------------------------
+Total                                                   340922.4890  4670.6585  0.0000
+
+1
