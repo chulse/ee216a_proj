@@ -8641,7 +8641,7 @@ module Image_Classifier (
  output reg Output_Valid 
  );
 
-wire [10*785:0] PIXELS;
+wire [10*785-1:0] PIXELS;
 wire [19*785-1:0] WEIGHTS_0;
 wire [19*785-1:0] WEIGHTS_1;
 wire [19*785-1:0] WEIGHTS_2;
