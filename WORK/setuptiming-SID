@@ -1,0 +1,400 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -nworst 2
+        -max_paths 10
+Design : Image_Classifier
+Version: G-2012.06-SP1
+Date   : Wed Dec  1 23:25:19 2021
+****************************************
+
+Operating Conditions: ss0p95v125c   Library: saed32rvt_ss0p95v125c
+Wire Load Model Mode: enclosed
+
+  Startpoint: GlobalReset
+              (input port clocked by clk)
+  Endpoint: Image_Number[3]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  Image_Classifier   280000                saed32rvt_ff1p16vn40c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  input external delay                     0.60       0.60 f
+  GlobalReset (in)                         0.00       0.60 f
+  U283507/Y (INVX1_RVT)                    0.01       0.61 r
+  U343184/Y (AND2X1_RVT)                   0.02       0.62 r
+  U48/Y (NAND2X0_RVT)                      0.01       0.64 f
+  U357580/Y (OAI21X1_RVT)                  0.03       0.67 r
+  U44/Y (AO22X1_RVT)                       0.03       0.70 r
+  C15103/Y (OR2X1_RVT)                     0.02       0.72 r
+  U343185/Y (OR3X1_RVT)                    0.02       0.74 r
+  U343183/Y (AND2X1_RVT)                   0.02       0.76 r
+  U45/Y (AO22X1_RVT)                       0.03       0.80 r
+  U38/Y (AO22X1_RVT)                       0.02       0.82 r
+  Image_Number[3] (out)                    0.00       0.82 r
+  data arrival time                                   0.82
+
+  clock clk (rise edge)                    2.00       2.00
+  clock network delay (ideal)              0.00       2.00
+  clock uncertainty                       -0.10       1.90
+  output external delay                   -0.60       1.30
+  data required time                                  1.30
+  -----------------------------------------------------------
+  data required time                                  1.30
+  data arrival time                                  -0.82
+  -----------------------------------------------------------
+  slack (MET)                                         0.48
+
+
+  Startpoint: GlobalReset
+              (input port clocked by clk)
+  Endpoint: Image_Number[3]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  Image_Classifier   280000                saed32rvt_ff1p16vn40c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  input external delay                     0.60       0.60 r
+  GlobalReset (in)                         0.00       0.60 r
+  U283507/Y (INVX1_RVT)                    0.01       0.61 f
+  U343184/Y (AND2X1_RVT)                   0.02       0.62 f
+  U48/Y (NAND2X0_RVT)                      0.02       0.64 r
+  U357580/Y (OAI21X1_RVT)                  0.04       0.67 f
+  U44/Y (AO22X1_RVT)                       0.03       0.70 f
+  C15103/Y (OR2X1_RVT)                     0.02       0.72 f
+  U343185/Y (OR3X1_RVT)                    0.02       0.74 f
+  U343183/Y (AND2X1_RVT)                   0.02       0.76 f
+  U45/Y (AO22X1_RVT)                       0.03       0.79 f
+  U38/Y (AO22X1_RVT)                       0.02       0.81 f
+  Image_Number[3] (out)                    0.00       0.81 f
+  data arrival time                                   0.81
+
+  clock clk (rise edge)                    2.00       2.00
+  clock network delay (ideal)              0.00       2.00
+  clock uncertainty                       -0.10       1.90
+  output external delay                   -0.60       1.30
+  data required time                                  1.30
+  -----------------------------------------------------------
+  data required time                                  1.30
+  data arrival time                                  -0.81
+  -----------------------------------------------------------
+  slack (MET)                                         0.49
+
+
+  Startpoint: GlobalReset
+              (input port clocked by clk)
+  Endpoint: Image_Number[2]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  Image_Classifier   280000                saed32rvt_ff1p16vn40c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  input external delay                     0.60       0.60 f
+  GlobalReset (in)                         0.00       0.60 f
+  U283507/Y (INVX1_RVT)                    0.01       0.61 r
+  U343184/Y (AND2X1_RVT)                   0.02       0.62 r
+  U48/Y (NAND2X0_RVT)                      0.01       0.64 f
+  U357580/Y (OAI21X1_RVT)                  0.03       0.67 r
+  U44/Y (AO22X1_RVT)                       0.03       0.70 r
+  U37/Y (AO22X1_RVT)                       0.02       0.72 r
+  Image_Number[2] (out)                    0.00       0.72 r
+  data arrival time                                   0.72
+
+  clock clk (rise edge)                    2.00       2.00
+  clock network delay (ideal)              0.00       2.00
+  clock uncertainty                       -0.10       1.90
+  output external delay                   -0.60       1.30
+  data required time                                  1.30
+  -----------------------------------------------------------
+  data required time                                  1.30
+  data arrival time                                  -0.72
+  -----------------------------------------------------------
+  slack (MET)                                         0.58
+
+
+  Startpoint: GlobalReset
+              (input port clocked by clk)
+  Endpoint: Image_Number[1]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  Image_Classifier   280000                saed32rvt_ff1p16vn40c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  input external delay                     0.60       0.60 f
+  GlobalReset (in)                         0.00       0.60 f
+  U283507/Y (INVX1_RVT)                    0.01       0.61 r
+  U343184/Y (AND2X1_RVT)                   0.02       0.62 r
+  U48/Y (NAND2X0_RVT)                      0.01       0.64 f
+  U357580/Y (OAI21X1_RVT)                  0.03       0.67 r
+  U43/Y (AO22X1_RVT)                       0.03       0.70 r
+  U36/Y (AO22X1_RVT)                       0.02       0.72 r
+  Image_Number[1] (out)                    0.00       0.72 r
+  data arrival time                                   0.72
+
+  clock clk (rise edge)                    2.00       2.00
+  clock network delay (ideal)              0.00       2.00
+  clock uncertainty                       -0.10       1.90
+  output external delay                   -0.60       1.30
+  data required time                                  1.30
+  -----------------------------------------------------------
+  data required time                                  1.30
+  data arrival time                                  -0.72
+  -----------------------------------------------------------
+  slack (MET)                                         0.58
+
+
+  Startpoint: GlobalReset
+              (input port clocked by clk)
+  Endpoint: Image_Number[2]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  Image_Classifier   280000                saed32rvt_ff1p16vn40c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  input external delay                     0.60       0.60 r
+  GlobalReset (in)                         0.00       0.60 r
+  U283507/Y (INVX1_RVT)                    0.01       0.61 f
+  U343184/Y (AND2X1_RVT)                   0.02       0.62 f
+  U48/Y (NAND2X0_RVT)                      0.02       0.64 r
+  U357580/Y (OAI21X1_RVT)                  0.04       0.67 f
+  U44/Y (AO22X1_RVT)                       0.03       0.70 f
+  U37/Y (AO22X1_RVT)                       0.02       0.72 f
+  Image_Number[2] (out)                    0.00       0.72 f
+  data arrival time                                   0.72
+
+  clock clk (rise edge)                    2.00       2.00
+  clock network delay (ideal)              0.00       2.00
+  clock uncertainty                       -0.10       1.90
+  output external delay                   -0.60       1.30
+  data required time                                  1.30
+  -----------------------------------------------------------
+  data required time                                  1.30
+  data arrival time                                  -0.72
+  -----------------------------------------------------------
+  slack (MET)                                         0.58
+
+
+  Startpoint: GlobalReset
+              (input port clocked by clk)
+  Endpoint: Image_Number[1]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  Image_Classifier   280000                saed32rvt_ff1p16vn40c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  input external delay                     0.60       0.60 r
+  GlobalReset (in)                         0.00       0.60 r
+  U283507/Y (INVX1_RVT)                    0.01       0.61 f
+  U343184/Y (AND2X1_RVT)                   0.02       0.62 f
+  U48/Y (NAND2X0_RVT)                      0.02       0.64 r
+  U357580/Y (OAI21X1_RVT)                  0.04       0.67 f
+  U43/Y (AO22X1_RVT)                       0.03       0.70 f
+  U36/Y (AO22X1_RVT)                       0.02       0.72 f
+  Image_Number[1] (out)                    0.00       0.72 f
+  data arrival time                                   0.72
+
+  clock clk (rise edge)                    2.00       2.00
+  clock network delay (ideal)              0.00       2.00
+  clock uncertainty                       -0.10       1.90
+  output external delay                   -0.60       1.30
+  data required time                                  1.30
+  -----------------------------------------------------------
+  data required time                                  1.30
+  data arrival time                                  -0.72
+  -----------------------------------------------------------
+  slack (MET)                                         0.58
+
+
+  Startpoint: GlobalReset
+              (input port clocked by clk)
+  Endpoint: Image_Number[0]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  Image_Classifier   280000                saed32rvt_ff1p16vn40c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  input external delay                     0.60       0.60 f
+  GlobalReset (in)                         0.00       0.60 f
+  U283507/Y (INVX1_RVT)                    0.01       0.61 r
+  U343184/Y (AND2X1_RVT)                   0.02       0.62 r
+  U48/Y (NAND2X0_RVT)                      0.01       0.64 f
+  U357580/Y (OAI21X1_RVT)                  0.03       0.67 r
+  U42/Y (AO22X1_RVT)                       0.03       0.70 r
+  U35/Y (AO22X1_RVT)                       0.02       0.72 r
+  Image_Number[0] (out)                    0.00       0.72 r
+  data arrival time                                   0.72
+
+  clock clk (rise edge)                    2.00       2.00
+  clock network delay (ideal)              0.00       2.00
+  clock uncertainty                       -0.10       1.90
+  output external delay                   -0.60       1.30
+  data required time                                  1.30
+  -----------------------------------------------------------
+  data required time                                  1.30
+  data arrival time                                  -0.72
+  -----------------------------------------------------------
+  slack (MET)                                         0.58
+
+
+  Startpoint: GlobalReset
+              (input port clocked by clk)
+  Endpoint: Image_Number[0]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  Image_Classifier   280000                saed32rvt_ff1p16vn40c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  input external delay                     0.60       0.60 r
+  GlobalReset (in)                         0.00       0.60 r
+  U283507/Y (INVX1_RVT)                    0.01       0.61 f
+  U343184/Y (AND2X1_RVT)                   0.02       0.62 f
+  U48/Y (NAND2X0_RVT)                      0.02       0.64 r
+  U357580/Y (OAI21X1_RVT)                  0.04       0.67 f
+  U42/Y (AO22X1_RVT)                       0.02       0.70 f
+  U35/Y (AO22X1_RVT)                       0.02       0.71 f
+  Image_Number[0] (out)                    0.00       0.71 f
+  data arrival time                                   0.71
+
+  clock clk (rise edge)                    2.00       2.00
+  clock network delay (ideal)              0.00       2.00
+  clock uncertainty                       -0.10       1.90
+  output external delay                   -0.60       1.30
+  data required time                                  1.30
+  -----------------------------------------------------------
+  data required time                                  1.30
+  data arrival time                                  -0.71
+  -----------------------------------------------------------
+  slack (MET)                                         0.59
+
+
+  Startpoint: GlobalReset
+              (input port clocked by clk)
+  Endpoint: Output_Valid
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  Image_Classifier   280000                saed32rvt_ff1p16vn40c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  input external delay                     0.60       0.60 r
+  GlobalReset (in)                         0.00       0.60 r
+  U283507/Y (INVX1_RVT)                    0.01       0.61 f
+  U343184/Y (AND2X1_RVT)                   0.02       0.62 f
+  U48/Y (NAND2X0_RVT)                      0.02       0.64 r
+  U283503/Y (INVX1_RVT)                    0.00       0.64 f
+  Output_Valid (out)                       0.00       0.64 f
+  data arrival time                                   0.64
+
+  clock clk (rise edge)                    2.00       2.00
+  clock network delay (ideal)              0.00       2.00
+  clock uncertainty                       -0.10       1.90
+  output external delay                   -0.60       1.30
+  data required time                                  1.30
+  -----------------------------------------------------------
+  data required time                                  1.30
+  data arrival time                                  -0.64
+  -----------------------------------------------------------
+  slack (MET)                                         0.66
+
+
+  Startpoint: GlobalReset
+              (input port clocked by clk)
+  Endpoint: Output_Valid
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  Image_Classifier   280000                saed32rvt_ff1p16vn40c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  input external delay                     0.60       0.60 f
+  GlobalReset (in)                         0.00       0.60 f
+  U283507/Y (INVX1_RVT)                    0.01       0.61 r
+  U343184/Y (AND2X1_RVT)                   0.02       0.62 r
+  U48/Y (NAND2X0_RVT)                      0.01       0.64 f
+  U283503/Y (INVX1_RVT)                    0.00       0.64 r
+  Output_Valid (out)                       0.00       0.64 r
+  data arrival time                                   0.64
+
+  clock clk (rise edge)                    2.00       2.00
+  clock network delay (ideal)              0.00       2.00
+  clock uncertainty                       -0.10       1.90
+  output external delay                   -0.60       1.30
+  data required time                                  1.30
+  -----------------------------------------------------------
+  data required time                                  1.30
+  data arrival time                                  -0.64
+  -----------------------------------------------------------
+  slack (MET)                                         0.66
+
+
+1
