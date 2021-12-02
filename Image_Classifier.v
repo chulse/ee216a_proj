@@ -8682,18 +8682,18 @@ reg [4:0] max_index;
 assign Image_Number = max_index;
 reg [3:0] counter;
 
-always @(posedge clk) begin
-	if(GlobalReset) begin
-        current_max = 26'b10000000000000000000000000;
-        max_index = 0;
-	end
-end
-
 
 always @(GlobalReset, N_DONE, counter) begin
     Output_Valid = 0;
-	if(GlobalReset) begin
+    current_max = current_max;
+    max_index = max_index;
+    Output_Valid = 0;
+    counter = counter;
+    N_RST = 0;
+	if(GlobalReset) begin //technically not synchronous but IDK how to avoid this without causing the multi-driver thing.
 		counter = 0;
+        current_max = 26'b10000000000000000000000000;
+        max_index = 0;
 	end
 	else begin
         if (N_DONE == 1) begin
