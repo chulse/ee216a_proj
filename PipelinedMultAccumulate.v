@@ -10,7 +10,7 @@ input clk;
 input rst;
 output [OUTPUT_WIDTH-1:0] OUT;
 output done;
-reg [7:0] step; //make sure this is wide enough to fit number of inputs
+reg [9:0] step; //make sure this is wide enough to fit number of inputs
 
 reg [OUTPUT_WIDTH-1:0] out_buf;
 wire [OUTPUT_WIDTH-1:0] mult_output;
