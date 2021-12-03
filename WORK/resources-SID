@@ -1,0 +1,32 @@
+Warning: Design 'Image_Classifier' has '16' unresolved references. For more detailed information, use the "link" command. (UID-341)
+ 
+****************************************
+Report : resources
+Design : Image_Classifier
+Version: G-2012.06-SP1
+Date   : Fri Dec  3 00:33:04 2021
+****************************************
+
+Resource Sharing Report for design Image_Classifier in file
+        ./Image_Classifier.v
+
+===============================================================================
+|          |              |            | Contained     |                      |
+| Resource | Module       | Parameters | Resources     | Contained Operations |
+===============================================================================
+| r306     | DW_cmp       | width=26   |               | gt_8700              |
+| r308     | DW01_inc     | width=5    |               | add_8707             |
+===============================================================================
+
+
+Implementation Report
+===============================================================================
+|                    |                  | Current            | Set            |
+| Cell               | Module           | Implementation     | Implementation |
+===============================================================================
+| gt_8700            | DW_cmp           | apparch (area)     |                |
+===============================================================================
+
+
+No multiplexors to report
+1

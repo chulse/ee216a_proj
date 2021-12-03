@@ -1,0 +1,493 @@
+Warning: Design 'Image_Classifier' has '16' unresolved references. For more detailed information, use the "link" command. (UID-341)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -nworst 2
+        -max_paths 10
+Design : Image_Classifier
+Version: G-2012.06-SP1
+Date   : Fri Dec  3 00:31:42 2021
+****************************************
+
+Operating Conditions: ss0p95v125c   Library: saed32rvt_ss0p95v125c
+Wire Load Model Mode: enclosed
+
+  Startpoint: GlobalReset
+              (input port clocked by clk)
+  Endpoint: Image_Number[0]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  Image_Classifier   540000                saed32rvt_ff1p16vn40c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  input external delay                     0.60       0.60 f
+  GlobalReset (in)                         0.00       0.60 f
+  U238315/Y (INVX1_RVT)                    0.01       0.61 r
+  U40/Y (AO21X1_RVT)                       0.02       0.63 r
+  U35/Y (AO22X1_RVT)                       0.03       0.66 r
+  Image_Number[0] (out)                    0.00       0.66 r
+  data arrival time                                   0.66
+
+  clock clk (rise edge)                    2.00       2.00
+  clock network delay (ideal)              0.00       2.00
+  clock uncertainty                       -0.10       1.90
+  output external delay                   -0.60       1.30
+  data required time                                  1.30
+  -----------------------------------------------------------
+  data required time                                  1.30
+  data arrival time                                  -0.66
+  -----------------------------------------------------------
+  slack (MET)                                         0.64
+
+
+  Startpoint: GlobalReset
+              (input port clocked by clk)
+  Endpoint: Image_Number[1]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  Image_Classifier   540000                saed32rvt_ff1p16vn40c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  input external delay                     0.60       0.60 f
+  GlobalReset (in)                         0.00       0.60 f
+  U238315/Y (INVX1_RVT)                    0.01       0.61 r
+  U40/Y (AO21X1_RVT)                       0.02       0.63 r
+  U36/Y (AO22X1_RVT)                       0.03       0.66 r
+  Image_Number[1] (out)                    0.00       0.66 r
+  data arrival time                                   0.66
+
+  clock clk (rise edge)                    2.00       2.00
+  clock network delay (ideal)              0.00       2.00
+  clock uncertainty                       -0.10       1.90
+  output external delay                   -0.60       1.30
+  data required time                                  1.30
+  -----------------------------------------------------------
+  data required time                                  1.30
+  data arrival time                                  -0.66
+  -----------------------------------------------------------
+  slack (MET)                                         0.64
+
+
+  Startpoint: GlobalReset
+              (input port clocked by clk)
+  Endpoint: Image_Number[2]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  Image_Classifier   540000                saed32rvt_ff1p16vn40c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  input external delay                     0.60       0.60 f
+  GlobalReset (in)                         0.00       0.60 f
+  U238315/Y (INVX1_RVT)                    0.01       0.61 r
+  U40/Y (AO21X1_RVT)                       0.02       0.63 r
+  U37/Y (AO22X1_RVT)                       0.03       0.66 r
+  Image_Number[2] (out)                    0.00       0.66 r
+  data arrival time                                   0.66
+
+  clock clk (rise edge)                    2.00       2.00
+  clock network delay (ideal)              0.00       2.00
+  clock uncertainty                       -0.10       1.90
+  output external delay                   -0.60       1.30
+  data required time                                  1.30
+  -----------------------------------------------------------
+  data required time                                  1.30
+  data arrival time                                  -0.66
+  -----------------------------------------------------------
+  slack (MET)                                         0.64
+
+
+  Startpoint: GlobalReset
+              (input port clocked by clk)
+  Endpoint: Image_Number[3]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  Image_Classifier   540000                saed32rvt_ff1p16vn40c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  input external delay                     0.60       0.60 f
+  GlobalReset (in)                         0.00       0.60 f
+  U238315/Y (INVX1_RVT)                    0.01       0.61 r
+  U40/Y (AO21X1_RVT)                       0.02       0.63 r
+  U38/Y (AO22X1_RVT)                       0.03       0.66 r
+  Image_Number[3] (out)                    0.00       0.66 r
+  data arrival time                                   0.66
+
+  clock clk (rise edge)                    2.00       2.00
+  clock network delay (ideal)              0.00       2.00
+  clock uncertainty                       -0.10       1.90
+  output external delay                   -0.60       1.30
+  data required time                                  1.30
+  -----------------------------------------------------------
+  data required time                                  1.30
+  data arrival time                                  -0.66
+  -----------------------------------------------------------
+  slack (MET)                                         0.64
+
+
+  Startpoint: GlobalReset
+              (input port clocked by clk)
+  Endpoint: Image_Number[0]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  Image_Classifier   540000                saed32rvt_ff1p16vn40c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  input external delay                     0.60       0.60 r
+  GlobalReset (in)                         0.00       0.60 r
+  U238315/Y (INVX1_RVT)                    0.01       0.61 f
+  U40/Y (AO21X1_RVT)                       0.02       0.63 f
+  U35/Y (AO22X1_RVT)                       0.02       0.65 f
+  Image_Number[0] (out)                    0.00       0.65 f
+  data arrival time                                   0.65
+
+  clock clk (rise edge)                    2.00       2.00
+  clock network delay (ideal)              0.00       2.00
+  clock uncertainty                       -0.10       1.90
+  output external delay                   -0.60       1.30
+  data required time                                  1.30
+  -----------------------------------------------------------
+  data required time                                  1.30
+  data arrival time                                  -0.65
+  -----------------------------------------------------------
+  slack (MET)                                         0.65
+
+
+  Startpoint: GlobalReset
+              (input port clocked by clk)
+  Endpoint: Image_Number[1]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  Image_Classifier   540000                saed32rvt_ff1p16vn40c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  input external delay                     0.60       0.60 r
+  GlobalReset (in)                         0.00       0.60 r
+  U238315/Y (INVX1_RVT)                    0.01       0.61 f
+  U40/Y (AO21X1_RVT)                       0.02       0.63 f
+  U36/Y (AO22X1_RVT)                       0.02       0.65 f
+  Image_Number[1] (out)                    0.00       0.65 f
+  data arrival time                                   0.65
+
+  clock clk (rise edge)                    2.00       2.00
+  clock network delay (ideal)              0.00       2.00
+  clock uncertainty                       -0.10       1.90
+  output external delay                   -0.60       1.30
+  data required time                                  1.30
+  -----------------------------------------------------------
+  data required time                                  1.30
+  data arrival time                                  -0.65
+  -----------------------------------------------------------
+  slack (MET)                                         0.65
+
+
+  Startpoint: GlobalReset
+              (input port clocked by clk)
+  Endpoint: Image_Number[2]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  Image_Classifier   540000                saed32rvt_ff1p16vn40c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  input external delay                     0.60       0.60 r
+  GlobalReset (in)                         0.00       0.60 r
+  U238315/Y (INVX1_RVT)                    0.01       0.61 f
+  U40/Y (AO21X1_RVT)                       0.02       0.63 f
+  U37/Y (AO22X1_RVT)                       0.02       0.65 f
+  Image_Number[2] (out)                    0.00       0.65 f
+  data arrival time                                   0.65
+
+  clock clk (rise edge)                    2.00       2.00
+  clock network delay (ideal)              0.00       2.00
+  clock uncertainty                       -0.10       1.90
+  output external delay                   -0.60       1.30
+  data required time                                  1.30
+  -----------------------------------------------------------
+  data required time                                  1.30
+  data arrival time                                  -0.65
+  -----------------------------------------------------------
+  slack (MET)                                         0.65
+
+
+  Startpoint: GlobalReset
+              (input port clocked by clk)
+  Endpoint: Image_Number[3]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  Image_Classifier   540000                saed32rvt_ff1p16vn40c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  input external delay                     0.60       0.60 r
+  GlobalReset (in)                         0.00       0.60 r
+  U238315/Y (INVX1_RVT)                    0.01       0.61 f
+  U40/Y (AO21X1_RVT)                       0.02       0.63 f
+  U38/Y (AO22X1_RVT)                       0.02       0.65 f
+  Image_Number[3] (out)                    0.00       0.65 f
+  data arrival time                                   0.65
+
+  clock clk (rise edge)                    2.00       2.00
+  clock network delay (ideal)              0.00       2.00
+  clock uncertainty                       -0.10       1.90
+  output external delay                   -0.60       1.30
+  data required time                                  1.30
+  -----------------------------------------------------------
+  data required time                                  1.30
+  data arrival time                                  -0.65
+  -----------------------------------------------------------
+  slack (MET)                                         0.65
+
+
+  Startpoint: N_inst/gen_block_1[10].mult_0/out_buf_reg[0]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: N_inst/gen_block_1[10].mult_0/out_buf_reg[25]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  Image_Classifier   540000                saed32rvt_ff1p16vn40c
+  Neuron             140000                saed32rvt_ff1p16vn40c
+  PipelinedMultAccumulate_NUM_INPUTS49_5_DW01_add_0
+                     ForQA                 saed32rvt_ff1p16vn40c
+  PipelinedMultAccumulate_NUM_INPUTS49_5
+                     8000                  saed32rvt_ff1p16vn40c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  N_inst/gen_block_1[10].mult_0/out_buf_reg[0]/CLK (DFFSSRX1_RVT)
+                                                          0.00       0.00 r
+  N_inst/gen_block_1[10].mult_0/out_buf_reg[0]/Q (DFFSSRX1_RVT)
+                                                          0.05       0.05 r
+  N_inst/gen_block_1[10].mult_0/add_39/B[0] (PipelinedMultAccumulate_NUM_INPUTS49_5_DW01_add_0)
+                                                          0.00       0.05 r
+  N_inst/gen_block_1[10].mult_0/add_39/U1/Y (AND2X1_RVT)
+                                                          0.02       0.07 r
+  N_inst/gen_block_1[10].mult_0/add_39/U1_1/CO (FADDX1_RVT)
+                                                          0.03       0.10 r
+  N_inst/gen_block_1[10].mult_0/add_39/U1_2/CO (FADDX1_RVT)
+                                                          0.03       0.13 r
+  N_inst/gen_block_1[10].mult_0/add_39/U1_3/CO (FADDX1_RVT)
+                                                          0.03       0.16 r
+  N_inst/gen_block_1[10].mult_0/add_39/U1_4/CO (FADDX1_RVT)
+                                                          0.03       0.19 r
+  N_inst/gen_block_1[10].mult_0/add_39/U1_5/CO (FADDX1_RVT)
+                                                          0.03       0.22 r
+  N_inst/gen_block_1[10].mult_0/add_39/U1_6/CO (FADDX1_RVT)
+                                                          0.03       0.25 r
+  N_inst/gen_block_1[10].mult_0/add_39/U1_7/CO (FADDX1_RVT)
+                                                          0.03       0.28 r
+  N_inst/gen_block_1[10].mult_0/add_39/U1_8/CO (FADDX1_RVT)
+                                                          0.03       0.31 r
+  N_inst/gen_block_1[10].mult_0/add_39/U1_9/CO (FADDX1_RVT)
+                                                          0.03       0.34 r
+  N_inst/gen_block_1[10].mult_0/add_39/U1_10/CO (FADDX1_RVT)
+                                                          0.03       0.37 r
+  N_inst/gen_block_1[10].mult_0/add_39/U1_11/CO (FADDX1_RVT)
+                                                          0.03       0.40 r
+  N_inst/gen_block_1[10].mult_0/add_39/U1_12/CO (FADDX1_RVT)
+                                                          0.03       0.43 r
+  N_inst/gen_block_1[10].mult_0/add_39/U1_13/CO (FADDX1_RVT)
+                                                          0.03       0.47 r
+  N_inst/gen_block_1[10].mult_0/add_39/U1_14/CO (FADDX1_RVT)
+                                                          0.03       0.50 r
+  N_inst/gen_block_1[10].mult_0/add_39/U1_15/CO (FADDX1_RVT)
+                                                          0.03       0.53 r
+  N_inst/gen_block_1[10].mult_0/add_39/U1_16/CO (FADDX1_RVT)
+                                                          0.03       0.56 r
+  N_inst/gen_block_1[10].mult_0/add_39/U1_17/CO (FADDX1_RVT)
+                                                          0.03       0.59 r
+  N_inst/gen_block_1[10].mult_0/add_39/U1_18/CO (FADDX1_RVT)
+                                                          0.03       0.62 r
+  N_inst/gen_block_1[10].mult_0/add_39/U1_19/CO (FADDX1_RVT)
+                                                          0.03       0.65 r
+  N_inst/gen_block_1[10].mult_0/add_39/U1_20/CO (FADDX1_RVT)
+                                                          0.03       0.68 r
+  N_inst/gen_block_1[10].mult_0/add_39/U1_21/CO (FADDX1_RVT)
+                                                          0.03       0.71 r
+  N_inst/gen_block_1[10].mult_0/add_39/U1_22/CO (FADDX1_RVT)
+                                                          0.03       0.74 r
+  N_inst/gen_block_1[10].mult_0/add_39/U1_23/CO (FADDX1_RVT)
+                                                          0.03       0.77 r
+  N_inst/gen_block_1[10].mult_0/add_39/U1_24/CO (FADDX1_RVT)
+                                                          0.03       0.80 r
+  N_inst/gen_block_1[10].mult_0/add_39/U1_25/S (FADDX1_RVT)
+                                                          0.04       0.85 f
+  N_inst/gen_block_1[10].mult_0/add_39/SUM[25] (PipelinedMultAccumulate_NUM_INPUTS49_5_DW01_add_0)
+                                                          0.00       0.85 f
+  N_inst/gen_block_1[10].mult_0/out_buf_reg[25]/RSTB (DFFSSRX1_RVT)
+                                                          0.00       0.85 f
+  data arrival time                                                  0.85
+
+  clock clk (rise edge)                                   2.00       2.00
+  clock network delay (ideal)                             0.00       2.00
+  clock uncertainty                                      -0.10       1.90
+  N_inst/gen_block_1[10].mult_0/out_buf_reg[25]/CLK (DFFSSRX1_RVT)
+                                                          0.00       1.90 r
+  library setup time                                     -0.02       1.88
+  data required time                                                 1.88
+  --------------------------------------------------------------------------
+  data required time                                                 1.88
+  data arrival time                                                 -0.85
+  --------------------------------------------------------------------------
+  slack (MET)                                                        1.03
+
+
+  Startpoint: N_inst/gen_block_1[11].mult_0/out_buf_reg[0]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: N_inst/gen_block_1[11].mult_0/out_buf_reg[25]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  Image_Classifier   540000                saed32rvt_ff1p16vn40c
+  Neuron             140000                saed32rvt_ff1p16vn40c
+  PipelinedMultAccumulate_NUM_INPUTS49_4_DW01_add_0
+                     ForQA                 saed32rvt_ff1p16vn40c
+  PipelinedMultAccumulate_NUM_INPUTS49_4
+                     8000                  saed32rvt_ff1p16vn40c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  N_inst/gen_block_1[11].mult_0/out_buf_reg[0]/CLK (DFFSSRX1_RVT)
+                                                          0.00       0.00 r
+  N_inst/gen_block_1[11].mult_0/out_buf_reg[0]/Q (DFFSSRX1_RVT)
+                                                          0.05       0.05 r
+  N_inst/gen_block_1[11].mult_0/add_39/B[0] (PipelinedMultAccumulate_NUM_INPUTS49_4_DW01_add_0)
+                                                          0.00       0.05 r
+  N_inst/gen_block_1[11].mult_0/add_39/U1/Y (AND2X1_RVT)
+                                                          0.02       0.07 r
+  N_inst/gen_block_1[11].mult_0/add_39/U1_1/CO (FADDX1_RVT)
+                                                          0.03       0.10 r
+  N_inst/gen_block_1[11].mult_0/add_39/U1_2/CO (FADDX1_RVT)
+                                                          0.03       0.13 r
+  N_inst/gen_block_1[11].mult_0/add_39/U1_3/CO (FADDX1_RVT)
+                                                          0.03       0.16 r
+  N_inst/gen_block_1[11].mult_0/add_39/U1_4/CO (FADDX1_RVT)
+                                                          0.03       0.19 r
+  N_inst/gen_block_1[11].mult_0/add_39/U1_5/CO (FADDX1_RVT)
+                                                          0.03       0.22 r
+  N_inst/gen_block_1[11].mult_0/add_39/U1_6/CO (FADDX1_RVT)
+                                                          0.03       0.25 r
+  N_inst/gen_block_1[11].mult_0/add_39/U1_7/CO (FADDX1_RVT)
+                                                          0.03       0.28 r
+  N_inst/gen_block_1[11].mult_0/add_39/U1_8/CO (FADDX1_RVT)
+                                                          0.03       0.31 r
+  N_inst/gen_block_1[11].mult_0/add_39/U1_9/CO (FADDX1_RVT)
+                                                          0.03       0.34 r
+  N_inst/gen_block_1[11].mult_0/add_39/U1_10/CO (FADDX1_RVT)
+                                                          0.03       0.37 r
+  N_inst/gen_block_1[11].mult_0/add_39/U1_11/CO (FADDX1_RVT)
+                                                          0.03       0.40 r
+  N_inst/gen_block_1[11].mult_0/add_39/U1_12/CO (FADDX1_RVT)
+                                                          0.03       0.43 r
+  N_inst/gen_block_1[11].mult_0/add_39/U1_13/CO (FADDX1_RVT)
+                                                          0.03       0.47 r
+  N_inst/gen_block_1[11].mult_0/add_39/U1_14/CO (FADDX1_RVT)
+                                                          0.03       0.50 r
+  N_inst/gen_block_1[11].mult_0/add_39/U1_15/CO (FADDX1_RVT)
+                                                          0.03       0.53 r
+  N_inst/gen_block_1[11].mult_0/add_39/U1_16/CO (FADDX1_RVT)
+                                                          0.03       0.56 r
+  N_inst/gen_block_1[11].mult_0/add_39/U1_17/CO (FADDX1_RVT)
+                                                          0.03       0.59 r
+  N_inst/gen_block_1[11].mult_0/add_39/U1_18/CO (FADDX1_RVT)
+                                                          0.03       0.62 r
+  N_inst/gen_block_1[11].mult_0/add_39/U1_19/CO (FADDX1_RVT)
+                                                          0.03       0.65 r
+  N_inst/gen_block_1[11].mult_0/add_39/U1_20/CO (FADDX1_RVT)
+                                                          0.03       0.68 r
+  N_inst/gen_block_1[11].mult_0/add_39/U1_21/CO (FADDX1_RVT)
+                                                          0.03       0.71 r
+  N_inst/gen_block_1[11].mult_0/add_39/U1_22/CO (FADDX1_RVT)
+                                                          0.03       0.74 r
+  N_inst/gen_block_1[11].mult_0/add_39/U1_23/CO (FADDX1_RVT)
+                                                          0.03       0.77 r
+  N_inst/gen_block_1[11].mult_0/add_39/U1_24/CO (FADDX1_RVT)
+                                                          0.03       0.80 r
+  N_inst/gen_block_1[11].mult_0/add_39/U1_25/S (FADDX1_RVT)
+                                                          0.04       0.85 f
+  N_inst/gen_block_1[11].mult_0/add_39/SUM[25] (PipelinedMultAccumulate_NUM_INPUTS49_4_DW01_add_0)
+                                                          0.00       0.85 f
+  N_inst/gen_block_1[11].mult_0/out_buf_reg[25]/RSTB (DFFSSRX1_RVT)
+                                                          0.00       0.85 f
+  data arrival time                                                  0.85
+
+  clock clk (rise edge)                                   2.00       2.00
+  clock network delay (ideal)                             0.00       2.00
+  clock uncertainty                                      -0.10       1.90
+  N_inst/gen_block_1[11].mult_0/out_buf_reg[25]/CLK (DFFSSRX1_RVT)
+                                                          0.00       1.90 r
+  library setup time                                     -0.02       1.88
+  data required time                                                 1.88
+  --------------------------------------------------------------------------
+  data required time                                                 1.88
+  data arrival time                                                 -0.85
+  --------------------------------------------------------------------------
+  slack (MET)                                                        1.03
+
+
+1

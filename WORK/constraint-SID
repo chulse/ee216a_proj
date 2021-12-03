@@ -1,0 +1,119 @@
+Warning: Design 'Image_Classifier' has '16' unresolved references. For more detailed information, use the "link" command. (UID-341)
+ 
+****************************************
+Report : constraint
+        -verbose
+Design : Image_Classifier
+Version: G-2012.06-SP1
+Date   : Fri Dec  3 00:33:04 2021
+****************************************
+
+
+  Startpoint: GlobalReset
+              (input port clocked by clk)
+  Endpoint: Image_Number[0]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  Image_Classifier   540000                saed32rvt_ff1p16vn40c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  input external delay                     0.60       0.60 f
+  GlobalReset (in)                         0.00       0.60 f
+  U238315/Y (INVX1_RVT)                    0.01       0.61 r
+  U40/Y (AO21X1_RVT)                       0.02       0.63 r
+  U35/Y (AO22X1_RVT)                       0.03       0.66 r
+  Image_Number[0] (out)                    0.00       0.66 r
+  data arrival time                                   0.66
+
+  clock clk (rise edge)                    2.00       2.00
+  clock network delay (ideal)              0.00       2.00
+  clock uncertainty                       -0.10       1.90
+  output external delay                   -0.60       1.30
+  data required time                                  1.30
+  -----------------------------------------------------------
+  data required time                                  1.30
+  data arrival time                                  -0.66
+  -----------------------------------------------------------
+  slack (MET)                                         0.64
+
+
+  Startpoint: N_inst/gen_block_1[0].mult_0/step_reg[10]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: N_inst/gen_block_1[0].mult_0/step_reg[10]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  Image_Classifier   540000                saed32rvt_ff1p16vn40c
+  PipelinedMultAccumulate_NUM_INPUTS49_15
+                     8000                  saed32rvt_ff1p16vn40c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  N_inst/gen_block_1[0].mult_0/step_reg[10]/CLK (DFFX1_RVT)
+                                                          0.00       0.00 r
+  N_inst/gen_block_1[0].mult_0/step_reg[10]/Q (DFFX1_RVT)
+                                                          0.05       0.05 f
+  N_inst/gen_block_1[0].mult_0/U852/Y (AO22X1_RVT)        0.08       0.13 f
+  N_inst/gen_block_1[0].mult_0/step_reg[10]/D (DFFX1_RVT)
+                                                          0.01       0.14 f
+  data arrival time                                                  0.14
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.10       0.10
+  N_inst/gen_block_1[0].mult_0/step_reg[10]/CLK (DFFX1_RVT)
+                                                          0.00       0.10 r
+  library hold time                                      -0.01       0.09
+  data required time                                                 0.09
+  --------------------------------------------------------------------------
+  data required time                                                 0.09
+  data arrival time                                                 -0.14
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.05
+
+
+    Net: N_inst/gen_block_1[1].mult_0/step[4]
+
+    max_transition         0.04
+  - Transition Time        0.04
+  ------------------------------
+    Slack                  0.00  (VIOLATED: increase signficant digits)
+
+
+    Net: N_inst/gen_block_1[1].mult_0/step[4]
+
+    max_capacitance        8.00
+  - Capacitance            9.76
+  ------------------------------
+    Slack                 -1.76  (VIOLATED)
+
+
+    Design: Image_Classifier
+
+    max_area               0.00
+  - Current Area       550727.50
+  ------------------------------
+    Slack              -550727.50  (VIOLATED)
+
+
+Min pulse width constraints
+
+                       Required      Actual
+  Pin                pulse width   pulse width   Slack           Scenario
+--------------------------------------------------------------------------------
+  N_inst/gen_block_1[0].mult_0/step_reg[1]/CLK(high)
+                      0.03          1.00          0.97 (MET)
+
+1
