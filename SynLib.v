@@ -923,10 +923,9 @@ module synDelayWithEnableGeneric(clk, grst, rst, en, inp,outp);
 
 endmodule
 
-module synDelayWithEnable(clk, grst, rst, en, inp,outp);
+module synDelayWithEnable #(parameter bitwidth=16)(clk, grst, rst, en, inp,outp);
 
    parameter  preferRAMImpl = 1;
-   parameter  bitwidth = 16;
    parameter  delaylength = 100;
 
    input  clk, grst, rst, en;
