@@ -52,4 +52,3 @@ assign OUT = out_buf;
 assign done = done_signals==~4'b0; //Put this in a parameter?
 
 endmodule
-© 2021 GitHub, Inc.
