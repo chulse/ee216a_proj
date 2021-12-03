@@ -1,5 +1,4 @@
 
-
 remove_design -all
 set search_path "$search_path . ./verilog /w/apps2/public.2/tech/synopsys/32-28nm/SAED32_EDK/lib/stdcell_rvt/db_nldm" 
 set target_library "saed32rvt_ff1p16vn40c.db saed32rvt_ss0p95v125c.db"
