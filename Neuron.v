@@ -44,6 +44,6 @@ always @(temp_outputs) begin
     out_buf = out_buf + temp_outputs[k*OUTPUT_WIDTH +: OUTPUT_WIDTH];
 end
 assign OUT = out_buf;
-assign done = done_signals==~16'b0; //Put this in a parameter?
+assign done = done_signals==~1'b0; //Put this in a parameter?
 
 endmodule

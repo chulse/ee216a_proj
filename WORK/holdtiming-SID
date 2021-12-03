@@ -1,0 +1,522 @@
+Information: Updating graph... (UID-83)
+Information: Timing loop detected. (OPT-150)
+	U38/A1 U38/Y 
+Information: Timing loop detected. (OPT-150)
+	U43/A2 U43/Y U343185/A1 U343185/Y U343183/A2 U343183/Y 
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'U38'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'U38'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A2' and 'Y' on cell 'U43'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A2' and 'Y' on cell 'U43'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A3' and 'Y' on cell 'U43'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A3' and 'Y' on cell 'U43'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'U48'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'U48'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A2' and 'Y' on cell 'U44'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A2' and 'Y' on cell 'U44'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A3' and 'Y' on cell 'U44'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A3' and 'Y' on cell 'U44'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A2' and 'Y' on cell 'C15103'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A2' and 'Y' on cell 'C15103'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A2' and 'Y' on cell 'U42'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A2' and 'Y' on cell 'U42'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A3' and 'Y' on cell 'U42'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A3' and 'Y' on cell 'U42'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A3' and 'Y' on cell 'U45'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A3' and 'Y' on cell 'U45'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'U37'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'U37'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'U36'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'U36'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'U35'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'U35'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A3' and 'Y' on cell 'U34'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A3' and 'Y' on cell 'U34'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'U33'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'U33'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'U32'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'U32'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'U31'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'U31'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'U30'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'U30'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'U29'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'U29'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'U28'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'U28'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'U27'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'U27'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'U26'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'U26'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'U25'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'U25'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'U24'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'U24'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'U23'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'U23'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'U22'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'U22'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'U21'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'U21'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'U20'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'U20'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'U19'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'U19'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'U18'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'U18'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'U17'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'U17'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'U16'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'U16'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'U15'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'U15'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'U14'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'U14'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'U13'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'U13'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'U12'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'U12'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'U11'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'U11'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'U10'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'U10'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'U9'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'U9'
+         to break a timing loop. (OPT-314)
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay min
+        -nworst 2
+        -max_paths 10
+Design : Image_Classifier
+Version: G-2012.06-SP1
+Date   : Wed Dec  1 23:25:19 2021
+****************************************
+
+Operating Conditions: ff1p16vn40c   Library: saed32rvt_ff1p16vn40c
+Wire Load Model Mode: enclosed
+
+  Startpoint: GlobalReset
+              (input port clocked by clk)
+  Endpoint: Output_Valid
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  Image_Classifier   280000                saed32rvt_ff1p16vn40c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  input external delay                     0.30       0.30 f
+  GlobalReset (in)                         0.00       0.30 f
+  U283507/Y (INVX1_RVT)                    4.86       5.16 r
+  U343184/Y (AND2X1_RVT)                   0.12       5.28 r
+  U48/Y (NAND2X0_RVT)                      1.18       6.46 f
+  U283503/Y (INVX1_RVT)                    0.56       7.02 r
+  Output_Valid (out)                       0.00       7.02 r
+  data arrival time                                   7.02
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  clock uncertainty                        0.10       0.10
+  output external delay                   -0.30      -0.20
+  data required time                                 -0.20
+  -----------------------------------------------------------
+  data required time                                 -0.20
+  data arrival time                                  -7.02
+  -----------------------------------------------------------
+  slack (MET)                                         7.22
+
+
+  Startpoint: GlobalReset
+              (input port clocked by clk)
+  Endpoint: Output_Valid
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  Image_Classifier   280000                saed32rvt_ff1p16vn40c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  input external delay                     0.30       0.30 r
+  GlobalReset (in)                         0.00       0.30 r
+  U283507/Y (INVX1_RVT)                    4.86       5.16 f
+  U343184/Y (AND2X1_RVT)                   0.12       5.28 f
+  U48/Y (NAND2X0_RVT)                      1.18       6.46 r
+  U283503/Y (INVX1_RVT)                    0.56       7.02 f
+  Output_Valid (out)                       0.00       7.02 f
+  data arrival time                                   7.02
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  clock uncertainty                        0.10       0.10
+  output external delay                   -0.30      -0.20
+  data required time                                 -0.20
+  -----------------------------------------------------------
+  data required time                                 -0.20
+  data arrival time                                  -7.02
+  -----------------------------------------------------------
+  slack (MET)                                         7.22
+
+
+  Startpoint: GlobalReset
+              (input port clocked by clk)
+  Endpoint: Image_Number[0]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  Image_Classifier   280000                saed32rvt_ff1p16vn40c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  input external delay                     0.30       0.30 r
+  GlobalReset (in)                         0.00       0.30 r
+  U308622/Y (AOI21X1_RVT)                  4.88       5.18 f
+  U35/Y (AO22X1_RVT)                       6.49      11.67 f
+  Image_Number[0] (out)                    0.22      11.89 f
+  data arrival time                                  11.89
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  clock uncertainty                        0.10       0.10
+  output external delay                   -0.30      -0.20
+  data required time                                 -0.20
+  -----------------------------------------------------------
+  data required time                                 -0.20
+  data arrival time                                 -11.89
+  -----------------------------------------------------------
+  slack (MET)                                        12.09
+
+
+  Startpoint: GlobalReset
+              (input port clocked by clk)
+  Endpoint: Image_Number[1]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  Image_Classifier   280000                saed32rvt_ff1p16vn40c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  input external delay                     0.30       0.30 r
+  GlobalReset (in)                         0.00       0.30 r
+  U308622/Y (AOI21X1_RVT)                  4.88       5.18 f
+  U36/Y (AO22X1_RVT)                       6.49      11.67 f
+  Image_Number[1] (out)                    0.22      11.89 f
+  data arrival time                                  11.89
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  clock uncertainty                        0.10       0.10
+  output external delay                   -0.30      -0.20
+  data required time                                 -0.20
+  -----------------------------------------------------------
+  data required time                                 -0.20
+  data arrival time                                 -11.89
+  -----------------------------------------------------------
+  slack (MET)                                        12.09
+
+
+  Startpoint: GlobalReset
+              (input port clocked by clk)
+  Endpoint: Image_Number[2]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  Image_Classifier   280000                saed32rvt_ff1p16vn40c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  input external delay                     0.30       0.30 r
+  GlobalReset (in)                         0.00       0.30 r
+  U308622/Y (AOI21X1_RVT)                  4.88       5.18 f
+  U37/Y (AO22X1_RVT)                       6.49      11.67 f
+  Image_Number[2] (out)                    0.22      11.89 f
+  data arrival time                                  11.89
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  clock uncertainty                        0.10       0.10
+  output external delay                   -0.30      -0.20
+  data required time                                 -0.20
+  -----------------------------------------------------------
+  data required time                                 -0.20
+  data arrival time                                 -11.89
+  -----------------------------------------------------------
+  slack (MET)                                        12.09
+
+
+  Startpoint: GlobalReset
+              (input port clocked by clk)
+  Endpoint: Image_Number[3]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  Image_Classifier   280000                saed32rvt_ff1p16vn40c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  input external delay                     0.30       0.30 r
+  GlobalReset (in)                         0.00       0.30 r
+  U308622/Y (AOI21X1_RVT)                  4.88       5.18 f
+  U38/Y (AO22X1_RVT)                       6.49      11.67 f
+  Image_Number[3] (out)                    0.22      11.89 f
+  data arrival time                                  11.89
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  clock uncertainty                        0.10       0.10
+  output external delay                   -0.30      -0.20
+  data required time                                 -0.20
+  -----------------------------------------------------------
+  data required time                                 -0.20
+  data arrival time                                 -11.89
+  -----------------------------------------------------------
+  slack (MET)                                        12.09
+
+
+  Startpoint: GlobalReset
+              (input port clocked by clk)
+  Endpoint: Image_Number[0]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  Image_Classifier   280000                saed32rvt_ff1p16vn40c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  input external delay                     0.30       0.30 f
+  GlobalReset (in)                         0.00       0.30 f
+  U308622/Y (AOI21X1_RVT)                  4.88       5.18 r
+  U35/Y (AO22X1_RVT)                       6.50      11.68 r
+  Image_Number[0] (out)                    0.22      11.89 r
+  data arrival time                                  11.89
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  clock uncertainty                        0.10       0.10
+  output external delay                   -0.30      -0.20
+  data required time                                 -0.20
+  -----------------------------------------------------------
+  data required time                                 -0.20
+  data arrival time                                 -11.89
+  -----------------------------------------------------------
+  slack (MET)                                        12.09
+
+
+  Startpoint: GlobalReset
+              (input port clocked by clk)
+  Endpoint: Image_Number[1]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  Image_Classifier   280000                saed32rvt_ff1p16vn40c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  input external delay                     0.30       0.30 f
+  GlobalReset (in)                         0.00       0.30 f
+  U308622/Y (AOI21X1_RVT)                  4.88       5.18 r
+  U36/Y (AO22X1_RVT)                       6.50      11.68 r
+  Image_Number[1] (out)                    0.22      11.89 r
+  data arrival time                                  11.89
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  clock uncertainty                        0.10       0.10
+  output external delay                   -0.30      -0.20
+  data required time                                 -0.20
+  -----------------------------------------------------------
+  data required time                                 -0.20
+  data arrival time                                 -11.89
+  -----------------------------------------------------------
+  slack (MET)                                        12.09
+
+
+  Startpoint: GlobalReset
+              (input port clocked by clk)
+  Endpoint: Image_Number[2]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  Image_Classifier   280000                saed32rvt_ff1p16vn40c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  input external delay                     0.30       0.30 f
+  GlobalReset (in)                         0.00       0.30 f
+  U308622/Y (AOI21X1_RVT)                  4.88       5.18 r
+  U37/Y (AO22X1_RVT)                       6.50      11.68 r
+  Image_Number[2] (out)                    0.22      11.89 r
+  data arrival time                                  11.89
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  clock uncertainty                        0.10       0.10
+  output external delay                   -0.30      -0.20
+  data required time                                 -0.20
+  -----------------------------------------------------------
+  data required time                                 -0.20
+  data arrival time                                 -11.89
+  -----------------------------------------------------------
+  slack (MET)                                        12.09
+
+
+  Startpoint: GlobalReset
+              (input port clocked by clk)
+  Endpoint: Image_Number[3]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  Image_Classifier   280000                saed32rvt_ff1p16vn40c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  input external delay                     0.30       0.30 f
+  GlobalReset (in)                         0.00       0.30 f
+  U308622/Y (AOI21X1_RVT)                  4.88       5.18 r
+  U38/Y (AO22X1_RVT)                       6.50      11.68 r
+  Image_Number[3] (out)                    0.22      11.89 r
+  data arrival time                                  11.89
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  clock uncertainty                        0.10       0.10
+  output external delay                   -0.30      -0.20
+  data required time                                 -0.20
+  -----------------------------------------------------------
+  data required time                                 -0.20
+  data arrival time                                 -11.89
+  -----------------------------------------------------------
+  slack (MET)                                        12.09
+
+
+1

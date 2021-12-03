@@ -1,0 +1,113 @@
+ 
+****************************************
+Report : constraint
+        -verbose
+Design : Image_Classifier
+Version: G-2012.06-SP1
+Date   : Wed Dec  1 23:26:44 2021
+****************************************
+
+
+  Startpoint: GlobalReset
+              (input port clocked by clk)
+  Endpoint: Image_Number[3]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  Image_Classifier   280000                saed32rvt_ff1p16vn40c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  input external delay                     0.60       0.60 f
+  GlobalReset (in)                         0.00       0.60 f
+  U283507/Y (INVX1_RVT)                    0.01       0.61 r
+  U343184/Y (AND2X1_RVT)                   0.02       0.62 r
+  U48/Y (NAND2X0_RVT)                      0.01       0.64 f
+  U357580/Y (OAI21X1_RVT)                  0.03       0.67 r
+  U44/Y (AO22X1_RVT)                       0.03       0.70 r
+  C15103/Y (OR2X1_RVT)                     0.02       0.72 r
+  U343185/Y (OR3X1_RVT)                    0.02       0.74 r
+  U343183/Y (AND2X1_RVT)                   0.02       0.76 r
+  U45/Y (AO22X1_RVT)                       0.03       0.80 r
+  U38/Y (AO22X1_RVT)                       0.02       0.82 r
+  Image_Number[3] (out)                    0.00       0.82 r
+  data arrival time                                   0.82
+
+  clock clk (rise edge)                    2.00       2.00
+  clock network delay (ideal)              0.00       2.00
+  clock uncertainty                       -0.10       1.90
+  output external delay                   -0.60       1.30
+  data required time                                  1.30
+  -----------------------------------------------------------
+  data required time                                  1.30
+  data arrival time                                  -0.82
+  -----------------------------------------------------------
+  slack (MET)                                         0.48
+
+
+  Startpoint: GlobalReset
+              (input port clocked by clk)
+  Endpoint: Output_Valid
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  Image_Classifier   280000                saed32rvt_ff1p16vn40c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  input external delay                     0.30       0.30 f
+  GlobalReset (in)                         0.00       0.30 f
+  U283507/Y (INVX1_RVT)                    4.86       5.16 r
+  U343184/Y (AND2X1_RVT)                   0.12       5.28 r
+  U48/Y (NAND2X0_RVT)                      1.18       6.46 f
+  U283503/Y (INVX1_RVT)                    0.56       7.02 r
+  Output_Valid (out)                       0.00       7.02 r
+  data arrival time                                   7.02
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  clock uncertainty                        0.10       0.10
+  output external delay                   -0.30      -0.20
+  data required time                                 -0.20
+  -----------------------------------------------------------
+  data required time                                 -0.20
+  data arrival time                                  -7.02
+  -----------------------------------------------------------
+  slack (MET)                                         7.22
+
+
+    Net: n15
+
+    max_transition         0.07
+  - Transition Time        0.02
+  ------------------------------
+    Slack                  0.06  (MET)
+
+
+    Net: n239867
+
+    max_capacitance        8.00
+  - Capacitance            6.13
+  ------------------------------
+    Slack                  1.87  (MET)
+
+
+    Design: Image_Classifier
+
+    max_area               0.00
+  - Current Area       418769.53
+  ------------------------------
+    Slack              -418769.53  (VIOLATED)
+
+
+1
