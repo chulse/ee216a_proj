@@ -1,3 +1,5 @@
+`timescale 1ns/100ps
+
 module Image_Classifier ( 
  input clk, 
  input GlobalReset, 
