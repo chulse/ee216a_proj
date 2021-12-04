@@ -8935,6 +8935,10 @@ initial begin
 	$dumpvars(0, Image_Classifier_tb);
 	$stop;
 	end
+	
+	initial begin
+		$sdf_annotate("Image_Classifier.sdf", MyImage_Classifier);
+	end
 
 
 
