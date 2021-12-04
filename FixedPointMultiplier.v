@@ -42,11 +42,11 @@ assign Output_syn = N_1;
     wire signed [18:0] tmpin2_dly;
     wire signed [28:0] med;
     assign med = tmpOut ;
-    synDelayWithEnable #( .bitwidth(26), .preferRAMImpl(2), .delaylength(5) ) multOut_block ( .clk(clk), .en(GlobalEnable1), .grst(GlobalResetSel), .rst(1'b0), .inp(med[25:0]), .outp(N_1) );
+    synDelayWithEnable_new #( .bitwidth(26), .delaylength(5), .preferRAMImpl(2)) multOut_block ( .clk(clk), .en(GlobalEnable1), .grst(GlobalResetSel), .rst(1'b0), .inp(med[25:0]), .outp(N_1) );
     assign tmpin1 = $signed(N_2);
     assign tmpin2 = $signed(N_3);
-    synDelayWithEnable #( .bitwidth(10), .preferRAMImpl(2), .delaylength(1) ) multInp1_block ( .clk(clk), .en(GlobalEnable1), .grst(GlobalResetSel), .rst(1'b0), .inp(tmpin1), .outp(tmpin1_dly) );
-    synDelayWithEnable #( .bitwidth(19), .preferRAMImpl(2), .delaylength(1) ) multInp2_block ( .clk(clk), .en(GlobalEnable1), .grst(GlobalResetSel), .rst(1'b0), .inp(tmpin2), .outp(tmpin2_dly) );
+    synDelayWithEnable_new #( .bitwidth(10), .preferRAMImpl(2), .delaylength(1) ) multInp1_block ( .clk(clk), .en(GlobalEnable1), .grst(GlobalResetSel), .rst(1'b0), .inp(tmpin1), .outp(tmpin1_dly) );
+    synDelayWithEnable_new #( .bitwidth(19), .preferRAMImpl(2), .delaylength(1) ) multInp2_block ( .clk(clk), .en(GlobalEnable1), .grst(GlobalResetSel), .rst(1'b0), .inp(tmpin2), .outp(tmpin2_dly) );
     assign tmpOut = tmpin1_dly * tmpin2_dly;
   end // Multiplier_25b_18f_block
   endgenerate
