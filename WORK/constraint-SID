@@ -1,15 +1,14 @@
-Warning: Design 'Image_Classifier' has '16' unresolved references. For more detailed information, use the "link" command. (UID-341)
  
 ****************************************
 Report : constraint
         -verbose
 Design : Image_Classifier
 Version: G-2012.06-SP1
-Date   : Wed Dec  1 22:09:21 2021
+Date   : Fri Dec  3 22:25:08 2021
 ****************************************
 
 
-  Startpoint: GlobalReset
+  Startpoint: Input_Valid
               (input port clocked by clk)
   Endpoint: Image_Number[0]
             (output port clocked by clk)
@@ -18,94 +17,149 @@ Date   : Wed Dec  1 22:09:21 2021
 
   Des/Clust/Port     Wire Load Model       Library
   ------------------------------------------------
-  Image_Classifier   540000                saed32rvt_ff1p16vn40c
+  Image_Classifier   280000                saed32rvt_ff1p16vn40c
+  Image_Classifier_DW01_add_4
+                     ForQA                 saed32rvt_ff1p16vn40c
+  Image_Classifier_DW_cmp_0
+                     ForQA                 saed32rvt_ff1p16vn40c
 
-  Point                                    Incr       Path
-  -----------------------------------------------------------
-  clock clk (rise edge)                    0.00       0.00
-  clock network delay (ideal)              0.00       0.00
-  input external delay                     0.60       0.60 f
-  GlobalReset (in)                         0.00       0.60 f
-  U238315/Y (INVX1_RVT)                    0.01       0.61 r
-  U40/Y (AO21X1_RVT)                       0.02       0.63 r
-  U35/Y (AO22X1_RVT)                       0.03       0.66 r
-  Image_Number[0] (out)                    0.00       0.66 r
-  data arrival time                                   0.66
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                    0.60       0.60 r
+  Input_Valid (in)                                        0.00       0.60 r
+  U259483/Y (INVX32_RVT)                                  0.00       0.60 f
+  U259494/Y (AND3X1_RVT)                                  0.02       0.62 f
+  U157/Y (AO22X1_RVT)                                     0.03       0.65 f
+  U182069/Y (INVX1_RVT)                                   0.01       0.66 r
+  U259468/Y (NBUFFX2_RVT)                                 0.02       0.68 r
+  U258708/Y (AND3X1_RVT)                                  0.02       0.70 r
+  U274895/Y (NAND2X0_RVT)                                 0.01       0.71 f
+  U259478/Y (AND3X1_RVT)                                  0.02       0.73 f
+  U274893/Y (NAND3X0_RVT)                                 0.01       0.74 r
+  U287038/Y (OR3X1_RVT)                                   0.02       0.77 r
+  add_0_root_add_0_root_N_inst/add_47/U184/Y (OA21X1_RVT)
+                                                          0.02       0.79 r
+  add_0_root_add_0_root_N_inst/add_47/U194/Y (AO22X1_RVT)
+                                                          0.02       0.81 r
+  add_0_root_add_0_root_N_inst/add_47/U182/Y (AO21X1_RVT)
+                                                          0.02       0.82 r
+  add_0_root_add_0_root_N_inst/add_47/U205/Y (AND2X1_RVT)
+                                                          0.02       0.84 r
+  add_0_root_add_0_root_N_inst/add_47/U179/Y (OA21X1_RVT)
+                                                          0.02       0.86 r
+  add_0_root_add_0_root_N_inst/add_47/U213/Y (OR3X1_RVT)
+                                                          0.02       0.88 r
+  add_0_root_add_0_root_N_inst/add_47/U32/Y (AO22X1_RVT)
+                                                          0.02       0.90 r
+  add_0_root_add_0_root_N_inst/add_47/U172/Y (AO21X1_RVT)
+                                                          0.03       0.93 r
+  add_0_root_add_0_root_N_inst/add_47/U191/Y (AND2X1_RVT)
+                                                          0.02       0.95 r
+  add_0_root_add_0_root_N_inst/add_47/U36/Y (AO221X1_RVT)
+                                                          0.03       0.98 r
+  add_0_root_add_0_root_N_inst/add_47/U163/Y (AO22X1_RVT)
+                                                          0.02       1.00 r
+  add_0_root_add_0_root_N_inst/add_47/U92/Y (AO21X1_RVT)
+                                                          0.02       1.02 r
+  add_0_root_add_0_root_N_inst/add_47/U77/Y (NAND2X0_RVT)
+                                                          0.01       1.04 f
+  add_0_root_add_0_root_N_inst/add_47/U113/Y (AO21X1_RVT)
+                                                          0.02       1.06 f
+  add_0_root_add_0_root_N_inst/add_47/U112/Y (NAND3X0_RVT)
+                                                          0.01       1.07 r
+  add_0_root_add_0_root_N_inst/add_47/U39/Y (AO22X1_RVT)
+                                                          0.02       1.09 r
+  add_0_root_add_0_root_N_inst/add_47/U95/Y (NOR3X0_RVT)
+                                                          0.03       1.12 f
+  add_0_root_add_0_root_N_inst/add_47/U93/Y (OA221X1_RVT)
+                                                          0.03       1.15 f
+  add_0_root_add_0_root_N_inst/add_47/U57/Y (XOR3X2_RVT)
+                                                          0.02       1.17 r
+  U147/Y (AO221X1_RVT)                                    0.04       1.21 r
+  gt_8702/U229/Y (OR2X2_RVT)                              0.02       1.23 r
+  gt_8702/U236/Y (NAND2X0_RVT)                            0.01       1.24 f
+  gt_8702/U235/Y (OA22X1_RVT)                             0.02       1.26 f
+  gt_8702/U224/Y (NAND2X0_RVT)                            0.01       1.27 r
+  gt_8702/U127/Y (AO22X1_RVT)                             0.03       1.30 r
+  U258722/Y (INVX2_RVT)                                   0.01       1.31 f
+  U259451/Y (OA21X1_RVT)                                  0.02       1.33 f
+  U148/Y (AO22X1_RVT)                                     0.02       1.35 f
+  Image_Number[0] (out)                                   0.00       1.35 f
+  data arrival time                                                  1.35
 
-  clock clk (rise edge)                    2.00       2.00
-  clock network delay (ideal)              0.00       2.00
-  clock uncertainty                       -0.10       1.90
-  output external delay                   -0.60       1.30
-  data required time                                  1.30
-  -----------------------------------------------------------
-  data required time                                  1.30
-  data arrival time                                  -0.66
-  -----------------------------------------------------------
-  slack (MET)                                         0.64
+  clock clk (rise edge)                                   2.00       2.00
+  clock network delay (ideal)                             0.00       2.00
+  clock uncertainty                                      -0.10       1.90
+  output external delay                                  -0.60       1.30
+  data required time                                                 1.30
+  --------------------------------------------------------------------------
+  data required time                                                 1.30
+  data arrival time                                                 -1.35
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -0.05
 
 
-  Startpoint: N_inst/gen_block_1[0].mult_0/step_reg[10]
+  Startpoint: N_inst/gen_block_1[0].mult_0/mult_0/Multiplier_25b_18f_block.multOut_block/GenBlock.theDelay/delayline_reg[0][0]
               (rising edge-triggered flip-flop clocked by clk)
-  Endpoint: N_inst/gen_block_1[0].mult_0/step_reg[10]
+  Endpoint: N_inst/gen_block_1[0].mult_0/mult_0/Multiplier_25b_18f_block.multOut_block/GenBlock.theDelay/delayline_reg[1][0]
             (rising edge-triggered flip-flop clocked by clk)
   Path Group: clk
   Path Type: min
 
   Des/Clust/Port     Wire Load Model       Library
   ------------------------------------------------
-  Image_Classifier   540000                saed32rvt_ff1p16vn40c
-  PipelinedMultAccumulate_NUM_INPUTS49_15
-                     8000                  saed32rvt_ff1p16vn40c
+  Image_Classifier   280000                saed32rvt_ff1p16vn40c
 
   Point                                                   Incr       Path
   --------------------------------------------------------------------------
   clock clk (rise edge)                                   0.00       0.00
   clock network delay (ideal)                             0.00       0.00
-  N_inst/gen_block_1[0].mult_0/step_reg[10]/CLK (DFFX1_RVT)
+  N_inst/gen_block_1[0].mult_0/mult_0/Multiplier_25b_18f_block.multOut_block/GenBlock.theDelay/delayline_reg[0][0]/CLK (DFFARX1_RVT)
                                                           0.00       0.00 r
-  N_inst/gen_block_1[0].mult_0/step_reg[10]/Q (DFFX1_RVT)
-                                                          0.05       0.05 f
-  N_inst/gen_block_1[0].mult_0/U852/Y (AO22X1_RVT)        0.08       0.13 f
-  N_inst/gen_block_1[0].mult_0/step_reg[10]/D (DFFX1_RVT)
-                                                          0.01       0.14 f
-  data arrival time                                                  0.14
+  N_inst/gen_block_1[0].mult_0/mult_0/Multiplier_25b_18f_block.multOut_block/GenBlock.theDelay/delayline_reg[0][0]/Q (DFFARX1_RVT)
+                                                          0.05       0.05 r
+  N_inst/gen_block_1[0].mult_0/mult_0/Multiplier_25b_18f_block.multOut_block/GenBlock.theDelay/delayline_reg[1][0]/D (DFFARX1_RVT)
+                                                          0.11       0.16 r
+  data arrival time                                                  0.16
 
   clock clk (rise edge)                                   0.00       0.00
   clock network delay (ideal)                             0.00       0.00
   clock uncertainty                                       0.10       0.10
-  N_inst/gen_block_1[0].mult_0/step_reg[10]/CLK (DFFX1_RVT)
+  N_inst/gen_block_1[0].mult_0/mult_0/Multiplier_25b_18f_block.multOut_block/GenBlock.theDelay/delayline_reg[1][0]/CLK (DFFARX1_RVT)
                                                           0.00       0.10 r
-  library hold time                                      -0.01       0.09
-  data required time                                                 0.09
+  library hold time                                       0.00       0.10
+  data required time                                                 0.10
   --------------------------------------------------------------------------
-  data required time                                                 0.09
-  data arrival time                                                 -0.14
+  data required time                                                 0.10
+  data arrival time                                                 -0.16
   --------------------------------------------------------------------------
-  slack (MET)                                                        0.05
+  slack (MET)                                                        0.06
 
 
-    Net: N_inst/gen_block_1[1].mult_0/step[4]
+    Net: N_inst/gen_block_1[3].mult_0/step[5]
 
     max_transition         0.04
   - Transition Time        0.04
   ------------------------------
-    Slack                  0.00  (VIOLATED: increase signficant digits)
+    Slack                  0.00  (MET)
 
 
-    Net: N_inst/gen_block_1[1].mult_0/step[4]
+    Net: n306664
 
     max_capacitance        8.00
-  - Capacitance            9.76
+  - Capacitance            8.00
   ------------------------------
-    Slack                 -1.76  (VIOLATED)
+    Slack                  0.00  (MET)
 
 
     Design: Image_Classifier
 
     max_area               0.00
-  - Current Area       550727.50
+  - Current Area       478030.34
   ------------------------------
-    Slack              -550727.50  (VIOLATED)
+    Slack              -478030.34  (VIOLATED)
 
 
 Min pulse width constraints
@@ -113,7 +167,7 @@ Min pulse width constraints
                        Required      Actual
   Pin                pulse width   pulse width   Slack           Scenario
 --------------------------------------------------------------------------------
-  N_inst/gen_block_1[0].mult_0/step_reg[1]/CLK(high)
+  N_inst/gen_block_1[0].mult_0/mult_0/Multiplier_25b_18f_block.multInp1_block/GenBlock.theDelay/outreg_reg[0]/CLK(high)
                       0.03          1.00          0.97 (MET)
 
 1

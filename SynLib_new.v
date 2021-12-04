@@ -17,6 +17,24 @@
 						(n) <= (1<<28) ? 28 : (n) <= (1<<29) ? 29 :\
 						(n) <= (1<<30) ? 30 : (n) <= (1<<31) ? 31 : 32) 
 
+module singleDelayWithEnableGeneric_new #(parameter bitwidth=16)(clk, grst, rst, en, inp,outp);
+   input  clk, grst, rst, en;
+   input [bitwidth-1:0] inp;
+   output [bitwidth-1:0] outp;
+   reg [bitwidth-1:0] 	 outreg;
+
+   always @(`proclineg)
+     begin
+        if (grst==`activehigh)
+          outreg <= {bitwidth{1'b0}};
+        else if (rst==1)
+          outreg <= {bitwidth{1'b0}};
+        else if (en)
+          outreg <= inp;
+     end
+   assign outp = outreg;
+   
+endmodule //singleDelayWithEnableGeneric
 
 module synDelayWithEnable_new #(parameter bitwidth = 16, parameter delaylength=100, parameter preferRAMImpl=1)(clk, grst, rst, en, inp,outp);
 
@@ -29,9 +47,9 @@ module synDelayWithEnable_new #(parameter bitwidth = 16, parameter delaylength=1
 		 if (delaylength == 0)
 		   assign outp = inp;
 		 else if (delaylength == 1)
-		   singleDelayWithEnableGeneric #( .bitwidth(bitwidth)) theDelay ( .clk(clk), .en(en), .grst(grst), .rst(rst), .inp(inp), .outp(outp) );
+		   singleDelayWithEnableGeneric_new #( .bitwidth(bitwidth)) theDelay ( .clk(clk), .en(en), .grst(grst), .rst(rst), .inp(inp), .outp(outp) );
 		 else
-		   synDelayWithEnableGeneric #( .bitwidth(bitwidth), .delaylength(delaylength), .preferRAMImpl(preferRAMImpl) ) theDelay ( .clk(clk), .en(en), .grst(grst), .rst(rst), .inp(inp), .outp(outp) );
+		   synDelayWithEnableGeneric_new #( .bitwidth(bitwidth), .delaylength(delaylength), .preferRAMImpl(preferRAMImpl) ) theDelay ( .clk(clk), .en(en), .grst(grst), .rst(rst), .inp(inp), .outp(outp) );
       end // GenBlock
    endgenerate
 

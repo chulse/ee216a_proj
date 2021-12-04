@@ -1,10 +1,9 @@
-Warning: Design 'Image_Classifier' has '16' unresolved references. For more detailed information, use the "link" command. (UID-341)
  
 ****************************************
 Report : resources
 Design : Image_Classifier
 Version: G-2012.06-SP1
-Date   : Wed Dec  1 22:09:21 2021
+Date   : Fri Dec  3 22:25:08 2021
 ****************************************
 
 Resource Sharing Report for design Image_Classifier in file
@@ -14,8 +13,76 @@ Resource Sharing Report for design Image_Classifier in file
 |          |              |            | Contained     |                      |
 | Resource | Module       | Parameters | Resources     | Contained Operations |
 ===============================================================================
-| r306     | DW_cmp       | width=26   |               | gt_8700              |
-| r308     | DW01_inc     | width=5    |               | add_8707             |
+| r573     | DW_cmp       | width=16   |               | N_inst/gen_block_1[0].mult_0/lt_22 |
+            |            |               |                      |
+|          |              |            |               | N_inst/gen_block_1[0].mult_0/lt_23 |
+            |            |               |                      |
+|          |              |            |               | N_inst/gen_block_1[0].mult_0/lt_40 |
+| r578     | DW_cmp       | width=16   |               | N_inst/gen_block_1[1].mult_0/lt_22 |
+            |            |               |                      |
+|          |              |            |               | N_inst/gen_block_1[1].mult_0/lt_23 |
+            |            |               |                      |
+|          |              |            |               | N_inst/gen_block_1[1].mult_0/lt_40 |
+| r583     | DW_cmp       | width=16   |               | N_inst/gen_block_1[2].mult_0/lt_22 |
+            |            |               |                      |
+|          |              |            |               | N_inst/gen_block_1[2].mult_0/lt_23 |
+            |            |               |                      |
+|          |              |            |               | N_inst/gen_block_1[2].mult_0/lt_40 |
+| r588     | DW_cmp       | width=16   |               | N_inst/gen_block_1[3].mult_0/lt_22 |
+            |            |               |                      |
+|          |              |            |               | N_inst/gen_block_1[3].mult_0/lt_23 |
+            |            |               |                      |
+|          |              |            |               | N_inst/gen_block_1[3].mult_0/lt_40 |
+| r624     | DW_cmp       | width=26   |               | gt_8702              |
+| r626     | DW01_inc     | width=5    |               | add_8709             |
+| r640     | DW01_add     | width=26   |               | N_inst/gen_block_1[0].mult_0/add_39 |
+| r642     | DW01_inc     | width=16   |               | N_inst/gen_block_1[0].mult_0/add_41 |
+| r648     | DW01_add     | width=26   |               | N_inst/gen_block_1[1].mult_0/add_39 |
+| r650     | DW01_inc     | width=16   |               | N_inst/gen_block_1[1].mult_0/add_41 |
+| r656     | DW01_add     | width=26   |               | N_inst/gen_block_1[2].mult_0/add_39 |
+| r658     | DW01_inc     | width=16   |               | N_inst/gen_block_1[2].mult_0/add_41 |
+| r664     | DW01_add     | width=26   |               | N_inst/gen_block_1[3].mult_0/add_39 |
+| r666     | DW01_inc     | width=16   |               | N_inst/gen_block_1[3].mult_0/add_41 |
+| r1256    | DW_mult_tc   | a_width=10 |               | N_inst/gen_block_1[3].mult_0/mult_0/mult_50 |
+   |            |               |                      |
+|          |              | b_width=19 |               |                      |
+| r1838    | DW_mult_tc   | a_width=10 |               | N_inst/gen_block_1[2].mult_0/mult_0/mult_50 |
+   |            |               |                      |
+|          |              | b_width=19 |               |                      |
+| r2420    | DW_mult_tc   | a_width=10 |               | N_inst/gen_block_1[1].mult_0/mult_0/mult_50 |
+   |            |               |                      |
+|          |              | b_width=19 |               |                      |
+| r3002    | DW_mult_tc   | a_width=10 |               | N_inst/gen_block_1[0].mult_0/mult_0/mult_50 |
+   |            |               |                      |
+|          |              | b_width=19 |               |                      |
+| r3619    | DW_mult_uns  | a_width=16 |               | N_inst/gen_block_1[3].mult_0/mult_23 |
+          |            |               |                      |
+|          |              | b_width=4  |               |                      |
+| r3621    | DW_mult_uns  | a_width=16 |               | N_inst/gen_block_1[3].mult_0/mult_22 |
+          |            |               |                      |
+|          |              | b_width=5  |               |                      |
+| r3623    | DW_mult_uns  | a_width=16 |               | N_inst/gen_block_1[2].mult_0/mult_23 |
+          |            |               |                      |
+|          |              | b_width=4  |               |                      |
+| r3625    | DW_mult_uns  | a_width=16 |               | N_inst/gen_block_1[2].mult_0/mult_22 |
+          |            |               |                      |
+|          |              | b_width=5  |               |                      |
+| r3627    | DW_mult_uns  | a_width=16 |               | N_inst/gen_block_1[1].mult_0/mult_23 |
+          |            |               |                      |
+|          |              | b_width=4  |               |                      |
+| r3629    | DW_mult_uns  | a_width=16 |               | N_inst/gen_block_1[1].mult_0/mult_22 |
+          |            |               |                      |
+|          |              | b_width=5  |               |                      |
+| r3631    | DW_mult_uns  | a_width=16 |               | N_inst/gen_block_1[0].mult_0/mult_23 |
+          |            |               |                      |
+|          |              | b_width=4  |               |                      |
+| r3633    | DW_mult_uns  | a_width=16 |               | N_inst/gen_block_1[0].mult_0/mult_22 |
+          |            |               |                      |
+|          |              | b_width=5  |               |                      |
+| r4234    | DW01_add     | width=26   |               | add_1_root_add_0_root_N_inst/add_47 |
+| r4236    | DW01_add     | width=26   |               | add_3_root_add_0_root_N_inst/add_47 |
+| r4238    | DW01_add     | width=26   |               | add_2_root_add_0_root_N_inst/add_47 |
+| r4240    | DW01_add     | width=26   |               | add_0_root_add_0_root_N_inst/add_47 |
 ===============================================================================
 
 
@@ -24,7 +91,55 @@ Implementation Report
 |                    |                  | Current            | Set            |
 | Cell               | Module           | Implementation     | Implementation |
 ===============================================================================
-| gt_8700            | DW_cmp           | apparch (area)     |                |
+| N_inst/gen_block_1[3].mult_0/mult_0/mult_50                |                |
+|                    | DW_mult_tc       | apparch (area)     |                |
+| N_inst/gen_block_1[2].mult_0/mult_0/mult_50                |                |
+|                    | DW_mult_tc       | apparch (area)     |                |
+| N_inst/gen_block_1[1].mult_0/mult_0/mult_50                |                |
+|                    | DW_mult_tc       | apparch (area)     |                |
+| N_inst/gen_block_1[0].mult_0/mult_0/mult_50                |                |
+|                    | DW_mult_tc       | apparch (area)     |                |
+| N_inst/gen_block_1[0].mult_0/mult_22  |                    |                |
+|                    | DW_mult_uns      | apparch (area)     |                |
+| N_inst/gen_block_1[1].mult_0/mult_22  |                    |                |
+|                    | DW_mult_uns      | apparch (area)     |                |
+| N_inst/gen_block_1[2].mult_0/mult_22  |                    |                |
+|                    | DW_mult_uns      | apparch (area)     |                |
+| N_inst/gen_block_1[3].mult_0/mult_22  |                    |                |
+|                    | DW_mult_uns      | apparch (area)     |                |
+| N_inst/gen_block_1[0].mult_0/mult_23  |                    |                |
+|                    | DW_mult_uns      | apparch (area)     |                |
+| N_inst/gen_block_1[1].mult_0/mult_23  |                    |                |
+|                    | DW_mult_uns      | apparch (area)     |                |
+| N_inst/gen_block_1[2].mult_0/mult_23  |                    |                |
+|                    | DW_mult_uns      | apparch (area)     |                |
+| N_inst/gen_block_1[3].mult_0/mult_23  |                    |                |
+|                    | DW_mult_uns      | apparch (area)     |                |
+| add_0_root_add_0_root_N_inst/add_47   |                    |                |
+|                    | DW01_add         | rpl                |                |
+| add_1_root_add_0_root_N_inst/add_47   |                    |                |
+|                    | DW01_add         | rpl                |                |
+| add_2_root_add_0_root_N_inst/add_47   |                    |                |
+|                    | DW01_add         | rpl                |                |
+| add_3_root_add_0_root_N_inst/add_47   |                    |                |
+|                    | DW01_add         | rpl                |                |
+| gt_8702            | DW_cmp           | apparch (area)     |                |
+| N_inst/gen_block_1[0].mult_0/add_39   |                    |                |
+|                    | DW01_add         | rpl                |                |
+| N_inst/gen_block_1[0].mult_0/add_41   |                    |                |
+|                    | DW01_inc         | rpl                |                |
+| N_inst/gen_block_1[1].mult_0/add_39   |                    |                |
+|                    | DW01_add         | rpl                |                |
+| N_inst/gen_block_1[1].mult_0/add_41   |                    |                |
+|                    | DW01_inc         | rpl                |                |
+| N_inst/gen_block_1[2].mult_0/add_39   |                    |                |
+|                    | DW01_add         | rpl                |                |
+| N_inst/gen_block_1[2].mult_0/add_41   |                    |                |
+|                    | DW01_inc         | rpl                |                |
+| N_inst/gen_block_1[3].mult_0/add_39   |                    |                |
+|                    | DW01_add         | rpl                |                |
+| N_inst/gen_block_1[3].mult_0/add_41   |                    |                |
+|                    | DW01_inc         | rpl                |                |
 ===============================================================================
 
 
