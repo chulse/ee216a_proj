@@ -1,0 +1,667 @@
+Information: Updating design information... (UID-85)
+Information: Timing loop detected. (OPT-150)
+	U151/A1 U151/Y 
+Information: Timing loop detected. (OPT-150)
+	add_8709/U1_1_3/A0 add_8709/U1_1_3/SO U158/A1 U158/Y 
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'U151'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'U151'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'U158'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'U158'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'U157'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'U157'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'U156'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'U156'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'U155'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'U155'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A3' and 'Y' on cell 'U155'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A3' and 'Y' on cell 'U155'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A3' and 'Y' on cell 'U156'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A3' and 'Y' on cell 'U156'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A3' and 'Y' on cell 'U157'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A3' and 'Y' on cell 'U157'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A3' and 'Y' on cell 'U158'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A3' and 'Y' on cell 'U158'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'U152'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'U152'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A3' and 'Y' on cell 'U147'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A3' and 'Y' on cell 'U147'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A4' and 'Y' on cell 'U147'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A4' and 'Y' on cell 'U147'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'U146'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'U146'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'U139'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'U139'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'U138'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'U138'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A2' and 'Y' on cell 'U138'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A2' and 'Y' on cell 'U138'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'U141'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'U141'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'U140'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'U140'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'U142'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'U142'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A2' and 'Y' on cell 'U142'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A2' and 'Y' on cell 'U142'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'U143'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'U143'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'U144'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'U144'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A2' and 'Y' on cell 'U144'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A2' and 'Y' on cell 'U144'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'U145'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'U145'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A2' and 'Y' on cell 'U145'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A2' and 'Y' on cell 'U145'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'U135'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'U135'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A2' and 'Y' on cell 'U135'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A2' and 'Y' on cell 'U135'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'U134'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'U134'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'U136'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'U136'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'U137'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'U137'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A2' and 'Y' on cell 'U137'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A2' and 'Y' on cell 'U137'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'U131'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'U131'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A2' and 'Y' on cell 'U131'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A2' and 'Y' on cell 'U131'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'U130'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'U130'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'U133'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'U133'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'U132'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'U132'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'U128'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'U128'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A2' and 'Y' on cell 'U128'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A2' and 'Y' on cell 'U128'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'U129'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'U129'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'U124'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'U124'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'U125'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'U125'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'U123'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'U123'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'U122'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'U122'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A2' and 'Y' on cell 'U122'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A2' and 'Y' on cell 'U122'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'U126'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'U126'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A2' and 'Y' on cell 'U126'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A2' and 'Y' on cell 'U126'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'U127'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'U127'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'C15106'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'C15106'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'C15105'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'C15105'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'C15104'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'C15104'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A2' and 'Y' on cell 'C15104'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A2' and 'Y' on cell 'C15104'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A2' and 'Y' on cell 'U146'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A2' and 'Y' on cell 'U146'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A2' and 'Y' on cell 'U140'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A2' and 'Y' on cell 'U140'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A2' and 'Y' on cell 'U139'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A2' and 'Y' on cell 'U139'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A2' and 'Y' on cell 'U143'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A2' and 'Y' on cell 'U143'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A2' and 'Y' on cell 'U141'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A2' and 'Y' on cell 'U141'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A2' and 'Y' on cell 'U124'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A2' and 'Y' on cell 'U124'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A2' and 'Y' on cell 'U134'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A2' and 'Y' on cell 'U134'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A2' and 'Y' on cell 'U136'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A2' and 'Y' on cell 'U136'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A2' and 'Y' on cell 'U130'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A2' and 'Y' on cell 'U130'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A2' and 'Y' on cell 'U133'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A2' and 'Y' on cell 'U133'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A2' and 'Y' on cell 'U132'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A2' and 'Y' on cell 'U132'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A2' and 'Y' on cell 'U129'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A2' and 'Y' on cell 'U129'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A2' and 'Y' on cell 'U125'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A2' and 'Y' on cell 'U125'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A2' and 'Y' on cell 'U123'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A2' and 'Y' on cell 'U123'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A2' and 'Y' on cell 'U127'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A2' and 'Y' on cell 'U127'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'U150'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'U150'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'U149'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'U149'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'U148'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A1' and 'Y' on cell 'U148'
+         to break a timing loop. (OPT-314)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay min
+        -nworst 2
+        -max_paths 10
+Design : Image_Classifier
+Version: G-2012.06-SP1
+Date   : Sat Dec  4 12:13:04 2021
+****************************************
+
+Operating Conditions: ff1p16vn40c   Library: saed32rvt_ff1p16vn40c
+Wire Load Model Mode: enclosed
+
+  Startpoint: N_inst/gen_block_1[0].mult_0/mult_0/Multiplier_25b_18f_block.multOut_block/GenBlock.theDelay/delayline_reg[0][0]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: N_inst/gen_block_1[0].mult_0/mult_0/Multiplier_25b_18f_block.multOut_block/GenBlock.theDelay/delayline_reg[1][0]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  Image_Classifier   280000                saed32rvt_ff1p16vn40c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  N_inst/gen_block_1[0].mult_0/mult_0/Multiplier_25b_18f_block.multOut_block/GenBlock.theDelay/delayline_reg[0][0]/CLK (DFFARX1_RVT)
+                                                          0.00       0.00 r
+  N_inst/gen_block_1[0].mult_0/mult_0/Multiplier_25b_18f_block.multOut_block/GenBlock.theDelay/delayline_reg[0][0]/Q (DFFARX1_RVT)
+                                                          0.05       0.05 r
+  N_inst/gen_block_1[0].mult_0/mult_0/Multiplier_25b_18f_block.multOut_block/GenBlock.theDelay/delayline_reg[1][0]/D (DFFARX1_RVT)
+                                                          0.11       0.16 r
+  data arrival time                                                  0.16
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.10       0.10
+  N_inst/gen_block_1[0].mult_0/mult_0/Multiplier_25b_18f_block.multOut_block/GenBlock.theDelay/delayline_reg[1][0]/CLK (DFFARX1_RVT)
+                                                          0.00       0.10 r
+  library hold time                                       0.00       0.10
+  data required time                                                 0.10
+  --------------------------------------------------------------------------
+  data required time                                                 0.10
+  data arrival time                                                 -0.16
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.06
+
+
+  Startpoint: N_inst/gen_block_1[0].mult_0/mult_0/Multiplier_25b_18f_block.multOut_block/GenBlock.theDelay/delayline_reg[0][1]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: N_inst/gen_block_1[0].mult_0/mult_0/Multiplier_25b_18f_block.multOut_block/GenBlock.theDelay/delayline_reg[1][1]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  Image_Classifier   280000                saed32rvt_ff1p16vn40c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  N_inst/gen_block_1[0].mult_0/mult_0/Multiplier_25b_18f_block.multOut_block/GenBlock.theDelay/delayline_reg[0][1]/CLK (DFFARX1_RVT)
+                                                          0.00       0.00 r
+  N_inst/gen_block_1[0].mult_0/mult_0/Multiplier_25b_18f_block.multOut_block/GenBlock.theDelay/delayline_reg[0][1]/Q (DFFARX1_RVT)
+                                                          0.05       0.05 r
+  N_inst/gen_block_1[0].mult_0/mult_0/Multiplier_25b_18f_block.multOut_block/GenBlock.theDelay/delayline_reg[1][1]/D (DFFARX1_RVT)
+                                                          0.11       0.16 r
+  data arrival time                                                  0.16
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.10       0.10
+  N_inst/gen_block_1[0].mult_0/mult_0/Multiplier_25b_18f_block.multOut_block/GenBlock.theDelay/delayline_reg[1][1]/CLK (DFFARX1_RVT)
+                                                          0.00       0.10 r
+  library hold time                                       0.00       0.10
+  data required time                                                 0.10
+  --------------------------------------------------------------------------
+  data required time                                                 0.10
+  data arrival time                                                 -0.16
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.06
+
+
+  Startpoint: N_inst/gen_block_1[0].mult_0/mult_0/Multiplier_25b_18f_block.multOut_block/GenBlock.theDelay/delayline_reg[0][2]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: N_inst/gen_block_1[0].mult_0/mult_0/Multiplier_25b_18f_block.multOut_block/GenBlock.theDelay/delayline_reg[1][2]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  Image_Classifier   280000                saed32rvt_ff1p16vn40c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  N_inst/gen_block_1[0].mult_0/mult_0/Multiplier_25b_18f_block.multOut_block/GenBlock.theDelay/delayline_reg[0][2]/CLK (DFFARX1_RVT)
+                                                          0.00       0.00 r
+  N_inst/gen_block_1[0].mult_0/mult_0/Multiplier_25b_18f_block.multOut_block/GenBlock.theDelay/delayline_reg[0][2]/Q (DFFARX1_RVT)
+                                                          0.05       0.05 r
+  N_inst/gen_block_1[0].mult_0/mult_0/Multiplier_25b_18f_block.multOut_block/GenBlock.theDelay/delayline_reg[1][2]/D (DFFARX1_RVT)
+                                                          0.11       0.16 r
+  data arrival time                                                  0.16
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.10       0.10
+  N_inst/gen_block_1[0].mult_0/mult_0/Multiplier_25b_18f_block.multOut_block/GenBlock.theDelay/delayline_reg[1][2]/CLK (DFFARX1_RVT)
+                                                          0.00       0.10 r
+  library hold time                                       0.00       0.10
+  data required time                                                 0.10
+  --------------------------------------------------------------------------
+  data required time                                                 0.10
+  data arrival time                                                 -0.16
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.06
+
+
+  Startpoint: N_inst/gen_block_1[0].mult_0/mult_0/Multiplier_25b_18f_block.multOut_block/GenBlock.theDelay/delayline_reg[0][3]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: N_inst/gen_block_1[0].mult_0/mult_0/Multiplier_25b_18f_block.multOut_block/GenBlock.theDelay/delayline_reg[1][3]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  Image_Classifier   280000                saed32rvt_ff1p16vn40c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  N_inst/gen_block_1[0].mult_0/mult_0/Multiplier_25b_18f_block.multOut_block/GenBlock.theDelay/delayline_reg[0][3]/CLK (DFFARX1_RVT)
+                                                          0.00       0.00 r
+  N_inst/gen_block_1[0].mult_0/mult_0/Multiplier_25b_18f_block.multOut_block/GenBlock.theDelay/delayline_reg[0][3]/Q (DFFARX1_RVT)
+                                                          0.05       0.05 r
+  N_inst/gen_block_1[0].mult_0/mult_0/Multiplier_25b_18f_block.multOut_block/GenBlock.theDelay/delayline_reg[1][3]/D (DFFARX1_RVT)
+                                                          0.11       0.16 r
+  data arrival time                                                  0.16
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.10       0.10
+  N_inst/gen_block_1[0].mult_0/mult_0/Multiplier_25b_18f_block.multOut_block/GenBlock.theDelay/delayline_reg[1][3]/CLK (DFFARX1_RVT)
+                                                          0.00       0.10 r
+  library hold time                                       0.00       0.10
+  data required time                                                 0.10
+  --------------------------------------------------------------------------
+  data required time                                                 0.10
+  data arrival time                                                 -0.16
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.06
+
+
+  Startpoint: N_inst/gen_block_1[0].mult_0/mult_0/Multiplier_25b_18f_block.multOut_block/GenBlock.theDelay/delayline_reg[0][4]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: N_inst/gen_block_1[0].mult_0/mult_0/Multiplier_25b_18f_block.multOut_block/GenBlock.theDelay/delayline_reg[1][4]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  Image_Classifier   280000                saed32rvt_ff1p16vn40c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  N_inst/gen_block_1[0].mult_0/mult_0/Multiplier_25b_18f_block.multOut_block/GenBlock.theDelay/delayline_reg[0][4]/CLK (DFFARX1_RVT)
+                                                          0.00       0.00 r
+  N_inst/gen_block_1[0].mult_0/mult_0/Multiplier_25b_18f_block.multOut_block/GenBlock.theDelay/delayline_reg[0][4]/Q (DFFARX1_RVT)
+                                                          0.05       0.05 r
+  N_inst/gen_block_1[0].mult_0/mult_0/Multiplier_25b_18f_block.multOut_block/GenBlock.theDelay/delayline_reg[1][4]/D (DFFARX1_RVT)
+                                                          0.11       0.16 r
+  data arrival time                                                  0.16
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.10       0.10
+  N_inst/gen_block_1[0].mult_0/mult_0/Multiplier_25b_18f_block.multOut_block/GenBlock.theDelay/delayline_reg[1][4]/CLK (DFFARX1_RVT)
+                                                          0.00       0.10 r
+  library hold time                                       0.00       0.10
+  data required time                                                 0.10
+  --------------------------------------------------------------------------
+  data required time                                                 0.10
+  data arrival time                                                 -0.16
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.06
+
+
+  Startpoint: N_inst/gen_block_1[0].mult_0/mult_0/Multiplier_25b_18f_block.multOut_block/GenBlock.theDelay/delayline_reg[0][5]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: N_inst/gen_block_1[0].mult_0/mult_0/Multiplier_25b_18f_block.multOut_block/GenBlock.theDelay/delayline_reg[1][5]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  Image_Classifier   280000                saed32rvt_ff1p16vn40c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  N_inst/gen_block_1[0].mult_0/mult_0/Multiplier_25b_18f_block.multOut_block/GenBlock.theDelay/delayline_reg[0][5]/CLK (DFFARX1_RVT)
+                                                          0.00       0.00 r
+  N_inst/gen_block_1[0].mult_0/mult_0/Multiplier_25b_18f_block.multOut_block/GenBlock.theDelay/delayline_reg[0][5]/Q (DFFARX1_RVT)
+                                                          0.05       0.05 r
+  N_inst/gen_block_1[0].mult_0/mult_0/Multiplier_25b_18f_block.multOut_block/GenBlock.theDelay/delayline_reg[1][5]/D (DFFARX1_RVT)
+                                                          0.11       0.16 r
+  data arrival time                                                  0.16
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.10       0.10
+  N_inst/gen_block_1[0].mult_0/mult_0/Multiplier_25b_18f_block.multOut_block/GenBlock.theDelay/delayline_reg[1][5]/CLK (DFFARX1_RVT)
+                                                          0.00       0.10 r
+  library hold time                                       0.00       0.10
+  data required time                                                 0.10
+  --------------------------------------------------------------------------
+  data required time                                                 0.10
+  data arrival time                                                 -0.16
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.06
+
+
+  Startpoint: N_inst/gen_block_1[0].mult_0/mult_0/Multiplier_25b_18f_block.multOut_block/GenBlock.theDelay/delayline_reg[0][6]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: N_inst/gen_block_1[0].mult_0/mult_0/Multiplier_25b_18f_block.multOut_block/GenBlock.theDelay/delayline_reg[1][6]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  Image_Classifier   280000                saed32rvt_ff1p16vn40c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  N_inst/gen_block_1[0].mult_0/mult_0/Multiplier_25b_18f_block.multOut_block/GenBlock.theDelay/delayline_reg[0][6]/CLK (DFFARX1_RVT)
+                                                          0.00       0.00 r
+  N_inst/gen_block_1[0].mult_0/mult_0/Multiplier_25b_18f_block.multOut_block/GenBlock.theDelay/delayline_reg[0][6]/Q (DFFARX1_RVT)
+                                                          0.05       0.05 r
+  N_inst/gen_block_1[0].mult_0/mult_0/Multiplier_25b_18f_block.multOut_block/GenBlock.theDelay/delayline_reg[1][6]/D (DFFARX1_RVT)
+                                                          0.11       0.16 r
+  data arrival time                                                  0.16
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.10       0.10
+  N_inst/gen_block_1[0].mult_0/mult_0/Multiplier_25b_18f_block.multOut_block/GenBlock.theDelay/delayline_reg[1][6]/CLK (DFFARX1_RVT)
+                                                          0.00       0.10 r
+  library hold time                                       0.00       0.10
+  data required time                                                 0.10
+  --------------------------------------------------------------------------
+  data required time                                                 0.10
+  data arrival time                                                 -0.16
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.06
+
+
+  Startpoint: N_inst/gen_block_1[0].mult_0/mult_0/Multiplier_25b_18f_block.multOut_block/GenBlock.theDelay/delayline_reg[0][7]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: N_inst/gen_block_1[0].mult_0/mult_0/Multiplier_25b_18f_block.multOut_block/GenBlock.theDelay/delayline_reg[1][7]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  Image_Classifier   280000                saed32rvt_ff1p16vn40c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  N_inst/gen_block_1[0].mult_0/mult_0/Multiplier_25b_18f_block.multOut_block/GenBlock.theDelay/delayline_reg[0][7]/CLK (DFFARX1_RVT)
+                                                          0.00       0.00 r
+  N_inst/gen_block_1[0].mult_0/mult_0/Multiplier_25b_18f_block.multOut_block/GenBlock.theDelay/delayline_reg[0][7]/Q (DFFARX1_RVT)
+                                                          0.05       0.05 r
+  N_inst/gen_block_1[0].mult_0/mult_0/Multiplier_25b_18f_block.multOut_block/GenBlock.theDelay/delayline_reg[1][7]/D (DFFARX1_RVT)
+                                                          0.11       0.16 r
+  data arrival time                                                  0.16
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.10       0.10
+  N_inst/gen_block_1[0].mult_0/mult_0/Multiplier_25b_18f_block.multOut_block/GenBlock.theDelay/delayline_reg[1][7]/CLK (DFFARX1_RVT)
+                                                          0.00       0.10 r
+  library hold time                                       0.00       0.10
+  data required time                                                 0.10
+  --------------------------------------------------------------------------
+  data required time                                                 0.10
+  data arrival time                                                 -0.16
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.06
+
+
+  Startpoint: N_inst/gen_block_1[0].mult_0/mult_0/Multiplier_25b_18f_block.multOut_block/GenBlock.theDelay/delayline_reg[0][8]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: N_inst/gen_block_1[0].mult_0/mult_0/Multiplier_25b_18f_block.multOut_block/GenBlock.theDelay/delayline_reg[1][8]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  Image_Classifier   280000                saed32rvt_ff1p16vn40c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  N_inst/gen_block_1[0].mult_0/mult_0/Multiplier_25b_18f_block.multOut_block/GenBlock.theDelay/delayline_reg[0][8]/CLK (DFFARX1_RVT)
+                                                          0.00       0.00 r
+  N_inst/gen_block_1[0].mult_0/mult_0/Multiplier_25b_18f_block.multOut_block/GenBlock.theDelay/delayline_reg[0][8]/Q (DFFARX1_RVT)
+                                                          0.05       0.05 r
+  N_inst/gen_block_1[0].mult_0/mult_0/Multiplier_25b_18f_block.multOut_block/GenBlock.theDelay/delayline_reg[1][8]/D (DFFARX1_RVT)
+                                                          0.11       0.16 r
+  data arrival time                                                  0.16
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.10       0.10
+  N_inst/gen_block_1[0].mult_0/mult_0/Multiplier_25b_18f_block.multOut_block/GenBlock.theDelay/delayline_reg[1][8]/CLK (DFFARX1_RVT)
+                                                          0.00       0.10 r
+  library hold time                                       0.00       0.10
+  data required time                                                 0.10
+  --------------------------------------------------------------------------
+  data required time                                                 0.10
+  data arrival time                                                 -0.16
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.06
+
+
+  Startpoint: N_inst/gen_block_1[0].mult_0/mult_0/Multiplier_25b_18f_block.multOut_block/GenBlock.theDelay/delayline_reg[0][9]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: N_inst/gen_block_1[0].mult_0/mult_0/Multiplier_25b_18f_block.multOut_block/GenBlock.theDelay/delayline_reg[1][9]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  Image_Classifier   280000                saed32rvt_ff1p16vn40c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  N_inst/gen_block_1[0].mult_0/mult_0/Multiplier_25b_18f_block.multOut_block/GenBlock.theDelay/delayline_reg[0][9]/CLK (DFFARX1_RVT)
+                                                          0.00       0.00 r
+  N_inst/gen_block_1[0].mult_0/mult_0/Multiplier_25b_18f_block.multOut_block/GenBlock.theDelay/delayline_reg[0][9]/Q (DFFARX1_RVT)
+                                                          0.05       0.05 r
+  N_inst/gen_block_1[0].mult_0/mult_0/Multiplier_25b_18f_block.multOut_block/GenBlock.theDelay/delayline_reg[1][9]/D (DFFARX1_RVT)
+                                                          0.11       0.16 r
+  data arrival time                                                  0.16
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.10       0.10
+  N_inst/gen_block_1[0].mult_0/mult_0/Multiplier_25b_18f_block.multOut_block/GenBlock.theDelay/delayline_reg[1][9]/CLK (DFFARX1_RVT)
+                                                          0.00       0.10 r
+  library hold time                                       0.00       0.10
+  data required time                                                 0.10
+  --------------------------------------------------------------------------
+  data required time                                                 0.10
+  data arrival time                                                 -0.16
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.06
+
+
+1

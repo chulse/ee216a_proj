@@ -1,0 +1,355 @@
+ 
+****************************************
+check_design summary:
+Version:     G-2012.06-SP1
+Date:        Sat Dec  4 12:14:32 2021
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Inputs/Outputs                                                    206
+    Unconnected ports (LINT-28)                                   194
+    Feedthrough (LINT-29)                                          12
+
+Cells                                                              65
+    Connected to power or ground (LINT-32)                         47
+    Nets connected to multiple pins on same cell (LINT-33)         18
+--------------------------------------------------------------------------------
+
+Warning: In design 'Image_Classifier', port 'Pix_784[9]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier', port 'Pix_784[8]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier', port 'Pix_784[7]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier', port 'Pix_784[6]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier', port 'Pix_784[5]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier', port 'Pix_784[4]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier', port 'Pix_784[3]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier', port 'Pix_784[2]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier', port 'Pix_784[1]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier', port 'Pix_784[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW01_add_0', port 'CI' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW01_add_0', port 'CO' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW01_add_1', port 'CI' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW01_add_1', port 'CO' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW01_add_2', port 'CI' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW01_add_2', port 'CO' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW01_add_3', port 'CI' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW01_add_3', port 'CO' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_cmp_0', port 'TC' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_cmp_0', port 'GE_LT' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_cmp_0', port 'GE_GT_EQ' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_cmp_0', port 'EQ_NE' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW01_add_7', port 'CI' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW01_add_7', port 'CO' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW01_add_6', port 'CI' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW01_add_6', port 'CO' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW01_add_5', port 'CI' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW01_add_5', port 'CO' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW01_add_4', port 'CI' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW01_add_4', port 'CO' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_7', port 'a[15]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_7', port 'a[14]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_7', port 'a[13]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_7', port 'a[12]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_7', port 'a[11]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_7', port 'a[10]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_7', port 'b[3]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_7', port 'b[2]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_7', port 'b[1]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_7', port 'b[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_7', port 'product[19]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_7', port 'product[18]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_7', port 'product[17]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_7', port 'product[16]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_7', port 'product[15]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_7', port 'product[14]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_7', port 'product[13]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_7', port 'product[12]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_7', port 'product[11]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_7', port 'product[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_6', port 'a[15]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_6', port 'a[14]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_6', port 'a[13]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_6', port 'a[12]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_6', port 'b[4]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_6', port 'b[3]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_6', port 'b[2]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_6', port 'b[1]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_6', port 'b[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_6', port 'product[20]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_6', port 'product[19]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_6', port 'product[18]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_6', port 'product[17]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_6', port 'product[16]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_6', port 'product[15]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_6', port 'product[14]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_6', port 'product[13]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_6', port 'product[12]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_5', port 'a[15]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_5', port 'a[14]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_5', port 'a[13]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_5', port 'a[12]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_5', port 'a[11]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_5', port 'a[10]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_5', port 'b[3]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_5', port 'b[2]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_5', port 'b[1]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_5', port 'b[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_5', port 'product[19]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_5', port 'product[18]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_5', port 'product[17]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_5', port 'product[16]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_5', port 'product[15]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_5', port 'product[14]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_5', port 'product[13]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_5', port 'product[12]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_5', port 'product[11]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_5', port 'product[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_4', port 'a[15]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_4', port 'a[14]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_4', port 'a[13]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_4', port 'a[12]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_4', port 'b[4]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_4', port 'b[3]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_4', port 'b[2]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_4', port 'b[1]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_4', port 'b[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_4', port 'product[20]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_4', port 'product[19]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_4', port 'product[18]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_4', port 'product[17]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_4', port 'product[16]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_4', port 'product[15]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_4', port 'product[14]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_4', port 'product[13]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_4', port 'product[12]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_3', port 'a[15]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_3', port 'a[14]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_3', port 'a[13]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_3', port 'a[12]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_3', port 'a[11]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_3', port 'a[10]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_3', port 'b[3]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_3', port 'b[2]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_3', port 'b[1]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_3', port 'b[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_3', port 'product[19]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_3', port 'product[18]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_3', port 'product[17]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_3', port 'product[16]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_3', port 'product[15]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_3', port 'product[14]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_3', port 'product[13]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_3', port 'product[12]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_3', port 'product[11]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_3', port 'product[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_2', port 'a[15]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_2', port 'a[14]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_2', port 'a[13]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_2', port 'a[12]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_2', port 'b[4]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_2', port 'b[3]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_2', port 'b[2]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_2', port 'b[1]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_2', port 'b[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_2', port 'product[20]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_2', port 'product[19]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_2', port 'product[18]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_2', port 'product[17]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_2', port 'product[16]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_2', port 'product[15]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_2', port 'product[14]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_2', port 'product[13]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_2', port 'product[12]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_1', port 'a[15]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_1', port 'a[14]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_1', port 'a[13]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_1', port 'a[12]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_1', port 'a[11]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_1', port 'a[10]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_1', port 'b[3]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_1', port 'b[2]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_1', port 'b[1]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_1', port 'b[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_1', port 'product[19]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_1', port 'product[18]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_1', port 'product[17]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_1', port 'product[16]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_1', port 'product[15]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_1', port 'product[14]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_1', port 'product[13]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_1', port 'product[12]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_1', port 'product[11]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_1', port 'product[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_0', port 'a[15]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_0', port 'a[14]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_0', port 'a[13]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_0', port 'a[12]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_0', port 'b[4]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_0', port 'b[3]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_0', port 'b[2]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_0', port 'b[1]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_0', port 'b[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_0', port 'product[20]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_0', port 'product[19]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_0', port 'product[18]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_0', port 'product[17]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_0', port 'product[16]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_0', port 'product[15]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_0', port 'product[14]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_0', port 'product[13]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_0', port 'product[12]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_tc_3', port 'product[28]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_tc_3', port 'product[27]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_tc_3', port 'product[26]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_tc_2', port 'product[28]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_tc_2', port 'product[27]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_tc_2', port 'product[26]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_tc_1', port 'product[28]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_tc_1', port 'product[27]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_tc_1', port 'product[26]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_tc_0', port 'product[28]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_tc_0', port 'product[27]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_tc_0', port 'product[26]' is not connected to any nets. (LINT-28)
+Warning: In design 'Image_Classifier_DW_mult_uns_7', input port 'a[1]' is connected directly to output port 'product[2]'. (LINT-29)
+Warning: In design 'Image_Classifier_DW_mult_uns_7', input port 'a[0]' is connected directly to output port 'product[1]'. (LINT-29)
+Warning: In design 'Image_Classifier_DW_mult_uns_6', input port 'a[0]' is connected directly to output port 'product[0]'. (LINT-29)
+Warning: In design 'Image_Classifier_DW_mult_uns_5', input port 'a[1]' is connected directly to output port 'product[2]'. (LINT-29)
+Warning: In design 'Image_Classifier_DW_mult_uns_5', input port 'a[0]' is connected directly to output port 'product[1]'. (LINT-29)
+Warning: In design 'Image_Classifier_DW_mult_uns_4', input port 'a[0]' is connected directly to output port 'product[0]'. (LINT-29)
+Warning: In design 'Image_Classifier_DW_mult_uns_3', input port 'a[1]' is connected directly to output port 'product[2]'. (LINT-29)
+Warning: In design 'Image_Classifier_DW_mult_uns_3', input port 'a[0]' is connected directly to output port 'product[1]'. (LINT-29)
+Warning: In design 'Image_Classifier_DW_mult_uns_2', input port 'a[0]' is connected directly to output port 'product[0]'. (LINT-29)
+Warning: In design 'Image_Classifier_DW_mult_uns_1', input port 'a[1]' is connected directly to output port 'product[2]'. (LINT-29)
+Warning: In design 'Image_Classifier_DW_mult_uns_1', input port 'a[0]' is connected directly to output port 'product[1]'. (LINT-29)
+Warning: In design 'Image_Classifier_DW_mult_uns_0', input port 'a[0]' is connected directly to output port 'product[0]'. (LINT-29)
+Warning: In design 'Image_Classifier', a pin on submodule 'N_inst/gen_block_1[3].mult_0/add_39' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'CI' is connected to logic 0. 
+Warning: In design 'Image_Classifier', a pin on submodule 'N_inst/gen_block_1[2].mult_0/add_39' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'CI' is connected to logic 0. 
+Warning: In design 'Image_Classifier', a pin on submodule 'N_inst/gen_block_1[1].mult_0/add_39' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'CI' is connected to logic 0. 
+Warning: In design 'Image_Classifier', a pin on submodule 'N_inst/gen_block_1[0].mult_0/add_39' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'CI' is connected to logic 0. 
+Warning: In design 'Image_Classifier', a pin on submodule 'gt_8702' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TC' is connected to logic 1. 
+Warning: In design 'Image_Classifier', a pin on submodule 'gt_8702' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'GE_LT' is connected to logic 0. 
+Warning: In design 'Image_Classifier', a pin on submodule 'gt_8702' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'GE_GT_EQ' is connected to logic 1. 
+Warning: In design 'Image_Classifier', a pin on submodule 'add_3_root_add_0_root_N_inst/add_47' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'CI' is connected to logic 0. 
+Warning: In design 'Image_Classifier', a pin on submodule 'add_2_root_add_0_root_N_inst/add_47' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'CI' is connected to logic 0. 
+Warning: In design 'Image_Classifier', a pin on submodule 'add_1_root_add_0_root_N_inst/add_47' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'CI' is connected to logic 0. 
+Warning: In design 'Image_Classifier', a pin on submodule 'add_0_root_add_0_root_N_inst/add_47' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'CI' is connected to logic 0. 
+Warning: In design 'Image_Classifier', a pin on submodule 'N_inst/gen_block_1[3].mult_0/mult_23' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'b[3]' is connected to logic 1. 
+Warning: In design 'Image_Classifier', a pin on submodule 'N_inst/gen_block_1[3].mult_0/mult_23' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'b[2]' is connected to logic 0. 
+Warning: In design 'Image_Classifier', a pin on submodule 'N_inst/gen_block_1[3].mult_0/mult_23' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'b[1]' is connected to logic 1. 
+Warning: In design 'Image_Classifier', a pin on submodule 'N_inst/gen_block_1[3].mult_0/mult_23' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'b[0]' is connected to logic 0. 
+Warning: In design 'Image_Classifier', a pin on submodule 'N_inst/gen_block_1[3].mult_0/mult_22' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'b[4]' is connected to logic 1. 
+Warning: In design 'Image_Classifier', a pin on submodule 'N_inst/gen_block_1[3].mult_0/mult_22' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'b[3]' is connected to logic 0. 
+Warning: In design 'Image_Classifier', a pin on submodule 'N_inst/gen_block_1[3].mult_0/mult_22' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'b[2]' is connected to logic 0. 
+Warning: In design 'Image_Classifier', a pin on submodule 'N_inst/gen_block_1[3].mult_0/mult_22' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'b[1]' is connected to logic 1. 
+Warning: In design 'Image_Classifier', a pin on submodule 'N_inst/gen_block_1[3].mult_0/mult_22' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'b[0]' is connected to logic 1. 
+Warning: In design 'Image_Classifier', a pin on submodule 'N_inst/gen_block_1[2].mult_0/mult_23' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'b[3]' is connected to logic 1. 
+Warning: In design 'Image_Classifier', a pin on submodule 'N_inst/gen_block_1[2].mult_0/mult_23' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'b[2]' is connected to logic 0. 
+Warning: In design 'Image_Classifier', a pin on submodule 'N_inst/gen_block_1[2].mult_0/mult_23' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'b[1]' is connected to logic 1. 
+Warning: In design 'Image_Classifier', a pin on submodule 'N_inst/gen_block_1[2].mult_0/mult_23' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'b[0]' is connected to logic 0. 
+Warning: In design 'Image_Classifier', a pin on submodule 'N_inst/gen_block_1[2].mult_0/mult_22' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'b[4]' is connected to logic 1. 
+Warning: In design 'Image_Classifier', a pin on submodule 'N_inst/gen_block_1[2].mult_0/mult_22' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'b[3]' is connected to logic 0. 
+Warning: In design 'Image_Classifier', a pin on submodule 'N_inst/gen_block_1[2].mult_0/mult_22' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'b[2]' is connected to logic 0. 
+Warning: In design 'Image_Classifier', a pin on submodule 'N_inst/gen_block_1[2].mult_0/mult_22' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'b[1]' is connected to logic 1. 
+Warning: In design 'Image_Classifier', a pin on submodule 'N_inst/gen_block_1[2].mult_0/mult_22' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'b[0]' is connected to logic 1. 
+Warning: In design 'Image_Classifier', a pin on submodule 'N_inst/gen_block_1[1].mult_0/mult_23' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'b[3]' is connected to logic 1. 
+Warning: In design 'Image_Classifier', a pin on submodule 'N_inst/gen_block_1[1].mult_0/mult_23' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'b[2]' is connected to logic 0. 
+Warning: In design 'Image_Classifier', a pin on submodule 'N_inst/gen_block_1[1].mult_0/mult_23' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'b[1]' is connected to logic 1. 
+Warning: In design 'Image_Classifier', a pin on submodule 'N_inst/gen_block_1[1].mult_0/mult_23' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'b[0]' is connected to logic 0. 
+Warning: In design 'Image_Classifier', a pin on submodule 'N_inst/gen_block_1[1].mult_0/mult_22' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'b[4]' is connected to logic 1. 
+Warning: In design 'Image_Classifier', a pin on submodule 'N_inst/gen_block_1[1].mult_0/mult_22' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'b[3]' is connected to logic 0. 
+Warning: In design 'Image_Classifier', a pin on submodule 'N_inst/gen_block_1[1].mult_0/mult_22' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'b[2]' is connected to logic 0. 
+Warning: In design 'Image_Classifier', a pin on submodule 'N_inst/gen_block_1[1].mult_0/mult_22' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'b[1]' is connected to logic 1. 
+Warning: In design 'Image_Classifier', a pin on submodule 'N_inst/gen_block_1[1].mult_0/mult_22' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'b[0]' is connected to logic 1. 
+Warning: In design 'Image_Classifier', a pin on submodule 'N_inst/gen_block_1[0].mult_0/mult_23' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'b[3]' is connected to logic 1. 
+Warning: In design 'Image_Classifier', a pin on submodule 'N_inst/gen_block_1[0].mult_0/mult_23' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'b[2]' is connected to logic 0. 
+Warning: In design 'Image_Classifier', a pin on submodule 'N_inst/gen_block_1[0].mult_0/mult_23' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'b[1]' is connected to logic 1. 
+Warning: In design 'Image_Classifier', a pin on submodule 'N_inst/gen_block_1[0].mult_0/mult_23' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'b[0]' is connected to logic 0. 
+Warning: In design 'Image_Classifier', a pin on submodule 'N_inst/gen_block_1[0].mult_0/mult_22' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'b[4]' is connected to logic 1. 
+Warning: In design 'Image_Classifier', a pin on submodule 'N_inst/gen_block_1[0].mult_0/mult_22' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'b[3]' is connected to logic 0. 
+Warning: In design 'Image_Classifier', a pin on submodule 'N_inst/gen_block_1[0].mult_0/mult_22' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'b[2]' is connected to logic 0. 
+Warning: In design 'Image_Classifier', a pin on submodule 'N_inst/gen_block_1[0].mult_0/mult_22' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'b[1]' is connected to logic 1. 
+Warning: In design 'Image_Classifier', a pin on submodule 'N_inst/gen_block_1[0].mult_0/mult_22' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'b[0]' is connected to logic 1. 
+Warning: In design 'Image_Classifier', the same net is connected to more than one pin on submodule 'gt_8702'. (LINT-33)
+   Net 'n206676' is connected to pins 'TC', 'GE_GT_EQ''.
+Warning: In design 'Image_Classifier', the same net is connected to more than one pin on submodule 'add_0_root_add_0_root_N_inst/add_47'. (LINT-33)
+   Net 'BIAS[18]' is connected to pins 'B[25]', 'B[24]'', 'B[23]', 'B[22]', 'B[21]', 'B[20]', 'B[19]', 'B[18]'.
+Warning: In design 'Image_Classifier', the same net is connected to more than one pin on submodule 'N_inst/gen_block_1[3].mult_0/mult_23'. (LINT-33)
+   Net 'n206667' is connected to pins 'b[3]', 'b[1]''.
+Warning: In design 'Image_Classifier', the same net is connected to more than one pin on submodule 'N_inst/gen_block_1[3].mult_0/mult_23'. (LINT-33)
+   Net 'n206668' is connected to pins 'b[2]', 'b[0]''.
+Warning: In design 'Image_Classifier', the same net is connected to more than one pin on submodule 'N_inst/gen_block_1[3].mult_0/mult_22'. (LINT-33)
+   Net 'n206667' is connected to pins 'b[4]', 'b[1]'', 'b[0]'.
+Warning: In design 'Image_Classifier', the same net is connected to more than one pin on submodule 'N_inst/gen_block_1[3].mult_0/mult_22'. (LINT-33)
+   Net 'n206668' is connected to pins 'b[3]', 'b[2]''.
+Warning: In design 'Image_Classifier', the same net is connected to more than one pin on submodule 'N_inst/gen_block_1[2].mult_0/mult_23'. (LINT-33)
+   Net 'n206667' is connected to pins 'b[3]', 'b[1]''.
+Warning: In design 'Image_Classifier', the same net is connected to more than one pin on submodule 'N_inst/gen_block_1[2].mult_0/mult_23'. (LINT-33)
+   Net 'n206668' is connected to pins 'b[2]', 'b[0]''.
+Warning: In design 'Image_Classifier', the same net is connected to more than one pin on submodule 'N_inst/gen_block_1[2].mult_0/mult_22'. (LINT-33)
+   Net 'n206667' is connected to pins 'b[4]', 'b[1]'', 'b[0]'.
+Warning: In design 'Image_Classifier', the same net is connected to more than one pin on submodule 'N_inst/gen_block_1[2].mult_0/mult_22'. (LINT-33)
+   Net 'n206668' is connected to pins 'b[3]', 'b[2]''.
+Warning: In design 'Image_Classifier', the same net is connected to more than one pin on submodule 'N_inst/gen_block_1[1].mult_0/mult_23'. (LINT-33)
+   Net 'n206667' is connected to pins 'b[3]', 'b[1]''.
+Warning: In design 'Image_Classifier', the same net is connected to more than one pin on submodule 'N_inst/gen_block_1[1].mult_0/mult_23'. (LINT-33)
+   Net 'n206668' is connected to pins 'b[2]', 'b[0]''.
+Warning: In design 'Image_Classifier', the same net is connected to more than one pin on submodule 'N_inst/gen_block_1[1].mult_0/mult_22'. (LINT-33)
+   Net 'n206667' is connected to pins 'b[4]', 'b[1]'', 'b[0]'.
+Warning: In design 'Image_Classifier', the same net is connected to more than one pin on submodule 'N_inst/gen_block_1[1].mult_0/mult_22'. (LINT-33)
+   Net 'n206668' is connected to pins 'b[3]', 'b[2]''.
+Warning: In design 'Image_Classifier', the same net is connected to more than one pin on submodule 'N_inst/gen_block_1[0].mult_0/mult_23'. (LINT-33)
+   Net 'n206667' is connected to pins 'b[3]', 'b[1]''.
+Warning: In design 'Image_Classifier', the same net is connected to more than one pin on submodule 'N_inst/gen_block_1[0].mult_0/mult_23'. (LINT-33)
+   Net 'n206668' is connected to pins 'b[2]', 'b[0]''.
+Warning: In design 'Image_Classifier', the same net is connected to more than one pin on submodule 'N_inst/gen_block_1[0].mult_0/mult_22'. (LINT-33)
+   Net 'n206667' is connected to pins 'b[4]', 'b[1]'', 'b[0]'.
+Warning: In design 'Image_Classifier', the same net is connected to more than one pin on submodule 'N_inst/gen_block_1[0].mult_0/mult_22'. (LINT-33)
+   Net 'n206668' is connected to pins 'b[3]', 'b[2]''.
+1
