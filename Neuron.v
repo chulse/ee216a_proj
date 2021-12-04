@@ -13,8 +13,8 @@ input rst;
 output [OUTPUT_WIDTH-1:0] OUT;
 output done;
 
-parameter NUM_OF_ACCUMULATORS = 16; //need 49x16 steps (was going to be 28x28 but 10 neurons is 280 multipliers, too many)
-parameter BATCH_SIZE = 49; //each accumulator handles 49 pixels
+parameter NUM_OF_ACCUMULATORS = 4; //need 49x16 steps (was going to be 28x28 but 10 neurons is 280 multipliers, too many)
+parameter BATCH_SIZE = 196; //each accumulator handles 49 pixels
 //Now each Neuron will do 49 batches of 16 multipliers each.
 
 wire [OUTPUT_WIDTH*NUM_OF_ACCUMULATORS-1:0] temp_outputs;
@@ -45,6 +45,6 @@ always @(temp_outputs) begin
     out_buf = out_buf + temp_outputs[k*OUTPUT_WIDTH +: OUTPUT_WIDTH];
 end
 assign OUT = out_buf + {{7{BIAS[WEIGHT_WIDTH-1]}}, BIAS};
-assign done = done_signals==~16'b0; //Put this in a parameter?
+assign done = done_signals==~4'b0; //Put this in a parameter?
 
 endmodule
