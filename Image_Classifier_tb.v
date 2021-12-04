@@ -1,5 +1,5 @@
 //time sclae for simulation perposes
-`timescale 1 ns/10 ps
+`timescale 2 ns/10 ps
 
 //test bench module definition
 module Image_Classifier_tb();

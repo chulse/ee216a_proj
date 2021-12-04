@@ -11,18 +11,14 @@ set synthetic_library "dw_foundation.sldb"
 set alib_library_analysis_path "./alib-52/"
 
 analyze -format verilog {Image_Classifier.v}
-//analyze -format verilog {Neuron.v}
-//analyze -format verilog {Max_selector.v}
-//analyze -format verilog {PipelinedMultAccumulate.v}
-//analyze -format verilog {FixedPointMultiplier.v}
+analyze -format verilog {Neuron.v}
+analyze -format verilog {SynLib_new.v}
+analyze -format verilog {PipelinedMultAccumulate.v}
+analyze -format verilog {FixedPointMultiplier.v}
 
 set DESIGN_NAME Image_Classifier
 
 elaborate $DESIGN_NAME
-//elaborate Neuron
-//elaborate Max_selector
-//elaborate PipelinedMultAccumulate
-//elaborate FixedPointMultiplier
 
 current_design $DESIGN_NAME
 link
@@ -46,7 +42,6 @@ set_input_delay -min $IN_DEL_MIN -clock "clk" $ALL_IN_BUT_CLK
 set_output_delay $OUT_DEL -clock "clk" [all_outputs]
 set_output_delay -min $OUT_DEL_MIN -clock "clk" [all_outputs]
 
-set_max_area 0.0
 set_max_total_power 0.0
 
 uniquify
