@@ -3,7 +3,7 @@
 Report : area
 Design : Image_Classifier
 Version: G-2012.06-SP1
-Date   : Fri Dec  3 22:23:44 2021
+Date   : Sat Dec  4 12:13:07 2021
 ****************************************
 
 Library(s) Used:
@@ -11,21 +11,21 @@ Library(s) Used:
     saed32rvt_ff1p16vn40c (File: /w/apps2/public.2/tech/synopsys/32-28nm/SAED32_EDK/lib/stdcell_rvt/db_nldm/saed32rvt_ff1p16vn40c.db)
 
 Number of ports:                       157008
-Number of nets:                        258455
-Number of cells:                       100857
-Number of combinational cells:         100028
+Number of nets:                        257952
+Number of cells:                       100375
+Number of combinational cells:          99546
 Number of sequential cells:               804
 Number of macros:                           0
-Number of buf/inv:                      14792
-Number of references:                      71
+Number of buf/inv:                      14608
+Number of references:                      65
 
-Combinational area:       289624.536589
-Buf/Inv area:             29559.998256
-Noncombinational area:    5701.974887
-Net Interconnect area:    182703.831320
+Combinational area:       288157.617484
+Buf/Inv area:             28858.560838
+Noncombinational area:    5693.842280
+Net Interconnect area:    181162.166509
 
-Total cell area:          295326.511476
-Total area:               478030.342796
+Total cell area:          293851.459764
+Total area:               475013.626273
 
 Hierarchical area distribution
 ------------------------------
@@ -35,7 +35,7 @@ Hierarchical area distribution
 Hierarchical cell                 Absolute     Percent  Combi-       Noncombi-  Black
                                   Total        Total    national     national   boxes   Design
 --------------------------------  -----------  -------  -----------  ---------  ------  ------------------------------
-Image_Classifier                  295326.5115    100.0  279896.9209  5701.9749  0.0000  Image_Classifier
+Image_Classifier                  293851.4598    100.0  278915.4168  5693.8423  0.0000  Image_Classifier
 N_inst/gen_block_1[0].mult_0/add_39
                                      127.0720      0.0     127.0720     0.0000  0.0000  Image_Classifier_DW01_add_3
 N_inst/gen_block_1[0].mult_0/add_41
@@ -43,9 +43,9 @@ N_inst/gen_block_1[0].mult_0/add_41
 N_inst/gen_block_1[0].mult_0/mult_0/mult_50
                                     1719.2842      0.6    1719.2842     0.0000  0.0000  Image_Classifier_DW_mult_tc_3
 N_inst/gen_block_1[0].mult_0/mult_22
-                                     196.4533      0.1     196.4533     0.0000  0.0000  Image_Classifier_DW_mult_uns_0
+                                     196.9616      0.1     196.9616     0.0000  0.0000  Image_Classifier_DW_mult_uns_0
 N_inst/gen_block_1[0].mult_0/mult_23
-                                      39.3923      0.0      39.3923     0.0000  0.0000  Image_Classifier_DW_mult_uns_4
+                                      39.3923      0.0      39.3923     0.0000  0.0000  Image_Classifier_DW_mult_uns_1
 N_inst/gen_block_1[1].mult_0/add_39
                                      127.0720      0.0     127.0720     0.0000  0.0000  Image_Classifier_DW01_add_2
 N_inst/gen_block_1[1].mult_0/add_41
@@ -53,9 +53,9 @@ N_inst/gen_block_1[1].mult_0/add_41
 N_inst/gen_block_1[1].mult_0/mult_0/mult_50
                                     1719.2842      0.6    1719.2842     0.0000  0.0000  Image_Classifier_DW_mult_tc_2
 N_inst/gen_block_1[1].mult_0/mult_22
-                                     196.4533      0.1     196.4533     0.0000  0.0000  Image_Classifier_DW_mult_uns_1
+                                     196.9616      0.1     196.9616     0.0000  0.0000  Image_Classifier_DW_mult_uns_2
 N_inst/gen_block_1[1].mult_0/mult_23
-                                      39.3923      0.0      39.3923     0.0000  0.0000  Image_Classifier_DW_mult_uns_5
+                                      39.3923      0.0      39.3923     0.0000  0.0000  Image_Classifier_DW_mult_uns_3
 N_inst/gen_block_1[2].mult_0/add_39
                                      127.0720      0.0     127.0720     0.0000  0.0000  Image_Classifier_DW01_add_1
 N_inst/gen_block_1[2].mult_0/add_41
@@ -63,9 +63,9 @@ N_inst/gen_block_1[2].mult_0/add_41
 N_inst/gen_block_1[2].mult_0/mult_0/mult_50
                                     1719.2842      0.6    1719.2842     0.0000  0.0000  Image_Classifier_DW_mult_tc_1
 N_inst/gen_block_1[2].mult_0/mult_22
-                                     196.4533      0.1     196.4533     0.0000  0.0000  Image_Classifier_DW_mult_uns_2
+                                     196.9616      0.1     196.9616     0.0000  0.0000  Image_Classifier_DW_mult_uns_4
 N_inst/gen_block_1[2].mult_0/mult_23
-                                      39.3923      0.0      39.3923     0.0000  0.0000  Image_Classifier_DW_mult_uns_6
+                                      39.3923      0.0      39.3923     0.0000  0.0000  Image_Classifier_DW_mult_uns_5
 N_inst/gen_block_1[3].mult_0/add_39
                                      127.0720      0.0     127.0720     0.0000  0.0000  Image_Classifier_DW01_add_0
 N_inst/gen_block_1[3].mult_0/add_41
@@ -73,19 +73,19 @@ N_inst/gen_block_1[3].mult_0/add_41
 N_inst/gen_block_1[3].mult_0/mult_0/mult_50
                                     1719.2842      0.6    1719.2842     0.0000  0.0000  Image_Classifier_DW_mult_tc_0
 N_inst/gen_block_1[3].mult_0/mult_22
-                                     196.4533      0.1     196.4533     0.0000  0.0000  Image_Classifier_DW_mult_uns_3
+                                     196.9616      0.1     196.9616     0.0000  0.0000  Image_Classifier_DW_mult_uns_6
 N_inst/gen_block_1[3].mult_0/mult_23
                                       39.3923      0.0      39.3923     0.0000  0.0000  Image_Classifier_DW_mult_uns_7
 add_0_root_add_0_root_N_inst/add_47
-                                     595.9677      0.2     595.9677     0.0000  0.0000  Image_Classifier_DW01_add_4
+                                     127.0720      0.0     127.0720     0.0000  0.0000  Image_Classifier_DW01_add_4
 add_1_root_add_0_root_N_inst/add_47
                                      127.0720      0.0     127.0720     0.0000  0.0000  Image_Classifier_DW01_add_5
 add_2_root_add_0_root_N_inst/add_47
                                      127.0720      0.0     127.0720     0.0000  0.0000  Image_Classifier_DW01_add_6
 add_3_root_add_0_root_N_inst/add_47
                                      127.0720      0.0     127.0720     0.0000  0.0000  Image_Classifier_DW01_add_7
-gt_8702                              214.2434      0.1     214.2434     0.0000  0.0000  Image_Classifier_DW_cmp_0
+gt_8702                              195.6909      0.1     195.6909     0.0000  0.0000  Image_Classifier_DW_cmp_0
 --------------------------------  -----------  -------  -----------  ---------  ------  ------------------------------
-Total                                                   289624.5366  5701.9749  0.0000
+Total                                                   288157.6175  5693.8423  0.0000
 
 1

@@ -8906,6 +8906,10 @@ initial begin
 	$stop;
 	end
 
+	initial begin
+		$sdf_annotate("Image_Classifier.sdf", MyImage_Classifier);
+	end
+
 
 
 endmodule

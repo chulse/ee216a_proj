@@ -7,7 +7,7 @@ Report : timing
         -max_paths 10
 Design : Image_Classifier
 Version: G-2012.06-SP1
-Date   : Fri Dec  3 22:23:43 2021
+Date   : Sat Dec  4 12:13:04 2021
 ****************************************
 
 Operating Conditions: ss0p95v125c   Library: saed32rvt_ss0p95v125c
@@ -32,84 +32,103 @@ Wire Load Model Mode: enclosed
   --------------------------------------------------------------------------
   clock clk (rise edge)                                   0.00       0.00
   clock network delay (ideal)                             0.00       0.00
-  input external delay                                    0.60       0.60 r
-  Input_Valid (in)                                        0.00       0.60 r
-  U259483/Y (INVX32_RVT)                                  0.00       0.60 f
-  U259494/Y (AND3X1_RVT)                                  0.02       0.62 f
-  U157/Y (AO22X1_RVT)                                     0.03       0.65 f
-  U182069/Y (INVX1_RVT)                                   0.01       0.66 r
-  U259468/Y (NBUFFX2_RVT)                                 0.02       0.68 r
-  U258708/Y (AND3X1_RVT)                                  0.02       0.70 r
-  U274895/Y (NAND2X0_RVT)                                 0.01       0.71 f
-  U259478/Y (AND3X1_RVT)                                  0.02       0.73 f
-  U274893/Y (NAND3X0_RVT)                                 0.01       0.74 r
-  U287038/Y (OR3X1_RVT)                                   0.02       0.77 r
+  input external delay                                    0.60       0.60 f
+  Input_Valid (in)                                        0.00       0.60 f
+  U274498/Y (INVX1_RVT)                                   0.00       0.60 r
+  U258504/Y (NAND2X0_RVT)                                 0.02       0.63 f
+  U182128/Y (AO21X1_RVT)                                  0.02       0.64 f
+  U273998/Y (INVX1_RVT)                                   0.02       0.67 r
+  U273727/Y (INVX2_RVT)                                   0.02       0.69 f
+  U272774/Y (INVX1_RVT)                                   0.02       0.71 r
+  U156/Y (AO22X1_RVT)                                     0.03       0.74 r
+  U181902/Y (INVX1_RVT)                                   0.01       0.75 f
+  U258634/Y (NAND2X0_RVT)                                 0.02       0.76 r
+  U181901/Y (INVX1_RVT)                                   0.01       0.77 f
+  U274075/Y (OA22X1_RVT)                                  0.04       0.81 f
+  U273115/Y (INVX1_RVT)                                   0.02       0.83 r
+  U273966/Y (INVX1_RVT)                                   0.02       0.85 f
+  U272767/Y (INVX1_RVT)                                   0.02       0.87 r
+  U271179/Y (NBUFFX2_RVT)                                 0.02       0.89 r
+  U258570/Y (AO222X1_RVT)                                 0.04       0.93 r
+  U258566/Y (OR3X1_RVT)                                   0.03       0.97 r
   add_0_root_add_0_root_N_inst/add_47/B[1] (Image_Classifier_DW01_add_4)
-                                                          0.00       0.77 r
-  add_0_root_add_0_root_N_inst/add_47/U184/Y (OA21X1_RVT)
-                                                          0.02       0.79 r
-  add_0_root_add_0_root_N_inst/add_47/U194/Y (AO22X1_RVT)
-                                                          0.02       0.81 r
-  add_0_root_add_0_root_N_inst/add_47/U182/Y (AO21X1_RVT)
-                                                          0.02       0.82 r
-  add_0_root_add_0_root_N_inst/add_47/U205/Y (AND2X1_RVT)
-                                                          0.02       0.84 r
-  add_0_root_add_0_root_N_inst/add_47/U179/Y (OA21X1_RVT)
-                                                          0.02       0.86 r
-  add_0_root_add_0_root_N_inst/add_47/U213/Y (OR3X1_RVT)
-                                                          0.02       0.88 r
-  add_0_root_add_0_root_N_inst/add_47/U32/Y (AO22X1_RVT)
-                                                          0.02       0.90 r
-  add_0_root_add_0_root_N_inst/add_47/U172/Y (AO21X1_RVT)
-                                                          0.03       0.93 r
-  add_0_root_add_0_root_N_inst/add_47/U191/Y (AND2X1_RVT)
-                                                          0.02       0.95 r
-  add_0_root_add_0_root_N_inst/add_47/U36/Y (AO221X1_RVT)
-                                                          0.03       0.98 r
-  add_0_root_add_0_root_N_inst/add_47/U163/Y (AO22X1_RVT)
-                                                          0.02       1.00 r
-  add_0_root_add_0_root_N_inst/add_47/U92/Y (AO21X1_RVT)
-                                                          0.02       1.02 r
-  add_0_root_add_0_root_N_inst/add_47/U77/Y (NAND2X0_RVT)
-                                                          0.01       1.04 f
-  add_0_root_add_0_root_N_inst/add_47/U113/Y (AO21X1_RVT)
-                                                          0.02       1.06 f
-  add_0_root_add_0_root_N_inst/add_47/U112/Y (NAND3X0_RVT)
-                                                          0.01       1.07 r
-  add_0_root_add_0_root_N_inst/add_47/U39/Y (AO22X1_RVT)
-                                                          0.02       1.09 r
-  add_0_root_add_0_root_N_inst/add_47/U95/Y (NOR3X0_RVT)
-                                                          0.03       1.12 f
-  add_0_root_add_0_root_N_inst/add_47/U93/Y (OA221X1_RVT)
-                                                          0.03       1.15 f
-  add_0_root_add_0_root_N_inst/add_47/U57/Y (XOR3X2_RVT)
-                                                          0.02       1.17 r
+                                                          0.00       0.97 r
+  add_0_root_add_0_root_N_inst/add_47/U1_1/CO (FADDX1_RVT)
+                                                          0.03       1.00 r
+  add_0_root_add_0_root_N_inst/add_47/U1_2/CO (FADDX1_RVT)
+                                                          0.03       1.03 r
+  add_0_root_add_0_root_N_inst/add_47/U1_3/CO (FADDX1_RVT)
+                                                          0.03       1.06 r
+  add_0_root_add_0_root_N_inst/add_47/U1_4/CO (FADDX1_RVT)
+                                                          0.03       1.09 r
+  add_0_root_add_0_root_N_inst/add_47/U1_5/CO (FADDX1_RVT)
+                                                          0.03       1.12 r
+  add_0_root_add_0_root_N_inst/add_47/U1_6/CO (FADDX1_RVT)
+                                                          0.03       1.15 r
+  add_0_root_add_0_root_N_inst/add_47/U1_7/CO (FADDX1_RVT)
+                                                          0.03       1.18 r
+  add_0_root_add_0_root_N_inst/add_47/U1_8/CO (FADDX1_RVT)
+                                                          0.03       1.21 r
+  add_0_root_add_0_root_N_inst/add_47/U1_9/CO (FADDX1_RVT)
+                                                          0.03       1.24 r
+  add_0_root_add_0_root_N_inst/add_47/U1_10/CO (FADDX1_RVT)
+                                                          0.03       1.27 r
+  add_0_root_add_0_root_N_inst/add_47/U1_11/CO (FADDX1_RVT)
+                                                          0.03       1.30 r
+  add_0_root_add_0_root_N_inst/add_47/U1_12/CO (FADDX1_RVT)
+                                                          0.03       1.34 r
+  add_0_root_add_0_root_N_inst/add_47/U1_13/CO (FADDX1_RVT)
+                                                          0.03       1.37 r
+  add_0_root_add_0_root_N_inst/add_47/U1_14/CO (FADDX1_RVT)
+                                                          0.03       1.40 r
+  add_0_root_add_0_root_N_inst/add_47/U1_15/CO (FADDX1_RVT)
+                                                          0.03       1.43 r
+  add_0_root_add_0_root_N_inst/add_47/U1_16/CO (FADDX1_RVT)
+                                                          0.03       1.46 r
+  add_0_root_add_0_root_N_inst/add_47/U1_17/CO (FADDX1_RVT)
+                                                          0.03       1.49 r
+  add_0_root_add_0_root_N_inst/add_47/U1_18/CO (FADDX1_RVT)
+                                                          0.03       1.52 r
+  add_0_root_add_0_root_N_inst/add_47/U1_19/CO (FADDX1_RVT)
+                                                          0.03       1.55 r
+  add_0_root_add_0_root_N_inst/add_47/U1_20/CO (FADDX1_RVT)
+                                                          0.03       1.58 r
+  add_0_root_add_0_root_N_inst/add_47/U1_21/CO (FADDX1_RVT)
+                                                          0.03       1.61 r
+  add_0_root_add_0_root_N_inst/add_47/U1_22/CO (FADDX1_RVT)
+                                                          0.03       1.64 r
+  add_0_root_add_0_root_N_inst/add_47/U1_23/CO (FADDX1_RVT)
+                                                          0.03       1.68 r
+  add_0_root_add_0_root_N_inst/add_47/U1_24/CO (FADDX1_RVT)
+                                                          0.03       1.71 r
+  add_0_root_add_0_root_N_inst/add_47/U1_25/S (FADDX1_RVT)
+                                                          0.05       1.75 f
   add_0_root_add_0_root_N_inst/add_47/SUM[25] (Image_Classifier_DW01_add_4)
-                                                          0.00       1.17 r
-  U147/Y (AO221X1_RVT)                                    0.04       1.21 r
-  gt_8702/B[25] (Image_Classifier_DW_cmp_0)               0.00       1.21 r
-  gt_8702/U229/Y (OR2X2_RVT)                              0.02       1.23 r
-  gt_8702/U236/Y (NAND2X0_RVT)                            0.01       1.24 f
-  gt_8702/U235/Y (OA22X1_RVT)                             0.02       1.26 f
-  gt_8702/U224/Y (NAND2X0_RVT)                            0.01       1.27 r
-  gt_8702/U127/Y (AO22X1_RVT)                             0.03       1.30 r
-  gt_8702/GE_LT_GT_LE (Image_Classifier_DW_cmp_0)         0.00       1.30 r
-  U258722/Y (INVX2_RVT)                                   0.01       1.31 f
-  U259451/Y (OA21X1_RVT)                                  0.02       1.33 f
-  U148/Y (AO22X1_RVT)                                     0.02       1.35 f
-  Image_Number[0] (out)                                   0.00       1.35 f
-  data arrival time                                                  1.35
+                                                          0.00       1.75 f
+  U147/Y (AO221X1_RVT)                                    0.03       1.78 f
+  gt_8702/B[25] (Image_Classifier_DW_cmp_0)               0.00       1.78 f
+  gt_8702/U229/Y (OR2X1_RVT)                              0.02       1.80 f
+  gt_8702/U227/Y (AND2X1_RVT)                             0.02       1.82 f
+  gt_8702/U226/Y (AOI22X1_RVT)                            0.02       1.84 r
+  gt_8702/U194/Y (NAND3X0_RVT)                            0.02       1.86 f
+  gt_8702/U127/Y (AO22X1_RVT)                             0.02       1.88 f
+  gt_8702/GE_LT_GT_LE (Image_Classifier_DW_cmp_0)         0.00       1.88 f
+  U182127/Y (AOI21X1_RVT)                                 0.03       1.91 r
+  U273728/Y (NBUFFX2_RVT)                                 0.02       1.93 r
+  U148/Y (AO22X1_RVT)                                     0.03       1.96 r
+  Image_Number[0] (out)                                   0.00       1.96 r
+  data arrival time                                                  1.96
 
-  clock clk (rise edge)                                   2.00       2.00
-  clock network delay (ideal)                             0.00       2.00
-  clock uncertainty                                      -0.10       1.90
-  output external delay                                  -0.60       1.30
-  data required time                                                 1.30
+  clock clk (rise edge)                                   3.50       3.50
+  clock network delay (ideal)                             0.00       3.50
+  clock uncertainty                                      -0.10       3.40
+  output external delay                                  -0.60       2.80
+  data required time                                                 2.80
   --------------------------------------------------------------------------
-  data required time                                                 1.30
-  data arrival time                                                 -1.35
+  data required time                                                 2.80
+  data arrival time                                                 -1.96
   --------------------------------------------------------------------------
-  slack (VIOLATED)                                                  -0.05
+  slack (MET)                                                        0.84
 
 
   Startpoint: Input_Valid
@@ -131,84 +150,339 @@ Wire Load Model Mode: enclosed
   --------------------------------------------------------------------------
   clock clk (rise edge)                                   0.00       0.00
   clock network delay (ideal)                             0.00       0.00
-  input external delay                                    0.60       0.60 r
-  Input_Valid (in)                                        0.00       0.60 r
-  U259483/Y (INVX32_RVT)                                  0.00       0.60 f
-  U259494/Y (AND3X1_RVT)                                  0.02       0.62 f
-  U157/Y (AO22X1_RVT)                                     0.03       0.65 f
-  U182069/Y (INVX1_RVT)                                   0.01       0.66 r
-  U259468/Y (NBUFFX2_RVT)                                 0.02       0.68 r
-  U258708/Y (AND3X1_RVT)                                  0.02       0.70 r
-  U274895/Y (NAND2X0_RVT)                                 0.01       0.71 f
-  U259478/Y (AND3X1_RVT)                                  0.02       0.73 f
-  U274893/Y (NAND3X0_RVT)                                 0.01       0.74 r
-  U287038/Y (OR3X1_RVT)                                   0.02       0.77 r
+  input external delay                                    0.60       0.60 f
+  Input_Valid (in)                                        0.00       0.60 f
+  U274498/Y (INVX1_RVT)                                   0.00       0.60 r
+  U258504/Y (NAND2X0_RVT)                                 0.02       0.63 f
+  U182128/Y (AO21X1_RVT)                                  0.02       0.64 f
+  U273998/Y (INVX1_RVT)                                   0.02       0.67 r
+  U273727/Y (INVX2_RVT)                                   0.02       0.69 f
+  U272774/Y (INVX1_RVT)                                   0.02       0.71 r
+  U156/Y (AO22X1_RVT)                                     0.03       0.74 r
+  U181902/Y (INVX1_RVT)                                   0.01       0.75 f
+  U258634/Y (NAND2X0_RVT)                                 0.02       0.76 r
+  U181901/Y (INVX1_RVT)                                   0.01       0.77 f
+  U274075/Y (OA22X1_RVT)                                  0.04       0.81 f
+  U273115/Y (INVX1_RVT)                                   0.02       0.83 r
+  U273966/Y (INVX1_RVT)                                   0.02       0.85 f
+  U272767/Y (INVX1_RVT)                                   0.02       0.87 r
+  U271179/Y (NBUFFX2_RVT)                                 0.02       0.89 r
+  U258570/Y (AO222X1_RVT)                                 0.04       0.93 r
+  U258566/Y (OR3X1_RVT)                                   0.03       0.97 r
   add_0_root_add_0_root_N_inst/add_47/B[1] (Image_Classifier_DW01_add_4)
-                                                          0.00       0.77 r
-  add_0_root_add_0_root_N_inst/add_47/U184/Y (OA21X1_RVT)
-                                                          0.02       0.79 r
-  add_0_root_add_0_root_N_inst/add_47/U194/Y (AO22X1_RVT)
-                                                          0.02       0.81 r
-  add_0_root_add_0_root_N_inst/add_47/U182/Y (AO21X1_RVT)
-                                                          0.02       0.82 r
-  add_0_root_add_0_root_N_inst/add_47/U205/Y (AND2X1_RVT)
-                                                          0.02       0.84 r
-  add_0_root_add_0_root_N_inst/add_47/U179/Y (OA21X1_RVT)
-                                                          0.02       0.86 r
-  add_0_root_add_0_root_N_inst/add_47/U213/Y (OR3X1_RVT)
-                                                          0.02       0.88 r
-  add_0_root_add_0_root_N_inst/add_47/U32/Y (AO22X1_RVT)
-                                                          0.02       0.90 r
-  add_0_root_add_0_root_N_inst/add_47/U172/Y (AO21X1_RVT)
-                                                          0.03       0.93 r
-  add_0_root_add_0_root_N_inst/add_47/U191/Y (AND2X1_RVT)
-                                                          0.02       0.95 r
-  add_0_root_add_0_root_N_inst/add_47/U36/Y (AO221X1_RVT)
-                                                          0.03       0.98 r
-  add_0_root_add_0_root_N_inst/add_47/U163/Y (AO22X1_RVT)
-                                                          0.02       1.00 r
-  add_0_root_add_0_root_N_inst/add_47/U92/Y (AO21X1_RVT)
-                                                          0.02       1.02 r
-  add_0_root_add_0_root_N_inst/add_47/U77/Y (NAND2X0_RVT)
-                                                          0.01       1.04 f
-  add_0_root_add_0_root_N_inst/add_47/U113/Y (AO21X1_RVT)
-                                                          0.02       1.06 f
-  add_0_root_add_0_root_N_inst/add_47/U112/Y (NAND3X0_RVT)
-                                                          0.01       1.07 r
-  add_0_root_add_0_root_N_inst/add_47/U39/Y (AO22X1_RVT)
-                                                          0.02       1.09 r
-  add_0_root_add_0_root_N_inst/add_47/U95/Y (NOR3X0_RVT)
-                                                          0.03       1.12 f
-  add_0_root_add_0_root_N_inst/add_47/U93/Y (OA221X1_RVT)
-                                                          0.03       1.15 f
-  add_0_root_add_0_root_N_inst/add_47/U57/Y (XOR3X2_RVT)
-                                                          0.02       1.17 r
+                                                          0.00       0.97 r
+  add_0_root_add_0_root_N_inst/add_47/U1_1/CO (FADDX1_RVT)
+                                                          0.03       1.00 r
+  add_0_root_add_0_root_N_inst/add_47/U1_2/CO (FADDX1_RVT)
+                                                          0.03       1.03 r
+  add_0_root_add_0_root_N_inst/add_47/U1_3/CO (FADDX1_RVT)
+                                                          0.03       1.06 r
+  add_0_root_add_0_root_N_inst/add_47/U1_4/CO (FADDX1_RVT)
+                                                          0.03       1.09 r
+  add_0_root_add_0_root_N_inst/add_47/U1_5/CO (FADDX1_RVT)
+                                                          0.03       1.12 r
+  add_0_root_add_0_root_N_inst/add_47/U1_6/CO (FADDX1_RVT)
+                                                          0.03       1.15 r
+  add_0_root_add_0_root_N_inst/add_47/U1_7/CO (FADDX1_RVT)
+                                                          0.03       1.18 r
+  add_0_root_add_0_root_N_inst/add_47/U1_8/CO (FADDX1_RVT)
+                                                          0.03       1.21 r
+  add_0_root_add_0_root_N_inst/add_47/U1_9/CO (FADDX1_RVT)
+                                                          0.03       1.24 r
+  add_0_root_add_0_root_N_inst/add_47/U1_10/CO (FADDX1_RVT)
+                                                          0.03       1.27 r
+  add_0_root_add_0_root_N_inst/add_47/U1_11/CO (FADDX1_RVT)
+                                                          0.03       1.30 r
+  add_0_root_add_0_root_N_inst/add_47/U1_12/CO (FADDX1_RVT)
+                                                          0.03       1.34 r
+  add_0_root_add_0_root_N_inst/add_47/U1_13/CO (FADDX1_RVT)
+                                                          0.03       1.37 r
+  add_0_root_add_0_root_N_inst/add_47/U1_14/CO (FADDX1_RVT)
+                                                          0.03       1.40 r
+  add_0_root_add_0_root_N_inst/add_47/U1_15/CO (FADDX1_RVT)
+                                                          0.03       1.43 r
+  add_0_root_add_0_root_N_inst/add_47/U1_16/CO (FADDX1_RVT)
+                                                          0.03       1.46 r
+  add_0_root_add_0_root_N_inst/add_47/U1_17/CO (FADDX1_RVT)
+                                                          0.03       1.49 r
+  add_0_root_add_0_root_N_inst/add_47/U1_18/CO (FADDX1_RVT)
+                                                          0.03       1.52 r
+  add_0_root_add_0_root_N_inst/add_47/U1_19/CO (FADDX1_RVT)
+                                                          0.03       1.55 r
+  add_0_root_add_0_root_N_inst/add_47/U1_20/CO (FADDX1_RVT)
+                                                          0.03       1.58 r
+  add_0_root_add_0_root_N_inst/add_47/U1_21/CO (FADDX1_RVT)
+                                                          0.03       1.61 r
+  add_0_root_add_0_root_N_inst/add_47/U1_22/CO (FADDX1_RVT)
+                                                          0.03       1.64 r
+  add_0_root_add_0_root_N_inst/add_47/U1_23/CO (FADDX1_RVT)
+                                                          0.03       1.68 r
+  add_0_root_add_0_root_N_inst/add_47/U1_24/CO (FADDX1_RVT)
+                                                          0.03       1.71 r
+  add_0_root_add_0_root_N_inst/add_47/U1_25/S (FADDX1_RVT)
+                                                          0.05       1.75 f
   add_0_root_add_0_root_N_inst/add_47/SUM[25] (Image_Classifier_DW01_add_4)
-                                                          0.00       1.17 r
-  U147/Y (AO221X1_RVT)                                    0.04       1.21 r
-  gt_8702/B[25] (Image_Classifier_DW_cmp_0)               0.00       1.21 r
-  gt_8702/U229/Y (OR2X2_RVT)                              0.02       1.23 r
-  gt_8702/U236/Y (NAND2X0_RVT)                            0.01       1.24 f
-  gt_8702/U235/Y (OA22X1_RVT)                             0.02       1.26 f
-  gt_8702/U224/Y (NAND2X0_RVT)                            0.01       1.27 r
-  gt_8702/U127/Y (AO22X1_RVT)                             0.03       1.30 r
-  gt_8702/GE_LT_GT_LE (Image_Classifier_DW_cmp_0)         0.00       1.30 r
-  U258722/Y (INVX2_RVT)                                   0.01       1.31 f
-  U259451/Y (OA21X1_RVT)                                  0.02       1.33 f
-  U149/Y (AO22X1_RVT)                                     0.02       1.35 f
-  Image_Number[1] (out)                                   0.00       1.35 f
-  data arrival time                                                  1.35
+                                                          0.00       1.75 f
+  U147/Y (AO221X1_RVT)                                    0.03       1.78 f
+  gt_8702/B[25] (Image_Classifier_DW_cmp_0)               0.00       1.78 f
+  gt_8702/U229/Y (OR2X1_RVT)                              0.02       1.80 f
+  gt_8702/U227/Y (AND2X1_RVT)                             0.02       1.82 f
+  gt_8702/U226/Y (AOI22X1_RVT)                            0.02       1.84 r
+  gt_8702/U194/Y (NAND3X0_RVT)                            0.02       1.86 f
+  gt_8702/U127/Y (AO22X1_RVT)                             0.02       1.88 f
+  gt_8702/GE_LT_GT_LE (Image_Classifier_DW_cmp_0)         0.00       1.88 f
+  U182127/Y (AOI21X1_RVT)                                 0.03       1.91 r
+  U273728/Y (NBUFFX2_RVT)                                 0.02       1.93 r
+  U149/Y (AO22X1_RVT)                                     0.03       1.96 r
+  Image_Number[1] (out)                                   0.00       1.96 r
+  data arrival time                                                  1.96
 
-  clock clk (rise edge)                                   2.00       2.00
-  clock network delay (ideal)                             0.00       2.00
-  clock uncertainty                                      -0.10       1.90
-  output external delay                                  -0.60       1.30
-  data required time                                                 1.30
+  clock clk (rise edge)                                   3.50       3.50
+  clock network delay (ideal)                             0.00       3.50
+  clock uncertainty                                      -0.10       3.40
+  output external delay                                  -0.60       2.80
+  data required time                                                 2.80
   --------------------------------------------------------------------------
-  data required time                                                 1.30
-  data arrival time                                                 -1.35
+  data required time                                                 2.80
+  data arrival time                                                 -1.96
   --------------------------------------------------------------------------
-  slack (VIOLATED)                                                  -0.05
+  slack (MET)                                                        0.84
+
+
+  Startpoint: Input_Valid
+              (input port clocked by clk)
+  Endpoint: Image_Number[2]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  Image_Classifier   280000                saed32rvt_ff1p16vn40c
+  Image_Classifier_DW01_add_4
+                     ForQA                 saed32rvt_ff1p16vn40c
+  Image_Classifier_DW_cmp_0
+                     ForQA                 saed32rvt_ff1p16vn40c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                    0.60       0.60 f
+  Input_Valid (in)                                        0.00       0.60 f
+  U274498/Y (INVX1_RVT)                                   0.00       0.60 r
+  U258504/Y (NAND2X0_RVT)                                 0.02       0.63 f
+  U182128/Y (AO21X1_RVT)                                  0.02       0.64 f
+  U273998/Y (INVX1_RVT)                                   0.02       0.67 r
+  U273727/Y (INVX2_RVT)                                   0.02       0.69 f
+  U272774/Y (INVX1_RVT)                                   0.02       0.71 r
+  U156/Y (AO22X1_RVT)                                     0.03       0.74 r
+  U181902/Y (INVX1_RVT)                                   0.01       0.75 f
+  U258634/Y (NAND2X0_RVT)                                 0.02       0.76 r
+  U181901/Y (INVX1_RVT)                                   0.01       0.77 f
+  U274075/Y (OA22X1_RVT)                                  0.04       0.81 f
+  U273115/Y (INVX1_RVT)                                   0.02       0.83 r
+  U273966/Y (INVX1_RVT)                                   0.02       0.85 f
+  U272767/Y (INVX1_RVT)                                   0.02       0.87 r
+  U271179/Y (NBUFFX2_RVT)                                 0.02       0.89 r
+  U258570/Y (AO222X1_RVT)                                 0.04       0.93 r
+  U258566/Y (OR3X1_RVT)                                   0.03       0.97 r
+  add_0_root_add_0_root_N_inst/add_47/B[1] (Image_Classifier_DW01_add_4)
+                                                          0.00       0.97 r
+  add_0_root_add_0_root_N_inst/add_47/U1_1/CO (FADDX1_RVT)
+                                                          0.03       1.00 r
+  add_0_root_add_0_root_N_inst/add_47/U1_2/CO (FADDX1_RVT)
+                                                          0.03       1.03 r
+  add_0_root_add_0_root_N_inst/add_47/U1_3/CO (FADDX1_RVT)
+                                                          0.03       1.06 r
+  add_0_root_add_0_root_N_inst/add_47/U1_4/CO (FADDX1_RVT)
+                                                          0.03       1.09 r
+  add_0_root_add_0_root_N_inst/add_47/U1_5/CO (FADDX1_RVT)
+                                                          0.03       1.12 r
+  add_0_root_add_0_root_N_inst/add_47/U1_6/CO (FADDX1_RVT)
+                                                          0.03       1.15 r
+  add_0_root_add_0_root_N_inst/add_47/U1_7/CO (FADDX1_RVT)
+                                                          0.03       1.18 r
+  add_0_root_add_0_root_N_inst/add_47/U1_8/CO (FADDX1_RVT)
+                                                          0.03       1.21 r
+  add_0_root_add_0_root_N_inst/add_47/U1_9/CO (FADDX1_RVT)
+                                                          0.03       1.24 r
+  add_0_root_add_0_root_N_inst/add_47/U1_10/CO (FADDX1_RVT)
+                                                          0.03       1.27 r
+  add_0_root_add_0_root_N_inst/add_47/U1_11/CO (FADDX1_RVT)
+                                                          0.03       1.30 r
+  add_0_root_add_0_root_N_inst/add_47/U1_12/CO (FADDX1_RVT)
+                                                          0.03       1.34 r
+  add_0_root_add_0_root_N_inst/add_47/U1_13/CO (FADDX1_RVT)
+                                                          0.03       1.37 r
+  add_0_root_add_0_root_N_inst/add_47/U1_14/CO (FADDX1_RVT)
+                                                          0.03       1.40 r
+  add_0_root_add_0_root_N_inst/add_47/U1_15/CO (FADDX1_RVT)
+                                                          0.03       1.43 r
+  add_0_root_add_0_root_N_inst/add_47/U1_16/CO (FADDX1_RVT)
+                                                          0.03       1.46 r
+  add_0_root_add_0_root_N_inst/add_47/U1_17/CO (FADDX1_RVT)
+                                                          0.03       1.49 r
+  add_0_root_add_0_root_N_inst/add_47/U1_18/CO (FADDX1_RVT)
+                                                          0.03       1.52 r
+  add_0_root_add_0_root_N_inst/add_47/U1_19/CO (FADDX1_RVT)
+                                                          0.03       1.55 r
+  add_0_root_add_0_root_N_inst/add_47/U1_20/CO (FADDX1_RVT)
+                                                          0.03       1.58 r
+  add_0_root_add_0_root_N_inst/add_47/U1_21/CO (FADDX1_RVT)
+                                                          0.03       1.61 r
+  add_0_root_add_0_root_N_inst/add_47/U1_22/CO (FADDX1_RVT)
+                                                          0.03       1.64 r
+  add_0_root_add_0_root_N_inst/add_47/U1_23/CO (FADDX1_RVT)
+                                                          0.03       1.68 r
+  add_0_root_add_0_root_N_inst/add_47/U1_24/CO (FADDX1_RVT)
+                                                          0.03       1.71 r
+  add_0_root_add_0_root_N_inst/add_47/U1_25/S (FADDX1_RVT)
+                                                          0.05       1.75 f
+  add_0_root_add_0_root_N_inst/add_47/SUM[25] (Image_Classifier_DW01_add_4)
+                                                          0.00       1.75 f
+  U147/Y (AO221X1_RVT)                                    0.03       1.78 f
+  gt_8702/B[25] (Image_Classifier_DW_cmp_0)               0.00       1.78 f
+  gt_8702/U229/Y (OR2X1_RVT)                              0.02       1.80 f
+  gt_8702/U227/Y (AND2X1_RVT)                             0.02       1.82 f
+  gt_8702/U226/Y (AOI22X1_RVT)                            0.02       1.84 r
+  gt_8702/U194/Y (NAND3X0_RVT)                            0.02       1.86 f
+  gt_8702/U127/Y (AO22X1_RVT)                             0.02       1.88 f
+  gt_8702/GE_LT_GT_LE (Image_Classifier_DW_cmp_0)         0.00       1.88 f
+  U182127/Y (AOI21X1_RVT)                                 0.03       1.91 r
+  U273728/Y (NBUFFX2_RVT)                                 0.02       1.93 r
+  U150/Y (AO22X1_RVT)                                     0.03       1.96 r
+  Image_Number[2] (out)                                   0.00       1.96 r
+  data arrival time                                                  1.96
+
+  clock clk (rise edge)                                   3.50       3.50
+  clock network delay (ideal)                             0.00       3.50
+  clock uncertainty                                      -0.10       3.40
+  output external delay                                  -0.60       2.80
+  data required time                                                 2.80
+  --------------------------------------------------------------------------
+  data required time                                                 2.80
+  data arrival time                                                 -1.96
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.84
+
+
+  Startpoint: Input_Valid
+              (input port clocked by clk)
+  Endpoint: Image_Number[3]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  Image_Classifier   280000                saed32rvt_ff1p16vn40c
+  Image_Classifier_DW01_add_4
+                     ForQA                 saed32rvt_ff1p16vn40c
+  Image_Classifier_DW_cmp_0
+                     ForQA                 saed32rvt_ff1p16vn40c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                    0.60       0.60 f
+  Input_Valid (in)                                        0.00       0.60 f
+  U274498/Y (INVX1_RVT)                                   0.00       0.60 r
+  U258504/Y (NAND2X0_RVT)                                 0.02       0.63 f
+  U182128/Y (AO21X1_RVT)                                  0.02       0.64 f
+  U273998/Y (INVX1_RVT)                                   0.02       0.67 r
+  U273727/Y (INVX2_RVT)                                   0.02       0.69 f
+  U272774/Y (INVX1_RVT)                                   0.02       0.71 r
+  U156/Y (AO22X1_RVT)                                     0.03       0.74 r
+  U181902/Y (INVX1_RVT)                                   0.01       0.75 f
+  U258634/Y (NAND2X0_RVT)                                 0.02       0.76 r
+  U181901/Y (INVX1_RVT)                                   0.01       0.77 f
+  U274075/Y (OA22X1_RVT)                                  0.04       0.81 f
+  U273115/Y (INVX1_RVT)                                   0.02       0.83 r
+  U273966/Y (INVX1_RVT)                                   0.02       0.85 f
+  U272767/Y (INVX1_RVT)                                   0.02       0.87 r
+  U271179/Y (NBUFFX2_RVT)                                 0.02       0.89 r
+  U258570/Y (AO222X1_RVT)                                 0.04       0.93 r
+  U258566/Y (OR3X1_RVT)                                   0.03       0.97 r
+  add_0_root_add_0_root_N_inst/add_47/B[1] (Image_Classifier_DW01_add_4)
+                                                          0.00       0.97 r
+  add_0_root_add_0_root_N_inst/add_47/U1_1/CO (FADDX1_RVT)
+                                                          0.03       1.00 r
+  add_0_root_add_0_root_N_inst/add_47/U1_2/CO (FADDX1_RVT)
+                                                          0.03       1.03 r
+  add_0_root_add_0_root_N_inst/add_47/U1_3/CO (FADDX1_RVT)
+                                                          0.03       1.06 r
+  add_0_root_add_0_root_N_inst/add_47/U1_4/CO (FADDX1_RVT)
+                                                          0.03       1.09 r
+  add_0_root_add_0_root_N_inst/add_47/U1_5/CO (FADDX1_RVT)
+                                                          0.03       1.12 r
+  add_0_root_add_0_root_N_inst/add_47/U1_6/CO (FADDX1_RVT)
+                                                          0.03       1.15 r
+  add_0_root_add_0_root_N_inst/add_47/U1_7/CO (FADDX1_RVT)
+                                                          0.03       1.18 r
+  add_0_root_add_0_root_N_inst/add_47/U1_8/CO (FADDX1_RVT)
+                                                          0.03       1.21 r
+  add_0_root_add_0_root_N_inst/add_47/U1_9/CO (FADDX1_RVT)
+                                                          0.03       1.24 r
+  add_0_root_add_0_root_N_inst/add_47/U1_10/CO (FADDX1_RVT)
+                                                          0.03       1.27 r
+  add_0_root_add_0_root_N_inst/add_47/U1_11/CO (FADDX1_RVT)
+                                                          0.03       1.30 r
+  add_0_root_add_0_root_N_inst/add_47/U1_12/CO (FADDX1_RVT)
+                                                          0.03       1.34 r
+  add_0_root_add_0_root_N_inst/add_47/U1_13/CO (FADDX1_RVT)
+                                                          0.03       1.37 r
+  add_0_root_add_0_root_N_inst/add_47/U1_14/CO (FADDX1_RVT)
+                                                          0.03       1.40 r
+  add_0_root_add_0_root_N_inst/add_47/U1_15/CO (FADDX1_RVT)
+                                                          0.03       1.43 r
+  add_0_root_add_0_root_N_inst/add_47/U1_16/CO (FADDX1_RVT)
+                                                          0.03       1.46 r
+  add_0_root_add_0_root_N_inst/add_47/U1_17/CO (FADDX1_RVT)
+                                                          0.03       1.49 r
+  add_0_root_add_0_root_N_inst/add_47/U1_18/CO (FADDX1_RVT)
+                                                          0.03       1.52 r
+  add_0_root_add_0_root_N_inst/add_47/U1_19/CO (FADDX1_RVT)
+                                                          0.03       1.55 r
+  add_0_root_add_0_root_N_inst/add_47/U1_20/CO (FADDX1_RVT)
+                                                          0.03       1.58 r
+  add_0_root_add_0_root_N_inst/add_47/U1_21/CO (FADDX1_RVT)
+                                                          0.03       1.61 r
+  add_0_root_add_0_root_N_inst/add_47/U1_22/CO (FADDX1_RVT)
+                                                          0.03       1.64 r
+  add_0_root_add_0_root_N_inst/add_47/U1_23/CO (FADDX1_RVT)
+                                                          0.03       1.68 r
+  add_0_root_add_0_root_N_inst/add_47/U1_24/CO (FADDX1_RVT)
+                                                          0.03       1.71 r
+  add_0_root_add_0_root_N_inst/add_47/U1_25/S (FADDX1_RVT)
+                                                          0.05       1.75 f
+  add_0_root_add_0_root_N_inst/add_47/SUM[25] (Image_Classifier_DW01_add_4)
+                                                          0.00       1.75 f
+  U147/Y (AO221X1_RVT)                                    0.03       1.78 f
+  gt_8702/B[25] (Image_Classifier_DW_cmp_0)               0.00       1.78 f
+  gt_8702/U229/Y (OR2X1_RVT)                              0.02       1.80 f
+  gt_8702/U227/Y (AND2X1_RVT)                             0.02       1.82 f
+  gt_8702/U226/Y (AOI22X1_RVT)                            0.02       1.84 r
+  gt_8702/U194/Y (NAND3X0_RVT)                            0.02       1.86 f
+  gt_8702/U127/Y (AO22X1_RVT)                             0.02       1.88 f
+  gt_8702/GE_LT_GT_LE (Image_Classifier_DW_cmp_0)         0.00       1.88 f
+  U182127/Y (AOI21X1_RVT)                                 0.03       1.91 r
+  U273728/Y (NBUFFX2_RVT)                                 0.02       1.93 r
+  U151/Y (AO22X1_RVT)                                     0.03       1.96 r
+  Image_Number[3] (out)                                   0.00       1.96 r
+  data arrival time                                                  1.96
+
+  clock clk (rise edge)                                   3.50       3.50
+  clock network delay (ideal)                             0.00       3.50
+  clock uncertainty                                      -0.10       3.40
+  output external delay                                  -0.60       2.80
+  data required time                                                 2.80
+  --------------------------------------------------------------------------
+  data required time                                                 2.80
+  data arrival time                                                 -1.96
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.84
 
 
   Startpoint: Input_Valid
@@ -230,84 +504,103 @@ Wire Load Model Mode: enclosed
   --------------------------------------------------------------------------
   clock clk (rise edge)                                   0.00       0.00
   clock network delay (ideal)                             0.00       0.00
-  input external delay                                    0.60       0.60 r
-  Input_Valid (in)                                        0.00       0.60 r
-  U259483/Y (INVX32_RVT)                                  0.00       0.60 f
-  U259494/Y (AND3X1_RVT)                                  0.02       0.62 f
-  U157/Y (AO22X1_RVT)                                     0.03       0.65 f
-  U182069/Y (INVX1_RVT)                                   0.01       0.66 r
-  U259468/Y (NBUFFX2_RVT)                                 0.02       0.68 r
-  U258708/Y (AND3X1_RVT)                                  0.02       0.70 r
-  U274895/Y (NAND2X0_RVT)                                 0.01       0.71 f
-  U259478/Y (AND3X1_RVT)                                  0.02       0.73 f
-  U274893/Y (NAND3X0_RVT)                                 0.01       0.74 r
-  U287038/Y (OR3X1_RVT)                                   0.02       0.77 r
+  input external delay                                    0.60       0.60 f
+  Input_Valid (in)                                        0.00       0.60 f
+  U274498/Y (INVX1_RVT)                                   0.00       0.60 r
+  U258504/Y (NAND2X0_RVT)                                 0.02       0.63 f
+  U182128/Y (AO21X1_RVT)                                  0.02       0.64 f
+  U273998/Y (INVX1_RVT)                                   0.02       0.67 r
+  U273727/Y (INVX2_RVT)                                   0.02       0.69 f
+  U272774/Y (INVX1_RVT)                                   0.02       0.71 r
+  U157/Y (AO22X1_RVT)                                     0.03       0.74 r
+  U181903/Y (INVX1_RVT)                                   0.01       0.74 f
+  U258634/Y (NAND2X0_RVT)                                 0.02       0.76 r
+  U181901/Y (INVX1_RVT)                                   0.01       0.77 f
+  U274075/Y (OA22X1_RVT)                                  0.04       0.81 f
+  U273115/Y (INVX1_RVT)                                   0.02       0.83 r
+  U273966/Y (INVX1_RVT)                                   0.02       0.85 f
+  U272767/Y (INVX1_RVT)                                   0.02       0.86 r
+  U271179/Y (NBUFFX2_RVT)                                 0.02       0.89 r
+  U258570/Y (AO222X1_RVT)                                 0.04       0.93 r
+  U258566/Y (OR3X1_RVT)                                   0.03       0.96 r
   add_0_root_add_0_root_N_inst/add_47/B[1] (Image_Classifier_DW01_add_4)
-                                                          0.00       0.77 r
-  add_0_root_add_0_root_N_inst/add_47/U184/Y (OA21X1_RVT)
-                                                          0.02       0.79 r
-  add_0_root_add_0_root_N_inst/add_47/U194/Y (AO22X1_RVT)
-                                                          0.02       0.81 r
-  add_0_root_add_0_root_N_inst/add_47/U182/Y (AO21X1_RVT)
-                                                          0.02       0.82 r
-  add_0_root_add_0_root_N_inst/add_47/U205/Y (AND2X1_RVT)
-                                                          0.02       0.84 r
-  add_0_root_add_0_root_N_inst/add_47/U179/Y (OA21X1_RVT)
-                                                          0.02       0.86 r
-  add_0_root_add_0_root_N_inst/add_47/U213/Y (OR3X1_RVT)
-                                                          0.02       0.88 r
-  add_0_root_add_0_root_N_inst/add_47/U32/Y (AO22X1_RVT)
-                                                          0.02       0.90 r
-  add_0_root_add_0_root_N_inst/add_47/U25/Y (AO21X1_RVT)
-                                                          0.02       0.93 r
-  add_0_root_add_0_root_N_inst/add_47/U147/Y (AND2X1_RVT)
-                                                          0.02       0.95 r
-  add_0_root_add_0_root_N_inst/add_47/U210/Y (AO22X1_RVT)
-                                                          0.03       0.97 r
-  add_0_root_add_0_root_N_inst/add_47/U163/Y (AO22X1_RVT)
-                                                          0.03       1.00 r
-  add_0_root_add_0_root_N_inst/add_47/U92/Y (AO21X1_RVT)
-                                                          0.02       1.02 r
-  add_0_root_add_0_root_N_inst/add_47/U77/Y (NAND2X0_RVT)
-                                                          0.01       1.04 f
-  add_0_root_add_0_root_N_inst/add_47/U113/Y (AO21X1_RVT)
-                                                          0.02       1.06 f
-  add_0_root_add_0_root_N_inst/add_47/U112/Y (NAND3X0_RVT)
-                                                          0.01       1.07 r
-  add_0_root_add_0_root_N_inst/add_47/U39/Y (AO22X1_RVT)
-                                                          0.02       1.09 r
-  add_0_root_add_0_root_N_inst/add_47/U95/Y (NOR3X0_RVT)
-                                                          0.03       1.12 f
-  add_0_root_add_0_root_N_inst/add_47/U93/Y (OA221X1_RVT)
-                                                          0.03       1.15 f
-  add_0_root_add_0_root_N_inst/add_47/U57/Y (XOR3X2_RVT)
-                                                          0.02       1.17 r
+                                                          0.00       0.96 r
+  add_0_root_add_0_root_N_inst/add_47/U1_1/CO (FADDX1_RVT)
+                                                          0.03       0.99 r
+  add_0_root_add_0_root_N_inst/add_47/U1_2/CO (FADDX1_RVT)
+                                                          0.03       1.02 r
+  add_0_root_add_0_root_N_inst/add_47/U1_3/CO (FADDX1_RVT)
+                                                          0.03       1.05 r
+  add_0_root_add_0_root_N_inst/add_47/U1_4/CO (FADDX1_RVT)
+                                                          0.03       1.08 r
+  add_0_root_add_0_root_N_inst/add_47/U1_5/CO (FADDX1_RVT)
+                                                          0.03       1.11 r
+  add_0_root_add_0_root_N_inst/add_47/U1_6/CO (FADDX1_RVT)
+                                                          0.03       1.15 r
+  add_0_root_add_0_root_N_inst/add_47/U1_7/CO (FADDX1_RVT)
+                                                          0.03       1.18 r
+  add_0_root_add_0_root_N_inst/add_47/U1_8/CO (FADDX1_RVT)
+                                                          0.03       1.21 r
+  add_0_root_add_0_root_N_inst/add_47/U1_9/CO (FADDX1_RVT)
+                                                          0.03       1.24 r
+  add_0_root_add_0_root_N_inst/add_47/U1_10/CO (FADDX1_RVT)
+                                                          0.03       1.27 r
+  add_0_root_add_0_root_N_inst/add_47/U1_11/CO (FADDX1_RVT)
+                                                          0.03       1.30 r
+  add_0_root_add_0_root_N_inst/add_47/U1_12/CO (FADDX1_RVT)
+                                                          0.03       1.33 r
+  add_0_root_add_0_root_N_inst/add_47/U1_13/CO (FADDX1_RVT)
+                                                          0.03       1.36 r
+  add_0_root_add_0_root_N_inst/add_47/U1_14/CO (FADDX1_RVT)
+                                                          0.03       1.39 r
+  add_0_root_add_0_root_N_inst/add_47/U1_15/CO (FADDX1_RVT)
+                                                          0.03       1.42 r
+  add_0_root_add_0_root_N_inst/add_47/U1_16/CO (FADDX1_RVT)
+                                                          0.03       1.45 r
+  add_0_root_add_0_root_N_inst/add_47/U1_17/CO (FADDX1_RVT)
+                                                          0.03       1.49 r
+  add_0_root_add_0_root_N_inst/add_47/U1_18/CO (FADDX1_RVT)
+                                                          0.03       1.52 r
+  add_0_root_add_0_root_N_inst/add_47/U1_19/CO (FADDX1_RVT)
+                                                          0.03       1.55 r
+  add_0_root_add_0_root_N_inst/add_47/U1_20/CO (FADDX1_RVT)
+                                                          0.03       1.58 r
+  add_0_root_add_0_root_N_inst/add_47/U1_21/CO (FADDX1_RVT)
+                                                          0.03       1.61 r
+  add_0_root_add_0_root_N_inst/add_47/U1_22/CO (FADDX1_RVT)
+                                                          0.03       1.64 r
+  add_0_root_add_0_root_N_inst/add_47/U1_23/CO (FADDX1_RVT)
+                                                          0.03       1.67 r
+  add_0_root_add_0_root_N_inst/add_47/U1_24/CO (FADDX1_RVT)
+                                                          0.03       1.70 r
+  add_0_root_add_0_root_N_inst/add_47/U1_25/S (FADDX1_RVT)
+                                                          0.05       1.75 f
   add_0_root_add_0_root_N_inst/add_47/SUM[25] (Image_Classifier_DW01_add_4)
-                                                          0.00       1.17 r
-  U147/Y (AO221X1_RVT)                                    0.04       1.21 r
-  gt_8702/B[25] (Image_Classifier_DW_cmp_0)               0.00       1.21 r
-  gt_8702/U229/Y (OR2X2_RVT)                              0.02       1.23 r
-  gt_8702/U236/Y (NAND2X0_RVT)                            0.01       1.24 f
-  gt_8702/U235/Y (OA22X1_RVT)                             0.02       1.26 f
-  gt_8702/U224/Y (NAND2X0_RVT)                            0.01       1.27 r
-  gt_8702/U127/Y (AO22X1_RVT)                             0.03       1.30 r
-  gt_8702/GE_LT_GT_LE (Image_Classifier_DW_cmp_0)         0.00       1.30 r
-  U258722/Y (INVX2_RVT)                                   0.01       1.31 f
-  U259451/Y (OA21X1_RVT)                                  0.02       1.33 f
-  U148/Y (AO22X1_RVT)                                     0.02       1.35 f
-  Image_Number[0] (out)                                   0.00       1.35 f
-  data arrival time                                                  1.35
+                                                          0.00       1.75 f
+  U147/Y (AO221X1_RVT)                                    0.03       1.78 f
+  gt_8702/B[25] (Image_Classifier_DW_cmp_0)               0.00       1.78 f
+  gt_8702/U229/Y (OR2X1_RVT)                              0.02       1.80 f
+  gt_8702/U227/Y (AND2X1_RVT)                             0.02       1.81 f
+  gt_8702/U226/Y (AOI22X1_RVT)                            0.02       1.84 r
+  gt_8702/U194/Y (NAND3X0_RVT)                            0.02       1.85 f
+  gt_8702/U127/Y (AO22X1_RVT)                             0.02       1.88 f
+  gt_8702/GE_LT_GT_LE (Image_Classifier_DW_cmp_0)         0.00       1.88 f
+  U182127/Y (AOI21X1_RVT)                                 0.03       1.90 r
+  U273728/Y (NBUFFX2_RVT)                                 0.02       1.93 r
+  U148/Y (AO22X1_RVT)                                     0.03       1.95 r
+  Image_Number[0] (out)                                   0.00       1.95 r
+  data arrival time                                                  1.95
 
-  clock clk (rise edge)                                   2.00       2.00
-  clock network delay (ideal)                             0.00       2.00
-  clock uncertainty                                      -0.10       1.90
-  output external delay                                  -0.60       1.30
-  data required time                                                 1.30
+  clock clk (rise edge)                                   3.50       3.50
+  clock network delay (ideal)                             0.00       3.50
+  clock uncertainty                                      -0.10       3.40
+  output external delay                                  -0.60       2.80
+  data required time                                                 2.80
   --------------------------------------------------------------------------
-  data required time                                                 1.30
-  data arrival time                                                 -1.35
+  data required time                                                 2.80
+  data arrival time                                                 -1.95
   --------------------------------------------------------------------------
-  slack (VIOLATED)                                                  -0.05
+  slack (MET)                                                        0.85
 
 
   Startpoint: Input_Valid
@@ -329,84 +622,103 @@ Wire Load Model Mode: enclosed
   --------------------------------------------------------------------------
   clock clk (rise edge)                                   0.00       0.00
   clock network delay (ideal)                             0.00       0.00
-  input external delay                                    0.60       0.60 r
-  Input_Valid (in)                                        0.00       0.60 r
-  U259483/Y (INVX32_RVT)                                  0.00       0.60 f
-  U259494/Y (AND3X1_RVT)                                  0.02       0.62 f
-  U157/Y (AO22X1_RVT)                                     0.03       0.65 f
-  U182069/Y (INVX1_RVT)                                   0.01       0.66 r
-  U259468/Y (NBUFFX2_RVT)                                 0.02       0.68 r
-  U258708/Y (AND3X1_RVT)                                  0.02       0.70 r
-  U274895/Y (NAND2X0_RVT)                                 0.01       0.71 f
-  U259478/Y (AND3X1_RVT)                                  0.02       0.73 f
-  U274893/Y (NAND3X0_RVT)                                 0.01       0.74 r
-  U287038/Y (OR3X1_RVT)                                   0.02       0.77 r
+  input external delay                                    0.60       0.60 f
+  Input_Valid (in)                                        0.00       0.60 f
+  U274498/Y (INVX1_RVT)                                   0.00       0.60 r
+  U258504/Y (NAND2X0_RVT)                                 0.02       0.63 f
+  U182128/Y (AO21X1_RVT)                                  0.02       0.64 f
+  U273998/Y (INVX1_RVT)                                   0.02       0.67 r
+  U273727/Y (INVX2_RVT)                                   0.02       0.69 f
+  U272774/Y (INVX1_RVT)                                   0.02       0.71 r
+  U157/Y (AO22X1_RVT)                                     0.03       0.74 r
+  U181903/Y (INVX1_RVT)                                   0.01       0.74 f
+  U258634/Y (NAND2X0_RVT)                                 0.02       0.76 r
+  U181901/Y (INVX1_RVT)                                   0.01       0.77 f
+  U274075/Y (OA22X1_RVT)                                  0.04       0.81 f
+  U273115/Y (INVX1_RVT)                                   0.02       0.83 r
+  U273966/Y (INVX1_RVT)                                   0.02       0.85 f
+  U272767/Y (INVX1_RVT)                                   0.02       0.86 r
+  U271179/Y (NBUFFX2_RVT)                                 0.02       0.89 r
+  U258570/Y (AO222X1_RVT)                                 0.04       0.93 r
+  U258566/Y (OR3X1_RVT)                                   0.03       0.96 r
   add_0_root_add_0_root_N_inst/add_47/B[1] (Image_Classifier_DW01_add_4)
-                                                          0.00       0.77 r
-  add_0_root_add_0_root_N_inst/add_47/U184/Y (OA21X1_RVT)
-                                                          0.02       0.79 r
-  add_0_root_add_0_root_N_inst/add_47/U194/Y (AO22X1_RVT)
-                                                          0.02       0.81 r
-  add_0_root_add_0_root_N_inst/add_47/U182/Y (AO21X1_RVT)
-                                                          0.02       0.82 r
-  add_0_root_add_0_root_N_inst/add_47/U205/Y (AND2X1_RVT)
-                                                          0.02       0.84 r
-  add_0_root_add_0_root_N_inst/add_47/U179/Y (OA21X1_RVT)
-                                                          0.02       0.86 r
-  add_0_root_add_0_root_N_inst/add_47/U213/Y (OR3X1_RVT)
-                                                          0.02       0.88 r
-  add_0_root_add_0_root_N_inst/add_47/U32/Y (AO22X1_RVT)
-                                                          0.02       0.90 r
-  add_0_root_add_0_root_N_inst/add_47/U25/Y (AO21X1_RVT)
-                                                          0.02       0.93 r
-  add_0_root_add_0_root_N_inst/add_47/U147/Y (AND2X1_RVT)
-                                                          0.02       0.95 r
-  add_0_root_add_0_root_N_inst/add_47/U210/Y (AO22X1_RVT)
-                                                          0.03       0.97 r
-  add_0_root_add_0_root_N_inst/add_47/U163/Y (AO22X1_RVT)
-                                                          0.03       1.00 r
-  add_0_root_add_0_root_N_inst/add_47/U92/Y (AO21X1_RVT)
-                                                          0.02       1.02 r
-  add_0_root_add_0_root_N_inst/add_47/U77/Y (NAND2X0_RVT)
-                                                          0.01       1.04 f
-  add_0_root_add_0_root_N_inst/add_47/U113/Y (AO21X1_RVT)
-                                                          0.02       1.06 f
-  add_0_root_add_0_root_N_inst/add_47/U112/Y (NAND3X0_RVT)
-                                                          0.01       1.07 r
-  add_0_root_add_0_root_N_inst/add_47/U39/Y (AO22X1_RVT)
-                                                          0.02       1.09 r
-  add_0_root_add_0_root_N_inst/add_47/U95/Y (NOR3X0_RVT)
-                                                          0.03       1.12 f
-  add_0_root_add_0_root_N_inst/add_47/U93/Y (OA221X1_RVT)
-                                                          0.03       1.15 f
-  add_0_root_add_0_root_N_inst/add_47/U57/Y (XOR3X2_RVT)
-                                                          0.02       1.17 r
+                                                          0.00       0.96 r
+  add_0_root_add_0_root_N_inst/add_47/U1_1/CO (FADDX1_RVT)
+                                                          0.03       0.99 r
+  add_0_root_add_0_root_N_inst/add_47/U1_2/CO (FADDX1_RVT)
+                                                          0.03       1.02 r
+  add_0_root_add_0_root_N_inst/add_47/U1_3/CO (FADDX1_RVT)
+                                                          0.03       1.05 r
+  add_0_root_add_0_root_N_inst/add_47/U1_4/CO (FADDX1_RVT)
+                                                          0.03       1.08 r
+  add_0_root_add_0_root_N_inst/add_47/U1_5/CO (FADDX1_RVT)
+                                                          0.03       1.11 r
+  add_0_root_add_0_root_N_inst/add_47/U1_6/CO (FADDX1_RVT)
+                                                          0.03       1.15 r
+  add_0_root_add_0_root_N_inst/add_47/U1_7/CO (FADDX1_RVT)
+                                                          0.03       1.18 r
+  add_0_root_add_0_root_N_inst/add_47/U1_8/CO (FADDX1_RVT)
+                                                          0.03       1.21 r
+  add_0_root_add_0_root_N_inst/add_47/U1_9/CO (FADDX1_RVT)
+                                                          0.03       1.24 r
+  add_0_root_add_0_root_N_inst/add_47/U1_10/CO (FADDX1_RVT)
+                                                          0.03       1.27 r
+  add_0_root_add_0_root_N_inst/add_47/U1_11/CO (FADDX1_RVT)
+                                                          0.03       1.30 r
+  add_0_root_add_0_root_N_inst/add_47/U1_12/CO (FADDX1_RVT)
+                                                          0.03       1.33 r
+  add_0_root_add_0_root_N_inst/add_47/U1_13/CO (FADDX1_RVT)
+                                                          0.03       1.36 r
+  add_0_root_add_0_root_N_inst/add_47/U1_14/CO (FADDX1_RVT)
+                                                          0.03       1.39 r
+  add_0_root_add_0_root_N_inst/add_47/U1_15/CO (FADDX1_RVT)
+                                                          0.03       1.42 r
+  add_0_root_add_0_root_N_inst/add_47/U1_16/CO (FADDX1_RVT)
+                                                          0.03       1.45 r
+  add_0_root_add_0_root_N_inst/add_47/U1_17/CO (FADDX1_RVT)
+                                                          0.03       1.49 r
+  add_0_root_add_0_root_N_inst/add_47/U1_18/CO (FADDX1_RVT)
+                                                          0.03       1.52 r
+  add_0_root_add_0_root_N_inst/add_47/U1_19/CO (FADDX1_RVT)
+                                                          0.03       1.55 r
+  add_0_root_add_0_root_N_inst/add_47/U1_20/CO (FADDX1_RVT)
+                                                          0.03       1.58 r
+  add_0_root_add_0_root_N_inst/add_47/U1_21/CO (FADDX1_RVT)
+                                                          0.03       1.61 r
+  add_0_root_add_0_root_N_inst/add_47/U1_22/CO (FADDX1_RVT)
+                                                          0.03       1.64 r
+  add_0_root_add_0_root_N_inst/add_47/U1_23/CO (FADDX1_RVT)
+                                                          0.03       1.67 r
+  add_0_root_add_0_root_N_inst/add_47/U1_24/CO (FADDX1_RVT)
+                                                          0.03       1.70 r
+  add_0_root_add_0_root_N_inst/add_47/U1_25/S (FADDX1_RVT)
+                                                          0.05       1.75 f
   add_0_root_add_0_root_N_inst/add_47/SUM[25] (Image_Classifier_DW01_add_4)
-                                                          0.00       1.17 r
-  U147/Y (AO221X1_RVT)                                    0.04       1.21 r
-  gt_8702/B[25] (Image_Classifier_DW_cmp_0)               0.00       1.21 r
-  gt_8702/U229/Y (OR2X2_RVT)                              0.02       1.23 r
-  gt_8702/U236/Y (NAND2X0_RVT)                            0.01       1.24 f
-  gt_8702/U235/Y (OA22X1_RVT)                             0.02       1.26 f
-  gt_8702/U224/Y (NAND2X0_RVT)                            0.01       1.27 r
-  gt_8702/U127/Y (AO22X1_RVT)                             0.03       1.30 r
-  gt_8702/GE_LT_GT_LE (Image_Classifier_DW_cmp_0)         0.00       1.30 r
-  U258722/Y (INVX2_RVT)                                   0.01       1.31 f
-  U259451/Y (OA21X1_RVT)                                  0.02       1.33 f
-  U149/Y (AO22X1_RVT)                                     0.02       1.35 f
-  Image_Number[1] (out)                                   0.00       1.35 f
-  data arrival time                                                  1.35
+                                                          0.00       1.75 f
+  U147/Y (AO221X1_RVT)                                    0.03       1.78 f
+  gt_8702/B[25] (Image_Classifier_DW_cmp_0)               0.00       1.78 f
+  gt_8702/U229/Y (OR2X1_RVT)                              0.02       1.80 f
+  gt_8702/U227/Y (AND2X1_RVT)                             0.02       1.81 f
+  gt_8702/U226/Y (AOI22X1_RVT)                            0.02       1.84 r
+  gt_8702/U194/Y (NAND3X0_RVT)                            0.02       1.85 f
+  gt_8702/U127/Y (AO22X1_RVT)                             0.02       1.88 f
+  gt_8702/GE_LT_GT_LE (Image_Classifier_DW_cmp_0)         0.00       1.88 f
+  U182127/Y (AOI21X1_RVT)                                 0.03       1.90 r
+  U273728/Y (NBUFFX2_RVT)                                 0.02       1.93 r
+  U149/Y (AO22X1_RVT)                                     0.03       1.95 r
+  Image_Number[1] (out)                                   0.00       1.95 r
+  data arrival time                                                  1.95
 
-  clock clk (rise edge)                                   2.00       2.00
-  clock network delay (ideal)                             0.00       2.00
-  clock uncertainty                                      -0.10       1.90
-  output external delay                                  -0.60       1.30
-  data required time                                                 1.30
+  clock clk (rise edge)                                   3.50       3.50
+  clock network delay (ideal)                             0.00       3.50
+  clock uncertainty                                      -0.10       3.40
+  output external delay                                  -0.60       2.80
+  data required time                                                 2.80
   --------------------------------------------------------------------------
-  data required time                                                 1.30
-  data arrival time                                                 -1.35
+  data required time                                                 2.80
+  data arrival time                                                 -1.95
   --------------------------------------------------------------------------
-  slack (VIOLATED)                                                  -0.05
+  slack (MET)                                                        0.85
 
 
   Startpoint: Input_Valid
@@ -428,83 +740,103 @@ Wire Load Model Mode: enclosed
   --------------------------------------------------------------------------
   clock clk (rise edge)                                   0.00       0.00
   clock network delay (ideal)                             0.00       0.00
-  input external delay                                    0.60       0.60 r
-  Input_Valid (in)                                        0.00       0.60 r
-  U259483/Y (INVX32_RVT)                                  0.00       0.60 f
-  U259494/Y (AND3X1_RVT)                                  0.02       0.62 f
-  U157/Y (AO22X1_RVT)                                     0.03       0.65 f
-  U182069/Y (INVX1_RVT)                                   0.01       0.66 r
-  U259468/Y (NBUFFX2_RVT)                                 0.02       0.68 r
-  U258708/Y (AND3X1_RVT)                                  0.02       0.70 r
-  U274895/Y (NAND2X0_RVT)                                 0.01       0.71 f
-  U259478/Y (AND3X1_RVT)                                  0.02       0.73 f
-  U274893/Y (NAND3X0_RVT)                                 0.01       0.74 r
-  U287038/Y (OR3X1_RVT)                                   0.02       0.77 r
+  input external delay                                    0.60       0.60 f
+  Input_Valid (in)                                        0.00       0.60 f
+  U274498/Y (INVX1_RVT)                                   0.00       0.60 r
+  U258504/Y (NAND2X0_RVT)                                 0.02       0.63 f
+  U182128/Y (AO21X1_RVT)                                  0.02       0.64 f
+  U273998/Y (INVX1_RVT)                                   0.02       0.67 r
+  U273727/Y (INVX2_RVT)                                   0.02       0.69 f
+  U272774/Y (INVX1_RVT)                                   0.02       0.71 r
+  U157/Y (AO22X1_RVT)                                     0.03       0.74 r
+  U181903/Y (INVX1_RVT)                                   0.01       0.74 f
+  U258634/Y (NAND2X0_RVT)                                 0.02       0.76 r
+  U181901/Y (INVX1_RVT)                                   0.01       0.77 f
+  U274075/Y (OA22X1_RVT)                                  0.04       0.81 f
+  U273115/Y (INVX1_RVT)                                   0.02       0.83 r
+  U273966/Y (INVX1_RVT)                                   0.02       0.85 f
+  U272767/Y (INVX1_RVT)                                   0.02       0.86 r
+  U271179/Y (NBUFFX2_RVT)                                 0.02       0.89 r
+  U258570/Y (AO222X1_RVT)                                 0.04       0.93 r
+  U258566/Y (OR3X1_RVT)                                   0.03       0.96 r
   add_0_root_add_0_root_N_inst/add_47/B[1] (Image_Classifier_DW01_add_4)
-                                                          0.00       0.77 r
-  add_0_root_add_0_root_N_inst/add_47/U184/Y (OA21X1_RVT)
-                                                          0.02       0.79 r
-  add_0_root_add_0_root_N_inst/add_47/U194/Y (AO22X1_RVT)
-                                                          0.02       0.81 r
-  add_0_root_add_0_root_N_inst/add_47/U182/Y (AO21X1_RVT)
-                                                          0.02       0.82 r
-  add_0_root_add_0_root_N_inst/add_47/U205/Y (AND2X1_RVT)
-                                                          0.02       0.84 r
-  add_0_root_add_0_root_N_inst/add_47/U179/Y (OA21X1_RVT)
-                                                          0.02       0.86 r
-  add_0_root_add_0_root_N_inst/add_47/U213/Y (OR3X1_RVT)
-                                                          0.02       0.88 r
-  add_0_root_add_0_root_N_inst/add_47/U32/Y (AO22X1_RVT)
-                                                          0.02       0.90 r
-  add_0_root_add_0_root_N_inst/add_47/U172/Y (AO21X1_RVT)
-                                                          0.03       0.93 r
-  add_0_root_add_0_root_N_inst/add_47/U22/Y (AND2X1_RVT)
-                                                          0.02       0.95 r
-  add_0_root_add_0_root_N_inst/add_47/U28/Y (AO221X1_RVT)
-                                                          0.03       0.98 r
-  add_0_root_add_0_root_N_inst/add_47/U64/Y (AO22X1_RVT)
-                                                          0.02       1.00 r
-  add_0_root_add_0_root_N_inst/add_47/U47/Y (AND2X1_RVT)
-                                                          0.02       1.02 r
-  add_0_root_add_0_root_N_inst/add_47/U49/Y (OA21X1_RVT)
-                                                          0.02       1.04 r
-  add_0_root_add_0_root_N_inst/add_47/U59/Y (AO22X1_RVT)
-                                                          0.02       1.06 r
-  add_0_root_add_0_root_N_inst/add_47/U158/Y (AO21X1_RVT)
-                                                          0.02       1.09 r
-  add_0_root_add_0_root_N_inst/add_47/U127/Y (AO22X1_RVT)
-                                                          0.02       1.11 r
-  add_0_root_add_0_root_N_inst/add_47/U109/Y (XOR2X2_RVT)
-                                                          0.02       1.13 r
-  add_0_root_add_0_root_N_inst/add_47/U124/Y (AO221X1_RVT)
-                                                          0.03       1.16 r
-  add_0_root_add_0_root_N_inst/add_47/SUM[19] (Image_Classifier_DW01_add_4)
-                                                          0.00       1.16 r
-  U141/Y (AO22X1_RVT)                                     0.02       1.19 r
-  gt_8702/B[19] (Image_Classifier_DW_cmp_0)               0.00       1.19 r
-  gt_8702/U156/Y (AO21X1_RVT)                             0.02       1.21 r
-  gt_8702/U194/Y (OA22X1_RVT)                             0.02       1.23 r
-  gt_8702/U239/Y (NAND2X0_RVT)                            0.01       1.24 f
-  gt_8702/U240/Y (NAND3X0_RVT)                            0.01       1.26 r
-  gt_8702/U151/Y (NAND3X0_RVT)                            0.01       1.27 f
-  gt_8702/U127/Y (AO22X1_RVT)                             0.03       1.30 f
-  gt_8702/GE_LT_GT_LE (Image_Classifier_DW_cmp_0)         0.00       1.30 f
-  U258722/Y (INVX2_RVT)                                   0.01       1.30 r
-  U259445/Y (OA21X1_RVT)                                  0.02       1.32 r
-  U150/Y (AO22X1_RVT)                                     0.03       1.35 r
-  Image_Number[2] (out)                                   0.00       1.35 r
-  data arrival time                                                  1.35
+                                                          0.00       0.96 r
+  add_0_root_add_0_root_N_inst/add_47/U1_1/CO (FADDX1_RVT)
+                                                          0.03       0.99 r
+  add_0_root_add_0_root_N_inst/add_47/U1_2/CO (FADDX1_RVT)
+                                                          0.03       1.02 r
+  add_0_root_add_0_root_N_inst/add_47/U1_3/CO (FADDX1_RVT)
+                                                          0.03       1.05 r
+  add_0_root_add_0_root_N_inst/add_47/U1_4/CO (FADDX1_RVT)
+                                                          0.03       1.08 r
+  add_0_root_add_0_root_N_inst/add_47/U1_5/CO (FADDX1_RVT)
+                                                          0.03       1.11 r
+  add_0_root_add_0_root_N_inst/add_47/U1_6/CO (FADDX1_RVT)
+                                                          0.03       1.15 r
+  add_0_root_add_0_root_N_inst/add_47/U1_7/CO (FADDX1_RVT)
+                                                          0.03       1.18 r
+  add_0_root_add_0_root_N_inst/add_47/U1_8/CO (FADDX1_RVT)
+                                                          0.03       1.21 r
+  add_0_root_add_0_root_N_inst/add_47/U1_9/CO (FADDX1_RVT)
+                                                          0.03       1.24 r
+  add_0_root_add_0_root_N_inst/add_47/U1_10/CO (FADDX1_RVT)
+                                                          0.03       1.27 r
+  add_0_root_add_0_root_N_inst/add_47/U1_11/CO (FADDX1_RVT)
+                                                          0.03       1.30 r
+  add_0_root_add_0_root_N_inst/add_47/U1_12/CO (FADDX1_RVT)
+                                                          0.03       1.33 r
+  add_0_root_add_0_root_N_inst/add_47/U1_13/CO (FADDX1_RVT)
+                                                          0.03       1.36 r
+  add_0_root_add_0_root_N_inst/add_47/U1_14/CO (FADDX1_RVT)
+                                                          0.03       1.39 r
+  add_0_root_add_0_root_N_inst/add_47/U1_15/CO (FADDX1_RVT)
+                                                          0.03       1.42 r
+  add_0_root_add_0_root_N_inst/add_47/U1_16/CO (FADDX1_RVT)
+                                                          0.03       1.45 r
+  add_0_root_add_0_root_N_inst/add_47/U1_17/CO (FADDX1_RVT)
+                                                          0.03       1.49 r
+  add_0_root_add_0_root_N_inst/add_47/U1_18/CO (FADDX1_RVT)
+                                                          0.03       1.52 r
+  add_0_root_add_0_root_N_inst/add_47/U1_19/CO (FADDX1_RVT)
+                                                          0.03       1.55 r
+  add_0_root_add_0_root_N_inst/add_47/U1_20/CO (FADDX1_RVT)
+                                                          0.03       1.58 r
+  add_0_root_add_0_root_N_inst/add_47/U1_21/CO (FADDX1_RVT)
+                                                          0.03       1.61 r
+  add_0_root_add_0_root_N_inst/add_47/U1_22/CO (FADDX1_RVT)
+                                                          0.03       1.64 r
+  add_0_root_add_0_root_N_inst/add_47/U1_23/CO (FADDX1_RVT)
+                                                          0.03       1.67 r
+  add_0_root_add_0_root_N_inst/add_47/U1_24/CO (FADDX1_RVT)
+                                                          0.03       1.70 r
+  add_0_root_add_0_root_N_inst/add_47/U1_25/S (FADDX1_RVT)
+                                                          0.05       1.75 f
+  add_0_root_add_0_root_N_inst/add_47/SUM[25] (Image_Classifier_DW01_add_4)
+                                                          0.00       1.75 f
+  U147/Y (AO221X1_RVT)                                    0.03       1.78 f
+  gt_8702/B[25] (Image_Classifier_DW_cmp_0)               0.00       1.78 f
+  gt_8702/U229/Y (OR2X1_RVT)                              0.02       1.80 f
+  gt_8702/U227/Y (AND2X1_RVT)                             0.02       1.81 f
+  gt_8702/U226/Y (AOI22X1_RVT)                            0.02       1.84 r
+  gt_8702/U194/Y (NAND3X0_RVT)                            0.02       1.85 f
+  gt_8702/U127/Y (AO22X1_RVT)                             0.02       1.88 f
+  gt_8702/GE_LT_GT_LE (Image_Classifier_DW_cmp_0)         0.00       1.88 f
+  U182127/Y (AOI21X1_RVT)                                 0.03       1.90 r
+  U273728/Y (NBUFFX2_RVT)                                 0.02       1.93 r
+  U150/Y (AO22X1_RVT)                                     0.03       1.95 r
+  Image_Number[2] (out)                                   0.00       1.95 r
+  data arrival time                                                  1.95
 
-  clock clk (rise edge)                                   2.00       2.00
-  clock network delay (ideal)                             0.00       2.00
-  clock uncertainty                                      -0.10       1.90
-  output external delay                                  -0.60       1.30
-  data required time                                                 1.30
+  clock clk (rise edge)                                   3.50       3.50
+  clock network delay (ideal)                             0.00       3.50
+  clock uncertainty                                      -0.10       3.40
+  output external delay                                  -0.60       2.80
+  data required time                                                 2.80
   --------------------------------------------------------------------------
-  data required time                                                 1.30
-  data arrival time                                                 -1.35
+  data required time                                                 2.80
+  data arrival time                                                 -1.95
   --------------------------------------------------------------------------
-  slack (VIOLATED)                                                  -0.05
+  slack (MET)                                                        0.85
 
 
   Startpoint: Input_Valid
@@ -526,290 +858,108 @@ Wire Load Model Mode: enclosed
   --------------------------------------------------------------------------
   clock clk (rise edge)                                   0.00       0.00
   clock network delay (ideal)                             0.00       0.00
-  input external delay                                    0.60       0.60 r
-  Input_Valid (in)                                        0.00       0.60 r
-  U259483/Y (INVX32_RVT)                                  0.00       0.60 f
-  U259494/Y (AND3X1_RVT)                                  0.02       0.62 f
-  U157/Y (AO22X1_RVT)                                     0.03       0.65 f
-  U182069/Y (INVX1_RVT)                                   0.01       0.66 r
-  U259468/Y (NBUFFX2_RVT)                                 0.02       0.68 r
-  U258708/Y (AND3X1_RVT)                                  0.02       0.70 r
-  U274895/Y (NAND2X0_RVT)                                 0.01       0.71 f
-  U259478/Y (AND3X1_RVT)                                  0.02       0.73 f
-  U274893/Y (NAND3X0_RVT)                                 0.01       0.74 r
-  U287038/Y (OR3X1_RVT)                                   0.02       0.77 r
+  input external delay                                    0.60       0.60 f
+  Input_Valid (in)                                        0.00       0.60 f
+  U274498/Y (INVX1_RVT)                                   0.00       0.60 r
+  U258504/Y (NAND2X0_RVT)                                 0.02       0.63 f
+  U182128/Y (AO21X1_RVT)                                  0.02       0.64 f
+  U273998/Y (INVX1_RVT)                                   0.02       0.67 r
+  U273727/Y (INVX2_RVT)                                   0.02       0.69 f
+  U272774/Y (INVX1_RVT)                                   0.02       0.71 r
+  U157/Y (AO22X1_RVT)                                     0.03       0.74 r
+  U181903/Y (INVX1_RVT)                                   0.01       0.74 f
+  U258634/Y (NAND2X0_RVT)                                 0.02       0.76 r
+  U181901/Y (INVX1_RVT)                                   0.01       0.77 f
+  U274075/Y (OA22X1_RVT)                                  0.04       0.81 f
+  U273115/Y (INVX1_RVT)                                   0.02       0.83 r
+  U273966/Y (INVX1_RVT)                                   0.02       0.85 f
+  U272767/Y (INVX1_RVT)                                   0.02       0.86 r
+  U271179/Y (NBUFFX2_RVT)                                 0.02       0.89 r
+  U258570/Y (AO222X1_RVT)                                 0.04       0.93 r
+  U258566/Y (OR3X1_RVT)                                   0.03       0.96 r
   add_0_root_add_0_root_N_inst/add_47/B[1] (Image_Classifier_DW01_add_4)
-                                                          0.00       0.77 r
-  add_0_root_add_0_root_N_inst/add_47/U184/Y (OA21X1_RVT)
-                                                          0.02       0.79 r
-  add_0_root_add_0_root_N_inst/add_47/U194/Y (AO22X1_RVT)
-                                                          0.02       0.81 r
-  add_0_root_add_0_root_N_inst/add_47/U182/Y (AO21X1_RVT)
-                                                          0.02       0.82 r
-  add_0_root_add_0_root_N_inst/add_47/U205/Y (AND2X1_RVT)
-                                                          0.02       0.84 r
-  add_0_root_add_0_root_N_inst/add_47/U179/Y (OA21X1_RVT)
-                                                          0.02       0.86 r
-  add_0_root_add_0_root_N_inst/add_47/U213/Y (OR3X1_RVT)
-                                                          0.02       0.88 r
-  add_0_root_add_0_root_N_inst/add_47/U32/Y (AO22X1_RVT)
-                                                          0.02       0.90 r
-  add_0_root_add_0_root_N_inst/add_47/U172/Y (AO21X1_RVT)
-                                                          0.03       0.93 r
-  add_0_root_add_0_root_N_inst/add_47/U22/Y (AND2X1_RVT)
-                                                          0.02       0.95 r
-  add_0_root_add_0_root_N_inst/add_47/U28/Y (AO221X1_RVT)
-                                                          0.03       0.98 r
-  add_0_root_add_0_root_N_inst/add_47/U64/Y (AO22X1_RVT)
-                                                          0.02       1.00 r
-  add_0_root_add_0_root_N_inst/add_47/U47/Y (AND2X1_RVT)
-                                                          0.02       1.02 r
-  add_0_root_add_0_root_N_inst/add_47/U49/Y (OA21X1_RVT)
-                                                          0.02       1.04 r
-  add_0_root_add_0_root_N_inst/add_47/U59/Y (AO22X1_RVT)
-                                                          0.02       1.06 r
-  add_0_root_add_0_root_N_inst/add_47/U158/Y (AO21X1_RVT)
-                                                          0.02       1.09 r
-  add_0_root_add_0_root_N_inst/add_47/U127/Y (AO22X1_RVT)
-                                                          0.02       1.11 r
-  add_0_root_add_0_root_N_inst/add_47/U109/Y (XOR2X2_RVT)
-                                                          0.02       1.13 r
-  add_0_root_add_0_root_N_inst/add_47/U124/Y (AO221X1_RVT)
-                                                          0.03       1.16 r
-  add_0_root_add_0_root_N_inst/add_47/SUM[19] (Image_Classifier_DW01_add_4)
-                                                          0.00       1.16 r
-  U141/Y (AO22X1_RVT)                                     0.02       1.19 r
-  gt_8702/B[19] (Image_Classifier_DW_cmp_0)               0.00       1.19 r
-  gt_8702/U156/Y (AO21X1_RVT)                             0.02       1.21 r
-  gt_8702/U194/Y (OA22X1_RVT)                             0.02       1.23 r
-  gt_8702/U239/Y (NAND2X0_RVT)                            0.01       1.24 f
-  gt_8702/U240/Y (NAND3X0_RVT)                            0.01       1.26 r
-  gt_8702/U151/Y (NAND3X0_RVT)                            0.01       1.27 f
-  gt_8702/U127/Y (AO22X1_RVT)                             0.03       1.30 f
-  gt_8702/GE_LT_GT_LE (Image_Classifier_DW_cmp_0)         0.00       1.30 f
-  U258722/Y (INVX2_RVT)                                   0.01       1.30 r
-  U259445/Y (OA21X1_RVT)                                  0.02       1.32 r
-  U151/Y (AO22X1_RVT)                                     0.03       1.35 r
-  Image_Number[3] (out)                                   0.00       1.35 r
-  data arrival time                                                  1.35
-
-  clock clk (rise edge)                                   2.00       2.00
-  clock network delay (ideal)                             0.00       2.00
-  clock uncertainty                                      -0.10       1.90
-  output external delay                                  -0.60       1.30
-  data required time                                                 1.30
-  --------------------------------------------------------------------------
-  data required time                                                 1.30
-  data arrival time                                                 -1.35
-  --------------------------------------------------------------------------
-  slack (VIOLATED)                                                  -0.05
-
-
-  Startpoint: Input_Valid
-              (input port clocked by clk)
-  Endpoint: Image_Number[2]
-            (output port clocked by clk)
-  Path Group: clk
-  Path Type: max
-
-  Des/Clust/Port     Wire Load Model       Library
-  ------------------------------------------------
-  Image_Classifier   280000                saed32rvt_ff1p16vn40c
-  Image_Classifier_DW01_add_4
-                     ForQA                 saed32rvt_ff1p16vn40c
-  Image_Classifier_DW_cmp_0
-                     ForQA                 saed32rvt_ff1p16vn40c
-
-  Point                                                   Incr       Path
-  --------------------------------------------------------------------------
-  clock clk (rise edge)                                   0.00       0.00
-  clock network delay (ideal)                             0.00       0.00
-  input external delay                                    0.60       0.60 r
-  Input_Valid (in)                                        0.00       0.60 r
-  U259483/Y (INVX32_RVT)                                  0.00       0.60 f
-  U259494/Y (AND3X1_RVT)                                  0.02       0.62 f
-  U157/Y (AO22X1_RVT)                                     0.03       0.65 f
-  U182069/Y (INVX1_RVT)                                   0.01       0.66 r
-  U259468/Y (NBUFFX2_RVT)                                 0.02       0.68 r
-  U258708/Y (AND3X1_RVT)                                  0.02       0.70 r
-  U274895/Y (NAND2X0_RVT)                                 0.01       0.71 f
-  U259478/Y (AND3X1_RVT)                                  0.02       0.73 f
-  U274893/Y (NAND3X0_RVT)                                 0.01       0.74 r
-  U287038/Y (OR3X1_RVT)                                   0.02       0.77 r
-  add_0_root_add_0_root_N_inst/add_47/B[1] (Image_Classifier_DW01_add_4)
-                                                          0.00       0.77 r
-  add_0_root_add_0_root_N_inst/add_47/U184/Y (OA21X1_RVT)
-                                                          0.02       0.79 r
-  add_0_root_add_0_root_N_inst/add_47/U194/Y (AO22X1_RVT)
-                                                          0.02       0.81 r
-  add_0_root_add_0_root_N_inst/add_47/U182/Y (AO21X1_RVT)
-                                                          0.02       0.82 r
-  add_0_root_add_0_root_N_inst/add_47/U205/Y (AND2X1_RVT)
-                                                          0.02       0.84 r
-  add_0_root_add_0_root_N_inst/add_47/U179/Y (OA21X1_RVT)
-                                                          0.02       0.86 r
-  add_0_root_add_0_root_N_inst/add_47/U213/Y (OR3X1_RVT)
-                                                          0.02       0.88 r
-  add_0_root_add_0_root_N_inst/add_47/U32/Y (AO22X1_RVT)
-                                                          0.02       0.90 r
-  add_0_root_add_0_root_N_inst/add_47/U172/Y (AO21X1_RVT)
-                                                          0.03       0.93 r
-  add_0_root_add_0_root_N_inst/add_47/U191/Y (AND2X1_RVT)
-                                                          0.02       0.95 r
-  add_0_root_add_0_root_N_inst/add_47/U36/Y (AO221X1_RVT)
-                                                          0.03       0.98 r
-  add_0_root_add_0_root_N_inst/add_47/U163/Y (AO22X1_RVT)
-                                                          0.02       1.00 r
-  add_0_root_add_0_root_N_inst/add_47/U125/Y (AND2X1_RVT)
-                                                          0.02       1.02 r
-  add_0_root_add_0_root_N_inst/add_47/U119/Y (OA21X1_RVT)
-                                                          0.02       1.04 r
-  add_0_root_add_0_root_N_inst/add_47/U150/Y (AO22X1_RVT)
-                                                          0.02       1.06 r
-  add_0_root_add_0_root_N_inst/add_47/U145/Y (AO21X1_RVT)
+                                                          0.00       0.96 r
+  add_0_root_add_0_root_N_inst/add_47/U1_1/CO (FADDX1_RVT)
+                                                          0.03       0.99 r
+  add_0_root_add_0_root_N_inst/add_47/U1_2/CO (FADDX1_RVT)
+                                                          0.03       1.02 r
+  add_0_root_add_0_root_N_inst/add_47/U1_3/CO (FADDX1_RVT)
+                                                          0.03       1.05 r
+  add_0_root_add_0_root_N_inst/add_47/U1_4/CO (FADDX1_RVT)
                                                           0.03       1.08 r
-  add_0_root_add_0_root_N_inst/add_47/U135/Y (OR2X1_RVT)
-                                                          0.02       1.10 r
-  add_0_root_add_0_root_N_inst/add_47/U153/Y (AND2X1_RVT)
-                                                          0.02       1.12 r
-  add_0_root_add_0_root_N_inst/add_47/U154/Y (XOR2X2_RVT)
-                                                          0.02       1.14 r
-  add_0_root_add_0_root_N_inst/add_47/U46/Y (AO221X1_RVT)
-                                                          0.03       1.16 r
-  add_0_root_add_0_root_N_inst/add_47/SUM[17] (Image_Classifier_DW01_add_4)
-                                                          0.00       1.16 r
-  U139/Y (AO22X1_RVT)                                     0.02       1.19 r
-  gt_8702/B[17] (Image_Classifier_DW_cmp_0)               0.00       1.19 r
-  gt_8702/U221/Y (NAND2X0_RVT)                            0.01       1.20 f
-  gt_8702/U219/Y (NAND2X0_RVT)                            0.01       1.21 r
-  gt_8702/U218/Y (OA22X1_RVT)                             0.02       1.23 r
-  gt_8702/U238/Y (NAND2X0_RVT)                            0.01       1.24 f
-  gt_8702/U240/Y (NAND3X0_RVT)                            0.01       1.26 r
-  gt_8702/U151/Y (NAND3X0_RVT)                            0.01       1.27 f
-  gt_8702/U127/Y (AO22X1_RVT)                             0.03       1.30 f
-  gt_8702/GE_LT_GT_LE (Image_Classifier_DW_cmp_0)         0.00       1.30 f
-  U258722/Y (INVX2_RVT)                                   0.01       1.30 r
-  U259445/Y (OA21X1_RVT)                                  0.02       1.32 r
-  U150/Y (AO22X1_RVT)                                     0.03       1.35 r
-  Image_Number[2] (out)                                   0.00       1.35 r
-  data arrival time                                                  1.35
+  add_0_root_add_0_root_N_inst/add_47/U1_5/CO (FADDX1_RVT)
+                                                          0.03       1.11 r
+  add_0_root_add_0_root_N_inst/add_47/U1_6/CO (FADDX1_RVT)
+                                                          0.03       1.15 r
+  add_0_root_add_0_root_N_inst/add_47/U1_7/CO (FADDX1_RVT)
+                                                          0.03       1.18 r
+  add_0_root_add_0_root_N_inst/add_47/U1_8/CO (FADDX1_RVT)
+                                                          0.03       1.21 r
+  add_0_root_add_0_root_N_inst/add_47/U1_9/CO (FADDX1_RVT)
+                                                          0.03       1.24 r
+  add_0_root_add_0_root_N_inst/add_47/U1_10/CO (FADDX1_RVT)
+                                                          0.03       1.27 r
+  add_0_root_add_0_root_N_inst/add_47/U1_11/CO (FADDX1_RVT)
+                                                          0.03       1.30 r
+  add_0_root_add_0_root_N_inst/add_47/U1_12/CO (FADDX1_RVT)
+                                                          0.03       1.33 r
+  add_0_root_add_0_root_N_inst/add_47/U1_13/CO (FADDX1_RVT)
+                                                          0.03       1.36 r
+  add_0_root_add_0_root_N_inst/add_47/U1_14/CO (FADDX1_RVT)
+                                                          0.03       1.39 r
+  add_0_root_add_0_root_N_inst/add_47/U1_15/CO (FADDX1_RVT)
+                                                          0.03       1.42 r
+  add_0_root_add_0_root_N_inst/add_47/U1_16/CO (FADDX1_RVT)
+                                                          0.03       1.45 r
+  add_0_root_add_0_root_N_inst/add_47/U1_17/CO (FADDX1_RVT)
+                                                          0.03       1.49 r
+  add_0_root_add_0_root_N_inst/add_47/U1_18/CO (FADDX1_RVT)
+                                                          0.03       1.52 r
+  add_0_root_add_0_root_N_inst/add_47/U1_19/CO (FADDX1_RVT)
+                                                          0.03       1.55 r
+  add_0_root_add_0_root_N_inst/add_47/U1_20/CO (FADDX1_RVT)
+                                                          0.03       1.58 r
+  add_0_root_add_0_root_N_inst/add_47/U1_21/CO (FADDX1_RVT)
+                                                          0.03       1.61 r
+  add_0_root_add_0_root_N_inst/add_47/U1_22/CO (FADDX1_RVT)
+                                                          0.03       1.64 r
+  add_0_root_add_0_root_N_inst/add_47/U1_23/CO (FADDX1_RVT)
+                                                          0.03       1.67 r
+  add_0_root_add_0_root_N_inst/add_47/U1_24/CO (FADDX1_RVT)
+                                                          0.03       1.70 r
+  add_0_root_add_0_root_N_inst/add_47/U1_25/S (FADDX1_RVT)
+                                                          0.05       1.75 f
+  add_0_root_add_0_root_N_inst/add_47/SUM[25] (Image_Classifier_DW01_add_4)
+                                                          0.00       1.75 f
+  U147/Y (AO221X1_RVT)                                    0.03       1.78 f
+  gt_8702/B[25] (Image_Classifier_DW_cmp_0)               0.00       1.78 f
+  gt_8702/U229/Y (OR2X1_RVT)                              0.02       1.80 f
+  gt_8702/U227/Y (AND2X1_RVT)                             0.02       1.81 f
+  gt_8702/U226/Y (AOI22X1_RVT)                            0.02       1.84 r
+  gt_8702/U194/Y (NAND3X0_RVT)                            0.02       1.85 f
+  gt_8702/U127/Y (AO22X1_RVT)                             0.02       1.88 f
+  gt_8702/GE_LT_GT_LE (Image_Classifier_DW_cmp_0)         0.00       1.88 f
+  U182127/Y (AOI21X1_RVT)                                 0.03       1.90 r
+  U273728/Y (NBUFFX2_RVT)                                 0.02       1.93 r
+  U151/Y (AO22X1_RVT)                                     0.03       1.95 r
+  Image_Number[3] (out)                                   0.00       1.95 r
+  data arrival time                                                  1.95
 
-  clock clk (rise edge)                                   2.00       2.00
-  clock network delay (ideal)                             0.00       2.00
-  clock uncertainty                                      -0.10       1.90
-  output external delay                                  -0.60       1.30
-  data required time                                                 1.30
+  clock clk (rise edge)                                   3.50       3.50
+  clock network delay (ideal)                             0.00       3.50
+  clock uncertainty                                      -0.10       3.40
+  output external delay                                  -0.60       2.80
+  data required time                                                 2.80
   --------------------------------------------------------------------------
-  data required time                                                 1.30
-  data arrival time                                                 -1.35
+  data required time                                                 2.80
+  data arrival time                                                 -1.95
   --------------------------------------------------------------------------
-  slack (VIOLATED)                                                  -0.05
+  slack (MET)                                                        0.85
 
 
   Startpoint: Input_Valid
               (input port clocked by clk)
-  Endpoint: Image_Number[3]
-            (output port clocked by clk)
-  Path Group: clk
-  Path Type: max
-
-  Des/Clust/Port     Wire Load Model       Library
-  ------------------------------------------------
-  Image_Classifier   280000                saed32rvt_ff1p16vn40c
-  Image_Classifier_DW01_add_4
-                     ForQA                 saed32rvt_ff1p16vn40c
-  Image_Classifier_DW_cmp_0
-                     ForQA                 saed32rvt_ff1p16vn40c
-
-  Point                                                   Incr       Path
-  --------------------------------------------------------------------------
-  clock clk (rise edge)                                   0.00       0.00
-  clock network delay (ideal)                             0.00       0.00
-  input external delay                                    0.60       0.60 r
-  Input_Valid (in)                                        0.00       0.60 r
-  U259483/Y (INVX32_RVT)                                  0.00       0.60 f
-  U259494/Y (AND3X1_RVT)                                  0.02       0.62 f
-  U157/Y (AO22X1_RVT)                                     0.03       0.65 f
-  U182069/Y (INVX1_RVT)                                   0.01       0.66 r
-  U259468/Y (NBUFFX2_RVT)                                 0.02       0.68 r
-  U258708/Y (AND3X1_RVT)                                  0.02       0.70 r
-  U274895/Y (NAND2X0_RVT)                                 0.01       0.71 f
-  U259478/Y (AND3X1_RVT)                                  0.02       0.73 f
-  U274893/Y (NAND3X0_RVT)                                 0.01       0.74 r
-  U287038/Y (OR3X1_RVT)                                   0.02       0.77 r
-  add_0_root_add_0_root_N_inst/add_47/B[1] (Image_Classifier_DW01_add_4)
-                                                          0.00       0.77 r
-  add_0_root_add_0_root_N_inst/add_47/U184/Y (OA21X1_RVT)
-                                                          0.02       0.79 r
-  add_0_root_add_0_root_N_inst/add_47/U194/Y (AO22X1_RVT)
-                                                          0.02       0.81 r
-  add_0_root_add_0_root_N_inst/add_47/U182/Y (AO21X1_RVT)
-                                                          0.02       0.82 r
-  add_0_root_add_0_root_N_inst/add_47/U205/Y (AND2X1_RVT)
-                                                          0.02       0.84 r
-  add_0_root_add_0_root_N_inst/add_47/U179/Y (OA21X1_RVT)
-                                                          0.02       0.86 r
-  add_0_root_add_0_root_N_inst/add_47/U213/Y (OR3X1_RVT)
-                                                          0.02       0.88 r
-  add_0_root_add_0_root_N_inst/add_47/U32/Y (AO22X1_RVT)
-                                                          0.02       0.90 r
-  add_0_root_add_0_root_N_inst/add_47/U172/Y (AO21X1_RVT)
-                                                          0.03       0.93 r
-  add_0_root_add_0_root_N_inst/add_47/U191/Y (AND2X1_RVT)
-                                                          0.02       0.95 r
-  add_0_root_add_0_root_N_inst/add_47/U36/Y (AO221X1_RVT)
-                                                          0.03       0.98 r
-  add_0_root_add_0_root_N_inst/add_47/U163/Y (AO22X1_RVT)
-                                                          0.02       1.00 r
-  add_0_root_add_0_root_N_inst/add_47/U125/Y (AND2X1_RVT)
-                                                          0.02       1.02 r
-  add_0_root_add_0_root_N_inst/add_47/U119/Y (OA21X1_RVT)
-                                                          0.02       1.04 r
-  add_0_root_add_0_root_N_inst/add_47/U150/Y (AO22X1_RVT)
-                                                          0.02       1.06 r
-  add_0_root_add_0_root_N_inst/add_47/U145/Y (AO21X1_RVT)
-                                                          0.03       1.08 r
-  add_0_root_add_0_root_N_inst/add_47/U135/Y (OR2X1_RVT)
-                                                          0.02       1.10 r
-  add_0_root_add_0_root_N_inst/add_47/U153/Y (AND2X1_RVT)
-                                                          0.02       1.12 r
-  add_0_root_add_0_root_N_inst/add_47/U154/Y (XOR2X2_RVT)
-                                                          0.02       1.14 r
-  add_0_root_add_0_root_N_inst/add_47/U46/Y (AO221X1_RVT)
-                                                          0.03       1.16 r
-  add_0_root_add_0_root_N_inst/add_47/SUM[17] (Image_Classifier_DW01_add_4)
-                                                          0.00       1.16 r
-  U139/Y (AO22X1_RVT)                                     0.02       1.19 r
-  gt_8702/B[17] (Image_Classifier_DW_cmp_0)               0.00       1.19 r
-  gt_8702/U221/Y (NAND2X0_RVT)                            0.01       1.20 f
-  gt_8702/U219/Y (NAND2X0_RVT)                            0.01       1.21 r
-  gt_8702/U218/Y (OA22X1_RVT)                             0.02       1.23 r
-  gt_8702/U238/Y (NAND2X0_RVT)                            0.01       1.24 f
-  gt_8702/U240/Y (NAND3X0_RVT)                            0.01       1.26 r
-  gt_8702/U151/Y (NAND3X0_RVT)                            0.01       1.27 f
-  gt_8702/U127/Y (AO22X1_RVT)                             0.03       1.30 f
-  gt_8702/GE_LT_GT_LE (Image_Classifier_DW_cmp_0)         0.00       1.30 f
-  U258722/Y (INVX2_RVT)                                   0.01       1.30 r
-  U259445/Y (OA21X1_RVT)                                  0.02       1.32 r
-  U151/Y (AO22X1_RVT)                                     0.03       1.35 r
-  Image_Number[3] (out)                                   0.00       1.35 r
-  data arrival time                                                  1.35
-
-  clock clk (rise edge)                                   2.00       2.00
-  clock network delay (ideal)                             0.00       2.00
-  clock uncertainty                                      -0.10       1.90
-  output external delay                                  -0.60       1.30
-  data required time                                                 1.30
-  --------------------------------------------------------------------------
-  data required time                                                 1.30
-  data arrival time                                                 -1.35
-  --------------------------------------------------------------------------
-  slack (VIOLATED)                                                  -0.05
-
-
-  Startpoint: Input_Valid
-              (input port clocked by clk)
-  Endpoint: N_inst/gen_block_1[3].mult_0/mult_0/Multiplier_25b_18f_block.multInp2_block/GenBlock.theDelay/outreg_reg[1]
+  Endpoint: N_inst/gen_block_1[1].mult_0/mult_0/Multiplier_25b_18f_block.multInp2_block/GenBlock.theDelay/outreg_reg[0]
             (rising edge-triggered flip-flop clocked by clk)
   Path Group: clk
   Path Type: max
@@ -824,59 +974,65 @@ Wire Load Model Mode: enclosed
   clock network delay (ideal)                             0.00       0.00
   input external delay                                    0.60       0.60 r
   Input_Valid (in)                                        0.00       0.60 r
-  U259483/Y (INVX32_RVT)                                  0.00       0.60 f
-  U259494/Y (AND3X1_RVT)                                  0.02       0.62 f
-  U157/Y (AO22X1_RVT)                                     0.03       0.65 f
-  U182069/Y (INVX1_RVT)                                   0.01       0.66 r
-  U259468/Y (NBUFFX2_RVT)                                 0.02       0.68 r
-  U258720/Y (AND3X1_RVT)                                  0.03       0.71 r
-  U259463/Y (DELLN3X2_RVT)                                0.13       0.84 r
-  U258969/Y (NBUFFX2_RVT)                                 0.02       0.86 r
-  U274166/Y (INVX0_RVT)                                   0.02       0.88 f
-  U273490/Y (INVX1_RVT)                                   0.01       0.89 r
-  U272678/Y (NBUFFX2_RVT)                                 0.02       0.91 r
-  U273370/Y (AND2X2_RVT)                                  0.03       0.94 r
-  U199799/Y (AND2X1_RVT)                                  0.02       0.96 r
-  U272566/Y (NBUFFX2_RVT)                                 0.02       0.98 r
-  U271524/Y (NBUFFX2_RVT)                                 0.02       1.00 r
-  U184245/Y (AO222X1_RVT)                                 0.04       1.04 r
-  U184244/Y (AO221X1_RVT)                                 0.03       1.06 r
-  U173789/Y (NOR4X1_RVT)                                  0.03       1.10 f
-  U184225/Y (NAND4X0_RVT)                                 0.01       1.11 r
-  U184224/Y (AO222X1_RVT)                                 0.03       1.14 r
-  U184223/Y (AO221X1_RVT)                                 0.03       1.17 r
-  U173786/Y (NOR4X1_RVT)                                  0.04       1.21 f
-  U184216/Y (NAND4X0_RVT)                                 0.01       1.22 r
-  U184148/Y (AO22X1_RVT)                                  0.03       1.25 r
-  U184147/Y (AO221X1_RVT)                                 0.03       1.28 r
-  U183878/Y (OR2X1_RVT)                                   0.02       1.30 r
-  U182426/Y (AO222X1_RVT)                                 0.04       1.34 r
-  U182425/Y (AO221X1_RVT)                                 0.03       1.37 r
-  U182416/Y (AO22X1_RVT)                                  0.03       1.39 r
-  U182415/Y (AO221X1_RVT)                                 0.02       1.42 r
-  U182414/Y (AO22X1_RVT)                                  0.02       1.44 r
-  U182361/Y (AO222X1_RVT)                                 0.04       1.47 r
-  N_inst/gen_block_1[3].mult_0/mult_0/Multiplier_25b_18f_block.multInp2_block/GenBlock.theDelay/outreg_reg[1]/D (DFFARX1_RVT)
-                                                          0.00       1.47 r
-  data arrival time                                                  1.47
+  U274498/Y (INVX1_RVT)                                   0.01       0.61 f
+  U258504/Y (NAND2X0_RVT)                                 0.02       0.62 r
+  U182128/Y (AO21X1_RVT)                                  0.02       0.64 r
+  U273998/Y (INVX1_RVT)                                   0.02       0.67 f
+  U273727/Y (INVX2_RVT)                                   0.02       0.69 r
+  U272774/Y (INVX1_RVT)                                   0.02       0.71 f
+  U158/Y (AO22X1_RVT)                                     0.03       0.74 f
+  U181904/Y (INVX1_RVT)                                   0.01       0.75 r
+  U258624/Y (AND2X1_RVT)                                  0.02       0.77 r
+  U258620/Y (AND3X1_RVT)                                  0.02       0.79 r
+  U274068/Y (INVX1_RVT)                                   0.01       0.80 f
+  U272771/Y (INVX1_RVT)                                   0.01       0.81 r
+  U272621/Y (NBUFFX2_RVT)                                 0.02       0.83 r
+  U273962/Y (INVX1_RVT)                                   0.03       0.86 f
+  U273081/Y (INVX1_RVT)                                   0.02       0.88 r
+  U273733/Y (INVX1_RVT)                                   0.03       0.90 f
+  U272797/Y (INVX1_RVT)                                   0.02       0.92 r
+  U271267/Y (NBUFFX2_RVT)                                 0.02       0.94 r
+  U271312/Y (NAND2X0_RVT)                                 0.02       0.96 f
+  U268985/Y (INVX1_RVT)                                   0.02       0.97 r
+  U263407/Y (NBUFFX2_RVT)                                 0.02       1.00 r
+  U225700/Y (AO222X1_RVT)                                 0.04       1.03 r
+  U225699/Y (AO221X1_RVT)                                 0.03       1.06 r
+  U178385/Y (NOR4X1_RVT)                                  0.04       1.09 f
+  U225670/Y (NAND4X0_RVT)                                 0.01       1.11 r
+  U225669/Y (AO222X1_RVT)                                 0.03       1.14 r
+  U225668/Y (AO221X1_RVT)                                 0.03       1.17 r
+  U178381/Y (NOR4X1_RVT)                                  0.04       1.21 f
+  U225661/Y (NAND4X0_RVT)                                 0.01       1.22 r
+  U225593/Y (AO22X1_RVT)                                  0.03       1.25 r
+  U225592/Y (AO221X1_RVT)                                 0.03       1.27 r
+  U225323/Y (OR2X1_RVT)                                   0.02       1.29 r
+  U224791/Y (AO222X1_RVT)                                 0.05       1.34 r
+  U220410/Y (AO22X1_RVT)                                  0.03       1.36 r
+  U220402/Y (AO222X1_RVT)                                 0.05       1.41 r
+  U220384/Y (AO22X1_RVT)                                  0.03       1.44 r
+  U220349/Y (AO22X1_RVT)                                  0.03       1.46 r
+  U220348/Y (AND2X1_RVT)                                  0.01       1.48 r
+  N_inst/gen_block_1[1].mult_0/mult_0/Multiplier_25b_18f_block.multInp2_block/GenBlock.theDelay/outreg_reg[0]/D (DFFARX1_RVT)
+                                                          0.00       1.48 r
+  data arrival time                                                  1.48
 
-  clock clk (rise edge)                                   2.00       2.00
-  clock network delay (ideal)                             0.00       2.00
-  clock uncertainty                                      -0.10       1.90
-  N_inst/gen_block_1[3].mult_0/mult_0/Multiplier_25b_18f_block.multInp2_block/GenBlock.theDelay/outreg_reg[1]/CLK (DFFARX1_RVT)
-                                                          0.00       1.90 r
-  library setup time                                     -0.02       1.88
-  data required time                                                 1.88
+  clock clk (rise edge)                                   3.50       3.50
+  clock network delay (ideal)                             0.00       3.50
+  clock uncertainty                                      -0.10       3.40
+  N_inst/gen_block_1[1].mult_0/mult_0/Multiplier_25b_18f_block.multInp2_block/GenBlock.theDelay/outreg_reg[0]/CLK (DFFARX1_RVT)
+                                                          0.00       3.40 r
+  library setup time                                     -0.01       3.39
+  data required time                                                 3.39
   --------------------------------------------------------------------------
-  data required time                                                 1.88
-  data arrival time                                                 -1.47
+  data required time                                                 3.39
+  data arrival time                                                 -1.48
   --------------------------------------------------------------------------
-  slack (MET)                                                        0.41
+  slack (MET)                                                        1.91
 
 
   Startpoint: Input_Valid
               (input port clocked by clk)
-  Endpoint: N_inst/gen_block_1[3].mult_0/mult_0/Multiplier_25b_18f_block.multInp2_block/GenBlock.theDelay/outreg_reg[1]
+  Endpoint: N_inst/gen_block_1[2].mult_0/mult_0/Multiplier_25b_18f_block.multInp2_block/GenBlock.theDelay/outreg_reg[0]
             (rising edge-triggered flip-flop clocked by clk)
   Path Group: clk
   Path Type: max
@@ -891,54 +1047,60 @@ Wire Load Model Mode: enclosed
   clock network delay (ideal)                             0.00       0.00
   input external delay                                    0.60       0.60 r
   Input_Valid (in)                                        0.00       0.60 r
-  U259484/Y (INVX32_RVT)                                  0.00       0.60 f
-  U273925/Y (AND3X1_RVT)                                  0.02       0.62 f
-  U157/Y (AO22X1_RVT)                                     0.03       0.65 f
-  U182069/Y (INVX1_RVT)                                   0.01       0.66 r
-  U259468/Y (NBUFFX2_RVT)                                 0.02       0.68 r
-  U258720/Y (AND3X1_RVT)                                  0.03       0.71 r
-  U259463/Y (DELLN3X2_RVT)                                0.13       0.84 r
-  U258969/Y (NBUFFX2_RVT)                                 0.02       0.86 r
-  U274166/Y (INVX0_RVT)                                   0.02       0.88 f
-  U273490/Y (INVX1_RVT)                                   0.01       0.89 r
-  U272678/Y (NBUFFX2_RVT)                                 0.02       0.91 r
-  U273370/Y (AND2X2_RVT)                                  0.03       0.94 r
-  U199799/Y (AND2X1_RVT)                                  0.02       0.96 r
-  U272566/Y (NBUFFX2_RVT)                                 0.02       0.98 r
-  U271524/Y (NBUFFX2_RVT)                                 0.02       1.00 r
-  U184245/Y (AO222X1_RVT)                                 0.04       1.04 r
-  U184244/Y (AO221X1_RVT)                                 0.03       1.06 r
-  U173789/Y (NOR4X1_RVT)                                  0.03       1.10 f
-  U184225/Y (NAND4X0_RVT)                                 0.01       1.11 r
-  U184224/Y (AO222X1_RVT)                                 0.03       1.14 r
-  U184223/Y (AO221X1_RVT)                                 0.03       1.17 r
-  U173786/Y (NOR4X1_RVT)                                  0.04       1.21 f
-  U184216/Y (NAND4X0_RVT)                                 0.01       1.22 r
-  U184148/Y (AO22X1_RVT)                                  0.03       1.25 r
-  U184147/Y (AO221X1_RVT)                                 0.03       1.27 r
-  U183878/Y (OR2X1_RVT)                                   0.02       1.29 r
-  U182426/Y (AO222X1_RVT)                                 0.04       1.34 r
-  U182425/Y (AO221X1_RVT)                                 0.03       1.37 r
-  U182416/Y (AO22X1_RVT)                                  0.03       1.39 r
-  U182415/Y (AO221X1_RVT)                                 0.02       1.42 r
-  U182414/Y (AO22X1_RVT)                                  0.02       1.44 r
-  U182361/Y (AO222X1_RVT)                                 0.04       1.47 r
-  N_inst/gen_block_1[3].mult_0/mult_0/Multiplier_25b_18f_block.multInp2_block/GenBlock.theDelay/outreg_reg[1]/D (DFFARX1_RVT)
-                                                          0.00       1.47 r
-  data arrival time                                                  1.47
+  U274498/Y (INVX1_RVT)                                   0.01       0.61 f
+  U258504/Y (NAND2X0_RVT)                                 0.02       0.62 r
+  U182128/Y (AO21X1_RVT)                                  0.02       0.64 r
+  U273998/Y (INVX1_RVT)                                   0.02       0.67 f
+  U273727/Y (INVX2_RVT)                                   0.02       0.69 r
+  U272774/Y (INVX1_RVT)                                   0.02       0.71 f
+  U158/Y (AO22X1_RVT)                                     0.03       0.74 f
+  U181904/Y (INVX1_RVT)                                   0.01       0.75 r
+  U258624/Y (AND2X1_RVT)                                  0.02       0.77 r
+  U258620/Y (AND3X1_RVT)                                  0.02       0.79 r
+  U274068/Y (INVX1_RVT)                                   0.01       0.80 f
+  U272771/Y (INVX1_RVT)                                   0.01       0.81 r
+  U272621/Y (NBUFFX2_RVT)                                 0.02       0.83 r
+  U273962/Y (INVX1_RVT)                                   0.03       0.86 f
+  U273081/Y (INVX1_RVT)                                   0.02       0.88 r
+  U273733/Y (INVX1_RVT)                                   0.03       0.90 f
+  U272802/Y (INVX1_RVT)                                   0.02       0.92 r
+  U271264/Y (NBUFFX2_RVT)                                 0.02       0.94 r
+  U271311/Y (NAND2X0_RVT)                                 0.02       0.96 f
+  U268983/Y (INVX1_RVT)                                   0.02       0.97 r
+  U263403/Y (NBUFFX2_RVT)                                 0.02       1.00 r
+  U206609/Y (AO222X1_RVT)                                 0.04       1.03 r
+  U206608/Y (AO221X1_RVT)                                 0.03       1.06 r
+  U176300/Y (NOR4X1_RVT)                                  0.04       1.09 f
+  U206579/Y (NAND4X0_RVT)                                 0.01       1.11 r
+  U206578/Y (AO222X1_RVT)                                 0.03       1.14 r
+  U206577/Y (AO221X1_RVT)                                 0.03       1.17 r
+  U176296/Y (NOR4X1_RVT)                                  0.04       1.21 f
+  U206570/Y (NAND4X0_RVT)                                 0.01       1.22 r
+  U206502/Y (AO22X1_RVT)                                  0.03       1.25 r
+  U206501/Y (AO221X1_RVT)                                 0.03       1.27 r
+  U206232/Y (OR2X1_RVT)                                   0.02       1.29 r
+  U205700/Y (AO222X1_RVT)                                 0.05       1.34 r
+  U201319/Y (AO22X1_RVT)                                  0.03       1.36 r
+  U201311/Y (AO222X1_RVT)                                 0.05       1.41 r
+  U201293/Y (AO22X1_RVT)                                  0.03       1.44 r
+  U201258/Y (AO22X1_RVT)                                  0.03       1.46 r
+  U201257/Y (AND2X1_RVT)                                  0.01       1.48 r
+  N_inst/gen_block_1[2].mult_0/mult_0/Multiplier_25b_18f_block.multInp2_block/GenBlock.theDelay/outreg_reg[0]/D (DFFARX1_RVT)
+                                                          0.00       1.48 r
+  data arrival time                                                  1.48
 
-  clock clk (rise edge)                                   2.00       2.00
-  clock network delay (ideal)                             0.00       2.00
-  clock uncertainty                                      -0.10       1.90
-  N_inst/gen_block_1[3].mult_0/mult_0/Multiplier_25b_18f_block.multInp2_block/GenBlock.theDelay/outreg_reg[1]/CLK (DFFARX1_RVT)
-                                                          0.00       1.90 r
-  library setup time                                     -0.02       1.88
-  data required time                                                 1.88
+  clock clk (rise edge)                                   3.50       3.50
+  clock network delay (ideal)                             0.00       3.50
+  clock uncertainty                                      -0.10       3.40
+  N_inst/gen_block_1[2].mult_0/mult_0/Multiplier_25b_18f_block.multInp2_block/GenBlock.theDelay/outreg_reg[0]/CLK (DFFARX1_RVT)
+                                                          0.00       3.40 r
+  library setup time                                     -0.01       3.39
+  data required time                                                 3.39
   --------------------------------------------------------------------------
-  data required time                                                 1.88
-  data arrival time                                                 -1.47
+  data required time                                                 3.39
+  data arrival time                                                 -1.48
   --------------------------------------------------------------------------
-  slack (MET)                                                        0.41
+  slack (MET)                                                        1.91
 
 
 1

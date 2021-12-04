@@ -12,32 +12,18 @@ U151/A1                  -> U151/Y                   saed32rvt_ff1p16vn40c/AO22X
 
                  cell_arc                            lib cell
 --------------------------------------------------------------------------------
-U139/A1                  -> U139/Y                   saed32rvt_ff1p16vn40c/AO22X1_RVT
+add_8709/U1_1_3/A0       -> add_8709/U1_1_3/SO       saed32rvt_ff1p16vn40c/HADDX1_RVT
+                                                                              
+U158/A1                  -> U158/Y                   saed32rvt_ff1p16vn40c/AO22X1_RVT
                                                                              #
 
                  cell_arc                            lib cell
 --------------------------------------------------------------------------------
-U259451/A2               -> U259451/Y                saed32rvt_ff1p16vn40c/OA21X1_RVT
+add_8709/U1_1_2/A0       -> add_8709/U1_1_2/SO       saed32rvt_ff1p16vn40c/HADDX1_RVT
                                                                               
-U259480/A                -> U259480/Y                saed32rvt_ff1p16vn40c/DELLN3X2_RVT
-                                                                              
-U273351/A                -> U273351/Y                saed32rvt_ff1p16vn40c/NBUFFX2_RVT
-                                                                              
-U139/A2                  -> U139/Y                   saed32rvt_ff1p16vn40c/AO22X1_RVT
+U157/A1                  -> U157/Y                   saed32rvt_ff1p16vn40c/AO22X1_RVT
                                                                              #
-gt_8702/U237/A           -> gt_8702/U237/Y           saed32rvt_ff1p16vn40c/NBUFFX2_RVT
-                                                                              
-gt_8702/U218/A1          -> gt_8702/U218/Y           saed32rvt_ff1p16vn40c/OA22X1_RVT
-                                                                              
-gt_8702/U238/A1          -> gt_8702/U238/Y           saed32rvt_ff1p16vn40c/NAND2X0_RVT
-                                                                              
-gt_8702/U240/A1          -> gt_8702/U240/Y           saed32rvt_ff1p16vn40c/NAND3X0_RVT
-                                                                              
-gt_8702/U151/A1          -> gt_8702/U151/Y           saed32rvt_ff1p16vn40c/NAND3X0_RVT
-                                                                              
-gt_8702/U127/A1          -> gt_8702/U127/Y           saed32rvt_ff1p16vn40c/AO22X1_RVT
-                                                                              
-U258722/A                -> U258722/Y                saed32rvt_ff1p16vn40c/INVX2_RVT
+add_8709/U1_1_2/A0       -> add_8709/U1_1_2/A0       saed32rvt_ff1p16vn40c/HADDX1_RVT
                                                                               
 
                  cell_arc                            lib cell
@@ -46,14 +32,7 @@ add_8709/U1_1_2/A0       -> add_8709/U1_1_2/SO       saed32rvt_ff1p16vn40c/HADDX
                                                                               
 U157/A1                  -> U157/Y                   saed32rvt_ff1p16vn40c/AO22X1_RVT
                                                                              #
-
-                 cell_arc                            lib cell
---------------------------------------------------------------------------------
-add_8709/U1_1_1/A0       -> add_8709/U1_1_1/SO       saed32rvt_ff1p16vn40c/HADDX1_RVT
-                                                                              
-U156/A1                  -> U156/Y                   saed32rvt_ff1p16vn40c/AO22X1_RVT
-                                                                             #
-add_8709/U1_1_1/A0       -> add_8709/U1_1_1/A0       saed32rvt_ff1p16vn40c/HADDX1_RVT
+add_8709/U1_1_2/A0       -> add_8709/U1_1_2/A0       saed32rvt_ff1p16vn40c/HADDX1_RVT
                                                                               
 
                  cell_arc                            lib cell
@@ -67,7 +46,16 @@ add_8709/U1_1_1/A0       -> add_8709/U1_1_1/A0       saed32rvt_ff1p16vn40c/HADDX
 
                  cell_arc                            lib cell
 --------------------------------------------------------------------------------
-U275107/A                -> U275107/Y                saed32rvt_ff1p16vn40c/INVX1_RVT
+add_8709/U1_1_1/A0       -> add_8709/U1_1_1/SO       saed32rvt_ff1p16vn40c/HADDX1_RVT
+                                                                              
+U156/A1                  -> U156/Y                   saed32rvt_ff1p16vn40c/AO22X1_RVT
+                                                                             #
+add_8709/U1_1_1/A0       -> add_8709/U1_1_1/A0       saed32rvt_ff1p16vn40c/HADDX1_RVT
+                                                                              
+
+                 cell_arc                            lib cell
+--------------------------------------------------------------------------------
+U96906/A                 -> U96906/Y                 saed32rvt_ff1p16vn40c/INVX1_RVT
                                                                               
 U155/A1                  -> U155/Y                   saed32rvt_ff1p16vn40c/AO22X1_RVT
                                                                              #
@@ -78,11 +66,7 @@ C15105/A1                -> C15105/Y                 saed32rvt_ff1p16vn40c/OR2X1
                                                                              #
 C15106/A2                -> C15106/Y                 saed32rvt_ff1p16vn40c/OR2X1_RVT
                                                                               
-U275038/A1               -> U275038/Y                saed32rvt_ff1p16vn40c/NAND2X0_RVT
-                                                                              
-U286956/A                -> U286956/Y                saed32rvt_ff1p16vn40c/INVX1_RVT
-                                                                              
-U259492/A3               -> U259492/Y                saed32rvt_ff1p16vn40c/AND3X1_RVT
+U258502/A2               -> U258502/Y                saed32rvt_ff1p16vn40c/AND2X1_RVT
                                                                               
 U155/A2                  -> U155/Y                   saed32rvt_ff1p16vn40c/AO22X1_RVT
                                                                               
@@ -99,11 +83,7 @@ C15105/A2                -> C15105/Y                 saed32rvt_ff1p16vn40c/OR2X1
                                                                               
 C15106/A2                -> C15106/Y                 saed32rvt_ff1p16vn40c/OR2X1_RVT
                                                                               
-U275038/A1               -> U275038/Y                saed32rvt_ff1p16vn40c/NAND2X0_RVT
-                                                                              
-U286956/A                -> U286956/Y                saed32rvt_ff1p16vn40c/INVX1_RVT
-                                                                              
-U259492/A3               -> U259492/Y                saed32rvt_ff1p16vn40c/AND3X1_RVT
+U258502/A2               -> U258502/Y                saed32rvt_ff1p16vn40c/AND2X1_RVT
                                                                               
 U155/A2                  -> U155/Y                   saed32rvt_ff1p16vn40c/AO22X1_RVT
                                                                               
@@ -120,34 +100,13 @@ U157/A1                  -> U157/Y                   saed32rvt_ff1p16vn40c/AO22X
 
                  cell_arc                            lib cell
 --------------------------------------------------------------------------------
-add_8709/U1_1_3/A0       -> add_8709/U1_1_3/SO       saed32rvt_ff1p16vn40c/HADDX1_RVT
-                                                                              
-U158/A1                  -> U158/Y                   saed32rvt_ff1p16vn40c/AO22X1_RVT
-                                                                             #
-
-                 cell_arc                            lib cell
---------------------------------------------------------------------------------
-add_8709/U1_1_2/B0       -> add_8709/U1_1_2/C1       saed32rvt_ff1p16vn40c/HADDX1_RVT
-                                                                              
-add_8709/U1_1_3/B0       -> add_8709/U1_1_3/SO       saed32rvt_ff1p16vn40c/HADDX1_RVT
-                                                                              
-U158/A1                  -> U158/Y                   saed32rvt_ff1p16vn40c/AO22X1_RVT
-                                                                             #
-U182068/A                -> U182068/Y                saed32rvt_ff1p16vn40c/INVX1_RVT
-                                                                              
-U259477/A                -> U259477/Y                saed32rvt_ff1p16vn40c/DELLN3X2_RVT
-                                                                              
 C15104/A2                -> C15104/Y                 saed32rvt_ff1p16vn40c/OR2X1_RVT
                                                                              #
 C15105/A2                -> C15105/Y                 saed32rvt_ff1p16vn40c/OR2X1_RVT
                                                                               
 C15106/A2                -> C15106/Y                 saed32rvt_ff1p16vn40c/OR2X1_RVT
                                                                               
-U275038/A1               -> U275038/Y                saed32rvt_ff1p16vn40c/NAND2X0_RVT
-                                                                              
-U286956/A                -> U286956/Y                saed32rvt_ff1p16vn40c/INVX1_RVT
-                                                                              
-U259492/A3               -> U259492/Y                saed32rvt_ff1p16vn40c/AND3X1_RVT
+U258502/A2               -> U258502/Y                saed32rvt_ff1p16vn40c/AND2X1_RVT
                                                                               
 U155/A2                  -> U155/Y                   saed32rvt_ff1p16vn40c/AO22X1_RVT
                                                                               
@@ -157,87 +116,17 @@ U156/A1                  -> U156/Y                   saed32rvt_ff1p16vn40c/AO22X
                                                                              #
 add_8709/U1_1_1/A0       -> add_8709/U1_1_1/C1       saed32rvt_ff1p16vn40c/HADDX1_RVT
                                                                               
-add_8709/U1_1_2/B0       -> add_8709/U1_1_2/B0       saed32rvt_ff1p16vn40c/HADDX1_RVT
+add_8709/U1_1_2/B0       -> add_8709/U1_1_2/SO       saed32rvt_ff1p16vn40c/HADDX1_RVT
                                                                               
-
-                 cell_arc                            lib cell
---------------------------------------------------------------------------------
-add_8709/U1_1_2/B0       -> add_8709/U1_1_2/C1       saed32rvt_ff1p16vn40c/HADDX1_RVT
+U157/A1                  -> U157/Y                   saed32rvt_ff1p16vn40c/AO22X1_RVT
+                                                                             #
+add_8709/U1_1_2/A0       -> add_8709/U1_1_2/C1       saed32rvt_ff1p16vn40c/HADDX1_RVT
                                                                               
 add_8709/U1_1_3/B0       -> add_8709/U1_1_3/SO       saed32rvt_ff1p16vn40c/HADDX1_RVT
                                                                               
 U158/A1                  -> U158/Y                   saed32rvt_ff1p16vn40c/AO22X1_RVT
                                                                              #
-U182068/A                -> U182068/Y                saed32rvt_ff1p16vn40c/INVX1_RVT
-                                                                              
-U259477/A                -> U259477/Y                saed32rvt_ff1p16vn40c/DELLN3X2_RVT
-                                                                              
-C15104/A2                -> C15104/Y                 saed32rvt_ff1p16vn40c/OR2X1_RVT
-                                                                             #
-C15105/A2                -> C15105/Y                 saed32rvt_ff1p16vn40c/OR2X1_RVT
-                                                                              
-C15106/A2                -> C15106/Y                 saed32rvt_ff1p16vn40c/OR2X1_RVT
-                                                                              
-U275038/A1               -> U275038/Y                saed32rvt_ff1p16vn40c/NAND2X0_RVT
-                                                                              
-U286956/A                -> U286956/Y                saed32rvt_ff1p16vn40c/INVX1_RVT
-                                                                              
-U259492/A3               -> U259492/Y                saed32rvt_ff1p16vn40c/AND3X1_RVT
-                                                                              
-U155/A2                  -> U155/Y                   saed32rvt_ff1p16vn40c/AO22X1_RVT
-                                                                              
-add_8709/U1_1_1/B0       -> add_8709/U1_1_1/SO       saed32rvt_ff1p16vn40c/HADDX1_RVT
-                                                                              
-U156/A1                  -> U156/Y                   saed32rvt_ff1p16vn40c/AO22X1_RVT
-                                                                             #
-add_8709/U1_1_1/A0       -> add_8709/U1_1_1/C1       saed32rvt_ff1p16vn40c/HADDX1_RVT
-                                                                              
-add_8709/U1_1_2/B0       -> add_8709/U1_1_2/B0       saed32rvt_ff1p16vn40c/HADDX1_RVT
-                                                                              
-
-                 cell_arc                            lib cell
---------------------------------------------------------------------------------
-U286957/A3               -> U286957/Y                saed32rvt_ff1p16vn40c/AND3X1_RVT
-                                                                              
-U158/A2                  -> U158/Y                   saed32rvt_ff1p16vn40c/AO22X1_RVT
-                                                                              
-U182068/A                -> U182068/Y                saed32rvt_ff1p16vn40c/INVX1_RVT
-                                                                              
-U259477/A                -> U259477/Y                saed32rvt_ff1p16vn40c/DELLN3X2_RVT
-                                                                              
-C15104/A2                -> C15104/Y                 saed32rvt_ff1p16vn40c/OR2X1_RVT
-                                                                             #
-C15105/A2                -> C15105/Y                 saed32rvt_ff1p16vn40c/OR2X1_RVT
-                                                                              
-C15106/A2                -> C15106/Y                 saed32rvt_ff1p16vn40c/OR2X1_RVT
-                                                                              
-U275038/A1               -> U275038/Y                saed32rvt_ff1p16vn40c/NAND2X0_RVT
-                                                                              
-U286956/A                -> U286956/Y                saed32rvt_ff1p16vn40c/INVX1_RVT
-                                                                              
-
-                 cell_arc                            lib cell
---------------------------------------------------------------------------------
-U158/A3                  -> U158/Y                   saed32rvt_ff1p16vn40c/AO22X1_RVT
-                                                                             #
-
-                 cell_arc                            lib cell
---------------------------------------------------------------------------------
-U273925/A2               -> U273925/Y                saed32rvt_ff1p16vn40c/AND3X1_RVT
-                                                                              
-U158/A4                  -> U158/Y                   saed32rvt_ff1p16vn40c/AO22X1_RVT
-                                                                              
-U182068/A                -> U182068/Y                saed32rvt_ff1p16vn40c/INVX1_RVT
-                                                                              
-U259477/A                -> U259477/Y                saed32rvt_ff1p16vn40c/DELLN3X2_RVT
-                                                                              
-C15104/A2                -> C15104/Y                 saed32rvt_ff1p16vn40c/OR2X1_RVT
-                                                                             #
-C15105/A2                -> C15105/Y                 saed32rvt_ff1p16vn40c/OR2X1_RVT
-                                                                              
-C15106/A2                -> C15106/Y                 saed32rvt_ff1p16vn40c/OR2X1_RVT
-                                                                              
-U275038/A1               -> U275038/Y                saed32rvt_ff1p16vn40c/NAND2X0_RVT
+U181904/A                -> U181904/Y                saed32rvt_ff1p16vn40c/INVX1_RVT
                                                                               
 
                  cell_arc                            lib cell
@@ -270,34 +159,102 @@ U156/A3                  -> U156/Y                   saed32rvt_ff1p16vn40c/AO22X
 
                  cell_arc                            lib cell
 --------------------------------------------------------------------------------
+add_8709/U1_1_2/A0       -> add_8709/U1_1_2/SO       saed32rvt_ff1p16vn40c/HADDX1_RVT
+                                                                              
+U157/A1                  -> U157/Y                   saed32rvt_ff1p16vn40c/AO22X1_RVT
+                                                                             #
+add_8709/U1_1_2/A0       -> add_8709/U1_1_2/A0       saed32rvt_ff1p16vn40c/HADDX1_RVT
+                                                                              
+
+                 cell_arc                            lib cell
+--------------------------------------------------------------------------------
+add_8709/U1_1_2/A0       -> add_8709/U1_1_2/SO       saed32rvt_ff1p16vn40c/HADDX1_RVT
+                                                                              
+U157/A1                  -> U157/Y                   saed32rvt_ff1p16vn40c/AO22X1_RVT
+                                                                             #
+add_8709/U1_1_2/A0       -> add_8709/U1_1_2/A0       saed32rvt_ff1p16vn40c/HADDX1_RVT
+                                                                              
+
+                 cell_arc                            lib cell
+--------------------------------------------------------------------------------
 U157/A3                  -> U157/Y                   saed32rvt_ff1p16vn40c/AO22X1_RVT
+                                                                             #
+
+                 cell_arc                            lib cell
+--------------------------------------------------------------------------------
+U158/A3                  -> U158/Y                   saed32rvt_ff1p16vn40c/AO22X1_RVT
                                                                              #
 
                  cell_arc                            lib cell
 --------------------------------------------------------------------------------
 U152/A1                  -> U152/Y                   saed32rvt_ff1p16vn40c/AND2X1_RVT
                                                                              #
-U274141/A                -> U274141/Y                saed32rvt_ff1p16vn40c/NBUFFX2_RVT
+U274165/A                -> U274165/Y                saed32rvt_ff1p16vn40c/NBUFFX2_RVT
                                                                               
-U139/A4                  -> U139/Y                   saed32rvt_ff1p16vn40c/AO22X1_RVT
+U147/A2                  -> U147/Y                   saed32rvt_ff1p16vn40c/AO221X1_RVT
                                                                               
-gt_8702/U237/A           -> gt_8702/U237/Y           saed32rvt_ff1p16vn40c/NBUFFX2_RVT
+gt_8702/U226/A1          -> gt_8702/U226/Y           saed32rvt_ff1p16vn40c/AOI22X1_RVT
                                                                               
-gt_8702/U218/A1          -> gt_8702/U218/Y           saed32rvt_ff1p16vn40c/OA22X1_RVT
-                                                                              
-gt_8702/U238/A1          -> gt_8702/U238/Y           saed32rvt_ff1p16vn40c/NAND2X0_RVT
-                                                                              
-gt_8702/U240/A1          -> gt_8702/U240/Y           saed32rvt_ff1p16vn40c/NAND3X0_RVT
-                                                                              
-gt_8702/U151/A1          -> gt_8702/U151/Y           saed32rvt_ff1p16vn40c/NAND3X0_RVT
+gt_8702/U224/A1          -> gt_8702/U224/Y           saed32rvt_ff1p16vn40c/NAND2X0_RVT
                                                                               
 gt_8702/U127/A1          -> gt_8702/U127/Y           saed32rvt_ff1p16vn40c/AO22X1_RVT
                                                                               
 
                  cell_arc                            lib cell
 --------------------------------------------------------------------------------
+U147/A3                  -> U147/Y                   saed32rvt_ff1p16vn40c/AO221X1_RVT
+                                                                             #
+
+                 cell_arc                            lib cell
+--------------------------------------------------------------------------------
+U273996/A                -> U273996/Y                saed32rvt_ff1p16vn40c/NBUFFX2_RVT
+                                                                              
+U147/A4                  -> U147/Y                   saed32rvt_ff1p16vn40c/AO221X1_RVT
+                                                                             #
+gt_8702/U226/A1          -> gt_8702/U226/Y           saed32rvt_ff1p16vn40c/AOI22X1_RVT
+                                                                              
+gt_8702/U224/A1          -> gt_8702/U224/Y           saed32rvt_ff1p16vn40c/NAND2X0_RVT
+                                                                              
+gt_8702/U127/A1          -> gt_8702/U127/Y           saed32rvt_ff1p16vn40c/AO22X1_RVT
+                                                                              
+U182127/A1               -> U182127/Y                saed32rvt_ff1p16vn40c/AOI21X1_RVT
+                                                                              
+
+                 cell_arc                            lib cell
+--------------------------------------------------------------------------------
+U146/A1                  -> U146/Y                   saed32rvt_ff1p16vn40c/AO22X1_RVT
+                                                                             #
+
+                 cell_arc                            lib cell
+--------------------------------------------------------------------------------
+U139/A1                  -> U139/Y                   saed32rvt_ff1p16vn40c/AO22X1_RVT
+                                                                             #
+
+                 cell_arc                            lib cell
+--------------------------------------------------------------------------------
 U138/A1                  -> U138/Y                   saed32rvt_ff1p16vn40c/AO22X1_RVT
                                                                              #
+
+                 cell_arc                            lib cell
+--------------------------------------------------------------------------------
+U273997/A                -> U273997/Y                saed32rvt_ff1p16vn40c/NBUFFX2_RVT
+                                                                              
+U138/A2                  -> U138/Y                   saed32rvt_ff1p16vn40c/AO22X1_RVT
+                                                                             #
+gt_8702/U192/A           -> gt_8702/U192/Y           saed32rvt_ff1p16vn40c/INVX1_RVT
+                                                                              
+gt_8702/U219/A2          -> gt_8702/U219/Y           saed32rvt_ff1p16vn40c/NAND2X0_RVT
+                                                                              
+gt_8702/U218/A4          -> gt_8702/U218/Y           saed32rvt_ff1p16vn40c/OA22X1_RVT
+                                                                              
+gt_8702/U202/A1          -> gt_8702/U202/Y           saed32rvt_ff1p16vn40c/AO221X1_RVT
+                                                                              
+gt_8702/U194/A1          -> gt_8702/U194/Y           saed32rvt_ff1p16vn40c/NAND3X0_RVT
+                                                                              
+gt_8702/U127/A2          -> gt_8702/U127/Y           saed32rvt_ff1p16vn40c/AO22X1_RVT
+                                                                              
+U182127/A1               -> U182127/Y                saed32rvt_ff1p16vn40c/AOI21X1_RVT
+                                                                              
 
                  cell_arc                            lib cell
 --------------------------------------------------------------------------------
@@ -311,13 +268,27 @@ U140/A1                  -> U140/Y                   saed32rvt_ff1p16vn40c/AO22X
 
                  cell_arc                            lib cell
 --------------------------------------------------------------------------------
-U144/A1                  -> U144/Y                   saed32rvt_ff1p16vn40c/AO22X1_RVT
+U142/A1                  -> U142/Y                   saed32rvt_ff1p16vn40c/AO22X1_RVT
                                                                              #
 
                  cell_arc                            lib cell
 --------------------------------------------------------------------------------
-U145/A1                  -> U145/Y                   saed32rvt_ff1p16vn40c/AO22X1_RVT
+U142/A2                  -> U142/Y                   saed32rvt_ff1p16vn40c/AO22X1_RVT
                                                                              #
+gt_8702/U210/A1          -> gt_8702/U210/Y           saed32rvt_ff1p16vn40c/NAND2X0_RVT
+                                                                              
+gt_8702/U203/A1          -> gt_8702/U203/Y           saed32rvt_ff1p16vn40c/NAND3X0_RVT
+                                                                              
+gt_8702/U202/A5          -> gt_8702/U202/Y           saed32rvt_ff1p16vn40c/AO221X1_RVT
+                                                                              
+gt_8702/U194/A1          -> gt_8702/U194/Y           saed32rvt_ff1p16vn40c/NAND3X0_RVT
+                                                                              
+gt_8702/U127/A2          -> gt_8702/U127/Y           saed32rvt_ff1p16vn40c/AO22X1_RVT
+                                                                              
+U182127/A1               -> U182127/Y                saed32rvt_ff1p16vn40c/AOI21X1_RVT
+                                                                              
+U273728/A                -> U273728/Y                saed32rvt_ff1p16vn40c/NBUFFX2_RVT
+                                                                              
 
                  cell_arc                            lib cell
 --------------------------------------------------------------------------------
@@ -326,23 +297,83 @@ U143/A1                  -> U143/Y                   saed32rvt_ff1p16vn40c/AO22X
 
                  cell_arc                            lib cell
 --------------------------------------------------------------------------------
-U142/A1                  -> U142/Y                   saed32rvt_ff1p16vn40c/AO22X1_RVT
+U144/A1                  -> U144/Y                   saed32rvt_ff1p16vn40c/AO22X1_RVT
                                                                              #
 
                  cell_arc                            lib cell
 --------------------------------------------------------------------------------
-U147/A3                  -> U147/Y                   saed32rvt_ff1p16vn40c/AO221X1_RVT
+U144/A2                  -> U144/Y                   saed32rvt_ff1p16vn40c/AO22X1_RVT
+                                                                             #
+gt_8702/U184/A           -> gt_8702/U184/Y           saed32rvt_ff1p16vn40c/INVX1_RVT
+                                                                              
+gt_8702/U204/A1          -> gt_8702/U204/Y           saed32rvt_ff1p16vn40c/OA21X1_RVT
+                                                                              
+gt_8702/U203/A3          -> gt_8702/U203/Y           saed32rvt_ff1p16vn40c/NAND3X0_RVT
+                                                                              
+gt_8702/U202/A5          -> gt_8702/U202/Y           saed32rvt_ff1p16vn40c/AO221X1_RVT
+                                                                              
+gt_8702/U194/A1          -> gt_8702/U194/Y           saed32rvt_ff1p16vn40c/NAND3X0_RVT
+                                                                              
+gt_8702/U127/A2          -> gt_8702/U127/Y           saed32rvt_ff1p16vn40c/AO22X1_RVT
+                                                                              
+U182127/A1               -> U182127/Y                saed32rvt_ff1p16vn40c/AOI21X1_RVT
+                                                                              
+U273728/A                -> U273728/Y                saed32rvt_ff1p16vn40c/NBUFFX2_RVT
+                                                                              
+
+                 cell_arc                            lib cell
+--------------------------------------------------------------------------------
+U145/A1                  -> U145/Y                   saed32rvt_ff1p16vn40c/AO22X1_RVT
                                                                              #
 
                  cell_arc                            lib cell
 --------------------------------------------------------------------------------
-U146/A1                  -> U146/Y                   saed32rvt_ff1p16vn40c/AO22X1_RVT
+U145/A2                  -> U145/Y                   saed32rvt_ff1p16vn40c/AO22X1_RVT
                                                                              #
+gt_8702/U182/A           -> gt_8702/U182/Y           saed32rvt_ff1p16vn40c/INVX1_RVT
+                                                                              
+gt_8702/U205/A1          -> gt_8702/U205/Y           saed32rvt_ff1p16vn40c/OR2X1_RVT
+                                                                              
+gt_8702/U204/A3          -> gt_8702/U204/Y           saed32rvt_ff1p16vn40c/OA21X1_RVT
+                                                                              
+gt_8702/U203/A3          -> gt_8702/U203/Y           saed32rvt_ff1p16vn40c/NAND3X0_RVT
+                                                                              
+gt_8702/U202/A5          -> gt_8702/U202/Y           saed32rvt_ff1p16vn40c/AO221X1_RVT
+                                                                              
+gt_8702/U194/A1          -> gt_8702/U194/Y           saed32rvt_ff1p16vn40c/NAND3X0_RVT
+                                                                              
+gt_8702/U127/A2          -> gt_8702/U127/Y           saed32rvt_ff1p16vn40c/AO22X1_RVT
+                                                                              
+U182127/A1               -> U182127/Y                saed32rvt_ff1p16vn40c/AOI21X1_RVT
+                                                                              
+U273728/A                -> U273728/Y                saed32rvt_ff1p16vn40c/NBUFFX2_RVT
+                                                                              
 
                  cell_arc                            lib cell
 --------------------------------------------------------------------------------
 U135/A1                  -> U135/Y                   saed32rvt_ff1p16vn40c/AO22X1_RVT
                                                                              #
+
+                 cell_arc                            lib cell
+--------------------------------------------------------------------------------
+U135/A2                  -> U135/Y                   saed32rvt_ff1p16vn40c/AO22X1_RVT
+                                                                             #
+gt_8702/U180/A1          -> gt_8702/U180/Y           saed32rvt_ff1p16vn40c/OA22X1_RVT
+                                                                              
+gt_8702/U179/A1          -> gt_8702/U179/Y           saed32rvt_ff1p16vn40c/OA21X1_RVT
+                                                                              
+gt_8702/U162/A1          -> gt_8702/U162/Y           saed32rvt_ff1p16vn40c/AND2X1_RVT
+                                                                              
+gt_8702/U158/A1          -> gt_8702/U158/Y           saed32rvt_ff1p16vn40c/NAND2X0_RVT
+                                                                              
+gt_8702/U128/A1          -> gt_8702/U128/Y           saed32rvt_ff1p16vn40c/AND4X1_RVT
+                                                                              
+gt_8702/U127/A4          -> gt_8702/U127/Y           saed32rvt_ff1p16vn40c/AO22X1_RVT
+                                                                              
+U182127/A1               -> U182127/Y                saed32rvt_ff1p16vn40c/AOI21X1_RVT
+                                                                              
+U273728/A                -> U273728/Y                saed32rvt_ff1p16vn40c/NBUFFX2_RVT
+                                                                              
 
                  cell_arc                            lib cell
 --------------------------------------------------------------------------------
@@ -361,8 +392,56 @@ U137/A1                  -> U137/Y                   saed32rvt_ff1p16vn40c/AO22X
 
                  cell_arc                            lib cell
 --------------------------------------------------------------------------------
+U137/A2                  -> U137/Y                   saed32rvt_ff1p16vn40c/AO22X1_RVT
+                                                                             #
+gt_8702/U198/A           -> gt_8702/U198/Y           saed32rvt_ff1p16vn40c/INVX1_RVT
+                                                                              
+gt_8702/U191/A1          -> gt_8702/U191/Y           saed32rvt_ff1p16vn40c/OR2X1_RVT
+                                                                              
+gt_8702/U187/A3          -> gt_8702/U187/Y           saed32rvt_ff1p16vn40c/OA21X1_RVT
+                                                                              
+gt_8702/U151/A           -> gt_8702/U151/Y           saed32rvt_ff1p16vn40c/INVX1_RVT
+                                                                              
+gt_8702/U179/A2          -> gt_8702/U179/Y           saed32rvt_ff1p16vn40c/OA21X1_RVT
+                                                                              
+gt_8702/U162/A1          -> gt_8702/U162/Y           saed32rvt_ff1p16vn40c/AND2X1_RVT
+                                                                              
+gt_8702/U158/A1          -> gt_8702/U158/Y           saed32rvt_ff1p16vn40c/NAND2X0_RVT
+                                                                              
+gt_8702/U128/A1          -> gt_8702/U128/Y           saed32rvt_ff1p16vn40c/AND4X1_RVT
+                                                                              
+gt_8702/U127/A4          -> gt_8702/U127/Y           saed32rvt_ff1p16vn40c/AO22X1_RVT
+                                                                              
+U182127/A1               -> U182127/Y                saed32rvt_ff1p16vn40c/AOI21X1_RVT
+                                                                              
+U273728/A                -> U273728/Y                saed32rvt_ff1p16vn40c/NBUFFX2_RVT
+                                                                              
+
+                 cell_arc                            lib cell
+--------------------------------------------------------------------------------
 U131/A1                  -> U131/Y                   saed32rvt_ff1p16vn40c/AO22X1_RVT
                                                                              #
+
+                 cell_arc                            lib cell
+--------------------------------------------------------------------------------
+U131/A2                  -> U131/Y                   saed32rvt_ff1p16vn40c/AO22X1_RVT
+                                                                             #
+gt_8702/U173/A1          -> gt_8702/U173/Y           saed32rvt_ff1p16vn40c/OA22X1_RVT
+                                                                              
+gt_8702/U163/A1          -> gt_8702/U163/Y           saed32rvt_ff1p16vn40c/AO221X1_RVT
+                                                                              
+gt_8702/U162/A2          -> gt_8702/U162/Y           saed32rvt_ff1p16vn40c/AND2X1_RVT
+                                                                              
+gt_8702/U158/A1          -> gt_8702/U158/Y           saed32rvt_ff1p16vn40c/NAND2X0_RVT
+                                                                              
+gt_8702/U128/A1          -> gt_8702/U128/Y           saed32rvt_ff1p16vn40c/AND4X1_RVT
+                                                                              
+gt_8702/U127/A4          -> gt_8702/U127/Y           saed32rvt_ff1p16vn40c/AO22X1_RVT
+                                                                              
+U182127/A1               -> U182127/Y                saed32rvt_ff1p16vn40c/AOI21X1_RVT
+                                                                              
+U273728/A                -> U273728/Y                saed32rvt_ff1p16vn40c/NBUFFX2_RVT
+                                                                              
 
                  cell_arc                            lib cell
 --------------------------------------------------------------------------------
@@ -381,18 +460,29 @@ U132/A1                  -> U132/Y                   saed32rvt_ff1p16vn40c/AO22X
 
                  cell_arc                            lib cell
 --------------------------------------------------------------------------------
-U127/A1                  -> U127/Y                   saed32rvt_ff1p16vn40c/AO22X1_RVT
-                                                                             #
-
-                 cell_arc                            lib cell
---------------------------------------------------------------------------------
-U126/A1                  -> U126/Y                   saed32rvt_ff1p16vn40c/AO22X1_RVT
-                                                                             #
-
-                 cell_arc                            lib cell
---------------------------------------------------------------------------------
 U128/A1                  -> U128/Y                   saed32rvt_ff1p16vn40c/AO22X1_RVT
                                                                              #
+
+                 cell_arc                            lib cell
+--------------------------------------------------------------------------------
+U128/A2                  -> U128/Y                   saed32rvt_ff1p16vn40c/AO22X1_RVT
+                                                                             #
+gt_8702/U217/A           -> gt_8702/U217/Y           saed32rvt_ff1p16vn40c/INVX1_RVT
+                                                                              
+gt_8702/U154/A1          -> gt_8702/U154/Y           saed32rvt_ff1p16vn40c/OA21X1_RVT
+                                                                              
+gt_8702/U138/A1          -> gt_8702/U138/Y           saed32rvt_ff1p16vn40c/NAND3X0_RVT
+                                                                              
+gt_8702/U130/A1          -> gt_8702/U130/Y           saed32rvt_ff1p16vn40c/NAND3X0_RVT
+                                                                              
+gt_8702/U128/A2          -> gt_8702/U128/Y           saed32rvt_ff1p16vn40c/AND4X1_RVT
+                                                                              
+gt_8702/U127/A4          -> gt_8702/U127/Y           saed32rvt_ff1p16vn40c/AO22X1_RVT
+                                                                              
+U182127/A1               -> U182127/Y                saed32rvt_ff1p16vn40c/AOI21X1_RVT
+                                                                              
+U273728/A                -> U273728/Y                saed32rvt_ff1p16vn40c/NBUFFX2_RVT
+                                                                              
 
                  cell_arc                            lib cell
 --------------------------------------------------------------------------------
@@ -417,6 +507,62 @@ U123/A1                  -> U123/Y                   saed32rvt_ff1p16vn40c/AO22X
                  cell_arc                            lib cell
 --------------------------------------------------------------------------------
 U122/A1                  -> U122/Y                   saed32rvt_ff1p16vn40c/AO22X1_RVT
+                                                                             #
+
+                 cell_arc                            lib cell
+--------------------------------------------------------------------------------
+U122/A2                  -> U122/Y                   saed32rvt_ff1p16vn40c/AO22X1_RVT
+                                                                             #
+gt_8702/U230/A           -> gt_8702/U230/Y           saed32rvt_ff1p16vn40c/INVX1_RVT
+                                                                              
+gt_8702/U144/A3          -> gt_8702/U144/Y           saed32rvt_ff1p16vn40c/OA21X1_RVT
+                                                                              
+gt_8702/U143/A1          -> gt_8702/U143/Y           saed32rvt_ff1p16vn40c/AO22X1_RVT
+                                                                              
+gt_8702/U139/A2          -> gt_8702/U139/Y           saed32rvt_ff1p16vn40c/OA221X1_RVT
+                                                                              
+gt_8702/U138/A3          -> gt_8702/U138/Y           saed32rvt_ff1p16vn40c/NAND3X0_RVT
+                                                                              
+gt_8702/U130/A1          -> gt_8702/U130/Y           saed32rvt_ff1p16vn40c/NAND3X0_RVT
+                                                                              
+gt_8702/U128/A2          -> gt_8702/U128/Y           saed32rvt_ff1p16vn40c/AND4X1_RVT
+                                                                              
+gt_8702/U127/A4          -> gt_8702/U127/Y           saed32rvt_ff1p16vn40c/AO22X1_RVT
+                                                                              
+U182127/A1               -> U182127/Y                saed32rvt_ff1p16vn40c/AOI21X1_RVT
+                                                                              
+U273728/A                -> U273728/Y                saed32rvt_ff1p16vn40c/NBUFFX2_RVT
+                                                                              
+
+                 cell_arc                            lib cell
+--------------------------------------------------------------------------------
+U126/A1                  -> U126/Y                   saed32rvt_ff1p16vn40c/AO22X1_RVT
+                                                                             #
+
+                 cell_arc                            lib cell
+--------------------------------------------------------------------------------
+U126/A2                  -> U126/Y                   saed32rvt_ff1p16vn40c/AO22X1_RVT
+                                                                             #
+gt_8702/U220/A           -> gt_8702/U220/Y           saed32rvt_ff1p16vn40c/INVX1_RVT
+                                                                              
+gt_8702/U139/A4          -> gt_8702/U139/Y           saed32rvt_ff1p16vn40c/OA221X1_RVT
+                                                                              
+gt_8702/U138/A3          -> gt_8702/U138/Y           saed32rvt_ff1p16vn40c/NAND3X0_RVT
+                                                                              
+gt_8702/U130/A1          -> gt_8702/U130/Y           saed32rvt_ff1p16vn40c/NAND3X0_RVT
+                                                                              
+gt_8702/U128/A2          -> gt_8702/U128/Y           saed32rvt_ff1p16vn40c/AND4X1_RVT
+                                                                              
+gt_8702/U127/A4          -> gt_8702/U127/Y           saed32rvt_ff1p16vn40c/AO22X1_RVT
+                                                                              
+U182127/A1               -> U182127/Y                saed32rvt_ff1p16vn40c/AOI21X1_RVT
+                                                                              
+U273728/A                -> U273728/Y                saed32rvt_ff1p16vn40c/NBUFFX2_RVT
+                                                                              
+
+                 cell_arc                            lib cell
+--------------------------------------------------------------------------------
+U127/A1                  -> U127/Y                   saed32rvt_ff1p16vn40c/AO22X1_RVT
                                                                              #
 
                  cell_arc                            lib cell

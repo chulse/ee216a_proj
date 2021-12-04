@@ -3,7 +3,7 @@
 Report : resources
 Design : Image_Classifier
 Version: G-2012.06-SP1
-Date   : Fri Dec  3 22:25:08 2021
+Date   : Sat Dec  4 12:14:29 2021
 ****************************************
 
 Resource Sharing Report for design Image_Classifier in file
@@ -101,17 +101,17 @@ Implementation Report
 |                    | DW_mult_tc       | apparch (area)     |                |
 | N_inst/gen_block_1[0].mult_0/mult_22  |                    |                |
 |                    | DW_mult_uns      | apparch (area)     |                |
-| N_inst/gen_block_1[1].mult_0/mult_22  |                    |                |
-|                    | DW_mult_uns      | apparch (area)     |                |
-| N_inst/gen_block_1[2].mult_0/mult_22  |                    |                |
-|                    | DW_mult_uns      | apparch (area)     |                |
-| N_inst/gen_block_1[3].mult_0/mult_22  |                    |                |
-|                    | DW_mult_uns      | apparch (area)     |                |
 | N_inst/gen_block_1[0].mult_0/mult_23  |                    |                |
+|                    | DW_mult_uns      | apparch (area)     |                |
+| N_inst/gen_block_1[1].mult_0/mult_22  |                    |                |
 |                    | DW_mult_uns      | apparch (area)     |                |
 | N_inst/gen_block_1[1].mult_0/mult_23  |                    |                |
 |                    | DW_mult_uns      | apparch (area)     |                |
+| N_inst/gen_block_1[2].mult_0/mult_22  |                    |                |
+|                    | DW_mult_uns      | apparch (area)     |                |
 | N_inst/gen_block_1[2].mult_0/mult_23  |                    |                |
+|                    | DW_mult_uns      | apparch (area)     |                |
+| N_inst/gen_block_1[3].mult_0/mult_22  |                    |                |
 |                    | DW_mult_uns      | apparch (area)     |                |
 | N_inst/gen_block_1[3].mult_0/mult_23  |                    |                |
 |                    | DW_mult_uns      | apparch (area)     |                |
