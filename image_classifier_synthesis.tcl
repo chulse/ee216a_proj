@@ -15,6 +15,7 @@ analyze -format verilog {Neuron.v}
 analyze -format verilog {SynLib_new.v}
 analyze -format verilog {PipelinedMultAccumulate.v}
 analyze -format verilog {FixedPointMultiplier.v}
+analyze -format verilog {Max_selector.v}
 
 set DESIGN_NAME Image_Classifier
 
@@ -24,7 +25,7 @@ current_design $DESIGN_NAME
 link
 
 set_operating_conditions -min ff1p16vn40c -max ss0p95v125c
-set TCLK 2.0
+set TCLK 3.0
 set TCU 0.1
 set IN_DEL 0.6
 set IN_DEL_MIN 0.3
