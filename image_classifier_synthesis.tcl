@@ -42,7 +42,6 @@ set_input_delay -min $IN_DEL_MIN -clock "clk" $ALL_IN_BUT_CLK
 set_output_delay $OUT_DEL -clock "clk" [all_outputs]
 set_output_delay -min $OUT_DEL_MIN -clock "clk" [all_outputs]
 
-set_max_area 0.0
 set_max_total_power 0.0
 
 
